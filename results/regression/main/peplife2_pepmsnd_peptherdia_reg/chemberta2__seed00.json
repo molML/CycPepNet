@@ -1,0 +1,21 @@
+{
+  "task": "peplife2_pepmsnd_peptherdia_reg",
+  "task_type": "regression",
+  "model_key": "chemberta2",
+  "rep": "smiles",
+  "seed": 0,
+  "split_method": "butina_morgan",
+  "log_transform": true,
+  "timestamp": "2026-04-16T21:13:18",
+  "pretrained_model_id": "DeepChem/ChemBERTa-77M-MTR",
+  "pretrained_revision": "66b895cab8adebea0cb59a8effa66b2020f204ca",
+  "pretrained_remote_code": false,
+  "val_rmse": 0.745537281036377,
+  "val_qf3": 0.18829232454299927,
+  "rmse": 0.9083920121192932,
+  "qf3": -0.20505690574645996,
+  "n_train": 157,
+  "n_val": 20,
+  "n_test": 19,
+  "n_valid_test": 19
+}

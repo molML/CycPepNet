@@ -1,0 +1,18 @@
+{
+  "task": "macrocycledb_sstr2_ic50_reg",
+  "task_type": "regression",
+  "model_key": "rf_map6c",
+  "rep": "map6c+physchem",
+  "seed": 4,
+  "split_method": "butina_morgan",
+  "log_transform": true,
+  "timestamp": "2026-05-23T09:45:05",
+  "val_rmse": 0.7639875617013114,
+  "val_qf3": 0.37800196320697776,
+  "rmse": 1.2246949815299892,
+  "qf3": -0.5983515789511522,
+  "n_train": 257,
+  "n_val": 32,
+  "n_test": 32,
+  "n_valid_test": 32
+}

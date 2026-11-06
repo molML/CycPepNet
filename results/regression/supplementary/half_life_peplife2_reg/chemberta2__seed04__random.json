@@ -1,0 +1,21 @@
+{
+  "task": "half_life_peplife2_reg",
+  "task_type": "regression",
+  "model_key": "chemberta2",
+  "rep": "smiles",
+  "seed": 4,
+  "split_method": "random",
+  "log_transform": true,
+  "timestamp": "2026-06-16T16:34:41",
+  "pretrained_model_id": "DeepChem/ChemBERTa-77M-MTR",
+  "pretrained_revision": "66b895cab8adebea0cb59a8effa66b2020f204ca",
+  "pretrained_remote_code": false,
+  "val_rmse": 0.7238063216209412,
+  "val_qf3": -0.2928800582885742,
+  "rmse": 0.890193521976471,
+  "qf3": -0.9556101560592651,
+  "n_train": 71,
+  "n_val": 9,
+  "n_test": 9,
+  "n_valid_test": 9
+}

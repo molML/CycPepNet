@@ -1,0 +1,21 @@
+{
+  "task": "cycpeptmpdb_reg",
+  "task_type": "regression",
+  "model_key": "chemberta2",
+  "rep": "smiles",
+  "seed": 2,
+  "split_method": "random",
+  "log_transform": false,
+  "timestamp": "2026-05-06T19:20:52",
+  "pretrained_model_id": "DeepChem/ChemBERTa-77M-MTR",
+  "pretrained_revision": "66b895cab8adebea0cb59a8effa66b2020f204ca",
+  "pretrained_remote_code": false,
+  "val_rmse": 0.4763607680797577,
+  "val_qf3": 0.6356467008590698,
+  "rmse": 0.467472642660141,
+  "qf3": 0.6491162776947021,
+  "n_train": 5564,
+  "n_val": 695,
+  "n_test": 695,
+  "n_valid_test": 695
+}

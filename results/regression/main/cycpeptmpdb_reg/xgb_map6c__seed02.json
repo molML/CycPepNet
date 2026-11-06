@@ -1,0 +1,17 @@
+{
+  "task": "cycpeptmpdb_reg",
+  "model_key": "xgb_map6c",
+  "rep": "map6c+physchem",
+  "seed": 2,
+  "split_method": "butina_morgan",
+  "log_transform": false,
+  "timestamp": "2026-03-20T04:11:43",
+  "val_rmse": 0.7057490348815918,
+  "val_qf3": 0.1175912618637085,
+  "rmse": 0.6160500049591064,
+  "qf3": 0.32764101028442383,
+  "n_train": 5563,
+  "n_val": 696,
+  "n_test": 695,
+  "n_valid_test": 695
+}

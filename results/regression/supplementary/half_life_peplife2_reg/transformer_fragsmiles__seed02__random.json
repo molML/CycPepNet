@@ -1,0 +1,18 @@
+{
+  "task": "half_life_peplife2_reg",
+  "task_type": "regression",
+  "model_key": "transformer_fragsmiles",
+  "rep": "fragsmiles",
+  "seed": 2,
+  "split_method": "random",
+  "log_transform": true,
+  "timestamp": "2026-06-16T17:39:15",
+  "val_rmse": 0.7359926700592041,
+  "val_qf3": -0.33678138256073,
+  "rmse": 0.6742054224014282,
+  "qf3": -0.12175476551055908,
+  "n_train": 71,
+  "n_val": 9,
+  "n_test": 9,
+  "n_valid_test": 9
+}

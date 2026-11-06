@@ -1,0 +1,17 @@
+{
+  "task": "npmmpd_reg",
+  "model_key": "lstm",
+  "rep": "smiles",
+  "seed": 0,
+  "split_method": "butina_morgan",
+  "log_transform": false,
+  "timestamp": "2026-03-21T19:10:23",
+  "val_rmse": 0.6424693465232849,
+  "val_qf3": 0.3262278437614441,
+  "rmse": 0.6940219402313232,
+  "qf3": 0.21376091241836548,
+  "n_train": 877,
+  "n_val": 110,
+  "n_test": 109,
+  "n_valid_test": 109
+}

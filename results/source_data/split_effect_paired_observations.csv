@@ -1,0 +1,1321 @@
+task_type,metric,task,model,rep,seed,random,butina,response_scale
+regression,rmse,cycpeptmpdb_reg,chemberta2,smiles,0,0.4732256531715393,0.7323769330978394,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,chemberta2,smiles,1,0.462881863117218,0.7363871932029724,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,chemberta2,smiles,2,0.467472642660141,0.7505624294281006,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,chemberta2,smiles,3,0.45469769835472107,0.7707768082618713,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,chemberta2,smiles,4,0.476531982421875,0.7480015158653259,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,gcn,graphs,0,0.6190658969849953,0.8048883105421112,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,gcn,graphs,1,0.5864413432580518,0.866587749976347,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,gcn,graphs,2,0.48946277754197726,0.8336950137935596,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,gcn,graphs,3,0.5852370891768887,0.8149326291515611,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,gcn,graphs,4,0.5012400891027706,0.8376610684748153,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,lstm,smiles,0,0.5195253491401672,0.8387137055397034,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,lstm,smiles,1,0.514790952205658,0.8517120480537415,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,lstm,smiles,2,0.5071591734886169,0.7936078310012817,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,lstm,smiles,3,0.5086377859115601,0.845005452632904,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,lstm,smiles,4,0.4907240867614746,0.8128752112388611,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,lstm_fragsmiles,fragsmiles,0,0.5451196432113647,0.8440257906913757,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,lstm_fragsmiles,fragsmiles,1,0.5122377872467041,0.8341354727745056,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,lstm_fragsmiles,fragsmiles,2,0.5152945518493652,0.8412225246429443,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,lstm_fragsmiles,fragsmiles,3,0.5395087599754333,0.8403270840644836,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,lstm_fragsmiles,fragsmiles,4,0.5258471965789795,0.8136689066886902,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,molclr,smiles,0,0.4969757942319015,0.6805012303480102,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,molclr,smiles,1,0.4723919802984402,0.7340585168656186,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,molclr,smiles,2,0.5042330422696855,0.7254321277459924,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,molclr,smiles,3,0.5059243244950841,0.7668333844698265,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,molclr,smiles,4,0.4696318799584665,0.7869979534205657,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,mpnn,graphs,0,0.46220115326605543,0.7173281614068886,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,mpnn,graphs,1,0.42617370772777385,0.8656927499496548,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,mpnn,graphs,2,0.48629422282968415,0.720125111559841,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,mpnn,graphs,3,0.46248658838163204,0.8563327928665961,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,mpnn,graphs,4,0.44564448472341095,0.7252593344226089,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,peptide_clm2,smiles,0,0.437907338142395,0.697917640209198,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,peptide_clm2,smiles,1,0.43918830156326294,0.7208106517791748,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,peptide_clm2,smiles,2,0.44375163316726685,0.6705330014228821,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,peptide_clm2,smiles,3,0.44113844633102417,0.7199239730834961,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,peptide_clm2,smiles,4,0.45945772528648376,0.7189885377883911,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,pretrained_gin,smiles,0,0.45600437253468556,0.9901751855314065,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,pretrained_gin,smiles,1,0.4992114651802825,0.841350174561648,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,pretrained_gin,smiles,2,0.47353274442306204,0.7993460151118954,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,pretrained_gin,smiles,3,0.45667156561474737,0.8379781424929839,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,pretrained_gin,smiles,4,0.4823164071348525,0.8446458616685131,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,rf_binary_r2_fp,morgan_binary_r2,0,0.4806774510058126,0.670234052002457,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,rf_binary_r2_fp,morgan_binary_r2,1,0.4701987904961229,0.6608590814325307,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,rf_binary_r2_fp,morgan_binary_r2,2,0.4789397340916175,0.6723469100218291,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,rf_binary_r2_fp,morgan_binary_r2,3,0.4694853685317556,0.663132688761397,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,rf_binary_r2_fp,morgan_binary_r2,4,0.4794578183662875,0.6505680748229734,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,rf_count_r2_fp,morgan_count_r2,0,0.4434112091949038,0.651872873334608,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,rf_count_r2_fp,morgan_count_r2,1,0.4465153843312201,0.6512814749539548,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,rf_count_r2_fp,morgan_count_r2,2,0.4449901246277099,0.6592758559006858,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,rf_count_r2_fp,morgan_count_r2,3,0.44155435715582764,0.6482603449826895,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,rf_count_r2_fp,morgan_count_r2,4,0.44615833503798585,0.6412668679782293,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,rf_hdf_fp,hdf,0,0.48481985060328164,0.6490761988709529,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,rf_hdf_fp,hdf,1,0.4844476717114685,0.646786002000385,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,rf_hdf_fp,hdf,2,0.4846955411586623,0.6432885856363979,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,rf_hdf_fp,hdf,3,0.4862714419426259,0.6455080786484048,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,rf_hdf_fp,hdf,4,0.4841701919796199,0.6500850663036314,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,rf_map4c_fp,map4c,0,0.4678920654725808,0.650691464978219,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,rf_map4c_fp,map4c,1,0.46981772630892266,0.6504631681793542,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,rf_map4c_fp,map4c,2,0.4701291944283616,0.6512242458071815,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,rf_map4c_fp,map4c,3,0.46804740019079694,0.6492432635641482,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,rf_map4c_fp,map4c,4,0.4675383975650434,0.649653951434241,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,rf_mxfp_fp,mxfp,0,0.50264190245213,0.647538684995881,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,rf_mxfp_fp,mxfp,1,0.5023180853512248,0.6416036326278678,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,rf_mxfp_fp,mxfp,2,0.5041370278644678,0.6434055097843286,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,rf_mxfp_fp,mxfp,3,0.5007263440936368,0.6435875050162807,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,rf_mxfp_fp,mxfp,4,0.5007331114846707,0.6662133419199112,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,rf_physchem,physchem,0,0.5054143701853182,0.6456462842325865,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,rf_physchem,physchem,1,0.5056998841460267,0.6470562662512088,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,rf_physchem,physchem,2,0.5038559054384841,0.6502836722828464,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,rf_physchem,physchem,3,0.5043416046168195,0.644738503368629,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,rf_physchem,physchem,4,0.5049711995629901,0.6434136927987305,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,transformer,smiles,0,0.5790651440620422,0.8791446089744568,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,transformer,smiles,1,0.5849941968917847,0.8563686609268188,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,transformer,smiles,2,0.5462098717689514,0.8743900656700134,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,transformer,smiles,3,0.5671288967132568,0.8715695738792419,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,transformer,smiles,4,0.5517980456352234,0.8530392646789551,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,transformer_fragsmiles,fragsmiles,0,0.5551440119743347,0.8283041715621948,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,transformer_fragsmiles,fragsmiles,1,0.5873367786407471,0.8922837972640991,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,transformer_fragsmiles,fragsmiles,2,0.5704575777053833,0.8255440592765808,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,transformer_fragsmiles,fragsmiles,3,0.552659809589386,0.7369018793106079,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,transformer_fragsmiles,fragsmiles,4,0.5947731137275696,0.8202944397926331,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,xgb_binary_r2_fp,morgan_binary_r2,0,0.44888681173324585,0.6449040770530701,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,xgb_binary_r2_fp,morgan_binary_r2,1,0.44346052408218384,0.6538748741149902,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,xgb_binary_r2_fp,morgan_binary_r2,2,0.4384010434150696,0.6742086410522461,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,xgb_binary_r2_fp,morgan_binary_r2,3,0.4527110755443573,0.6794931888580322,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,xgb_binary_r2_fp,morgan_binary_r2,4,0.4398392140865326,0.6717063188552856,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,xgb_count_r2_fp,morgan_count_r2,0,0.41583487391471863,0.659409761428833,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,xgb_count_r2_fp,morgan_count_r2,1,0.42019566893577576,0.6992784142494202,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,xgb_count_r2_fp,morgan_count_r2,2,0.4082230031490326,0.6900123953819275,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,xgb_count_r2_fp,morgan_count_r2,3,0.4214797019958496,0.651727020740509,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,xgb_count_r2_fp,morgan_count_r2,4,0.41866448521614075,0.6311293244361877,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,xgb_hdf_fp,hdf,0,0.46767494082450867,0.6935548782348633,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,xgb_hdf_fp,hdf,1,0.46423348784446716,0.6434305310249329,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,xgb_hdf_fp,hdf,2,0.4777027666568756,0.67087721824646,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,xgb_hdf_fp,hdf,3,0.4608766734600067,0.6681264042854309,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,xgb_hdf_fp,hdf,4,0.4639417231082916,0.6773971319198608,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,xgb_map4c_fp,map4c,0,0.43774205446243286,0.6667838096618652,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,xgb_map4c_fp,map4c,1,0.43508216738700867,0.6828292608261108,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,xgb_map4c_fp,map4c,2,0.43465137481689453,0.6704121232032776,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,xgb_map4c_fp,map4c,3,0.43757230043411255,0.6481667757034302,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,xgb_map4c_fp,map4c,4,0.4395860731601715,0.6542955040931702,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,xgb_mxfp_fp,mxfp,0,0.49620452523231506,0.6482346653938293,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,xgb_mxfp_fp,mxfp,1,0.4975053668022156,0.6908707618713379,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,xgb_mxfp_fp,mxfp,2,0.5035078525543213,0.6575555801391602,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,xgb_mxfp_fp,mxfp,3,0.4960472583770752,0.6674948930740356,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,xgb_mxfp_fp,mxfp,4,0.505861222743988,0.709453821182251,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,xgb_physchem,physchem,0,0.4980285167694092,0.6857771277427673,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,xgb_physchem,physchem,1,0.5058676600456238,0.6515605449676514,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,xgb_physchem,physchem,2,0.5026364326477051,0.6566510200500488,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,xgb_physchem,physchem,3,0.493416965007782,0.6567010879516602,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,cycpeptmpdb_reg,xgb_physchem,physchem,4,0.5007527470588684,0.6543827652931213,log$_{10}$($P_\mathrm{app}$ / cm s$^{-1}$)
+regression,rmse,macrocycledb_mc4r_ki_reg,chemberta2,smiles,0,0.9449113011360168,1.6033176183700562,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,chemberta2,smiles,1,0.9926700592041016,1.5998307466506958,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,chemberta2,smiles,2,0.9247442483901978,1.5862916707992554,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,chemberta2,smiles,3,0.9474675059318542,1.5916626453399658,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,chemberta2,smiles,4,0.9362339973449707,1.8338291645050049,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,gcn,graphs,0,1.1048960582311882,2.142772547042644,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,gcn,graphs,1,1.1137247296282826,2.1031153959039615,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,gcn,graphs,2,1.084730306194306,1.873809166694938,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,gcn,graphs,3,1.1555983808991244,2.2423243896071567,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,gcn,graphs,4,1.111824763906859,1.8904313565473343,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,lstm,smiles,0,1.2247663736343384,1.2112973928451538,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,lstm,smiles,1,1.2666033506393433,1.5330300331115723,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,lstm,smiles,2,1.2256559133529663,1.7151142358779907,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,lstm,smiles,3,1.3425465822219849,1.5765409469604492,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,lstm,smiles,4,1.3022114038467407,1.8839826583862305,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,lstm_fragsmiles,fragsmiles,0,1.280970811843872,1.7148867845535278,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,lstm_fragsmiles,fragsmiles,1,1.23624587059021,1.2068814039230347,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,lstm_fragsmiles,fragsmiles,2,1.1794723272323608,1.6359410285949707,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,lstm_fragsmiles,fragsmiles,3,1.1873955726623535,1.8270329236984253,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,lstm_fragsmiles,fragsmiles,4,1.542600154876709,1.4179350137710571,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,molclr,smiles,0,0.9316777840601359,1.0688959335542596,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,molclr,smiles,1,0.9686634137112881,1.5778291991862414,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,molclr,smiles,2,1.027743815305568,1.5214082744528472,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,molclr,smiles,3,0.9824166829604947,1.4494094386465517,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,molclr,smiles,4,1.1497642569486328,2.141905885411428,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,mpnn,graphs,0,1.0879819950285095,1.710621522061041,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,mpnn,graphs,1,1.0433132178841051,1.7412168307303928,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,mpnn,graphs,2,1.0873682573317187,1.5464522717181182,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,mpnn,graphs,3,1.0320759248357532,1.9806909657432061,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,mpnn,graphs,4,1.0473137969108752,1.8888177957642232,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,peptide_clm2,smiles,0,1.4722154140472412,1.7065199613571167,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,peptide_clm2,smiles,1,1.3256726264953613,1.2974510192871094,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,peptide_clm2,smiles,2,1.1182094812393188,1.4555853605270386,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,peptide_clm2,smiles,3,1.0104683637619019,1.963827133178711,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,peptide_clm2,smiles,4,0.9994457960128784,1.3116077184677124,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,pretrained_gin,smiles,0,1.0926915105944806,1.5500974977924808,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,pretrained_gin,smiles,1,1.0560791705197863,1.3891010386416847,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,pretrained_gin,smiles,2,1.095614700563802,1.3741420074713764,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,pretrained_gin,smiles,3,0.970741111658028,1.580191616928464,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,pretrained_gin,smiles,4,1.0162194678387353,1.6224772575797597,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,rf_binary_r2_fp,morgan_binary_r2,0,0.979621026503211,1.2356933874299063,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,rf_binary_r2_fp,morgan_binary_r2,1,0.9721527762569183,1.211704899015817,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,rf_binary_r2_fp,morgan_binary_r2,2,0.9773204623644653,1.2555456624108134,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,rf_binary_r2_fp,morgan_binary_r2,3,0.9726614920047795,1.2304016017713668,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,rf_binary_r2_fp,morgan_binary_r2,4,0.981965181435124,1.2247450489247715,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,rf_count_r2_fp,morgan_count_r2,0,1.016039636361061,1.2344056666601961,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,rf_count_r2_fp,morgan_count_r2,1,1.0016843799612156,1.2254348924389646,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,rf_count_r2_fp,morgan_count_r2,2,1.004488031601,1.2271769030698292,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,rf_count_r2_fp,morgan_count_r2,3,1.0172206283299425,1.2171153910042618,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,rf_count_r2_fp,morgan_count_r2,4,1.0113986454163681,1.2248421224482249,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,rf_hdf_fp,hdf,0,1.0221264771038245,1.2612250379743808,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,rf_hdf_fp,hdf,1,1.0046679760824764,1.2812639145451852,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,rf_hdf_fp,hdf,2,1.0014368077669096,1.294125794713472,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,rf_hdf_fp,hdf,3,1.0081229988865323,1.229165412038276,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,rf_hdf_fp,hdf,4,1.005751992108121,1.2701938452570718,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,rf_map4c_fp,map4c,0,0.9701912087550092,1.343642116540778,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,rf_map4c_fp,map4c,1,0.9719871865168019,1.2504769676432392,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,rf_map4c_fp,map4c,2,0.9692287156007571,1.2507895785951106,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,rf_map4c_fp,map4c,3,0.958428514241935,1.3171689263206627,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,rf_map4c_fp,map4c,4,0.9721338370389022,1.253288399127777,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,rf_mxfp_fp,mxfp,0,1.057685287537104,1.370937815925635,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,rf_mxfp_fp,mxfp,1,1.043842232157165,1.395104116801337,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,rf_mxfp_fp,mxfp,2,1.034047463177612,1.4169021742468535,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,rf_mxfp_fp,mxfp,3,1.0510711728225284,1.43511569382835,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,rf_mxfp_fp,mxfp,4,1.051833302659138,1.357947135369623,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,rf_physchem,physchem,0,1.1278376544447966,1.4044340690067485,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,rf_physchem,physchem,1,1.1205137593564043,1.3556787591624928,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,rf_physchem,physchem,2,1.1113309821977344,1.3572341525726908,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,rf_physchem,physchem,3,1.1293605846490065,1.379392900374043,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,rf_physchem,physchem,4,1.1195798092151044,1.3746781500766208,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,transformer,smiles,0,1.2476345300674438,1.6803984642028809,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,transformer,smiles,1,1.104680061340332,1.6413979530334473,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,transformer,smiles,2,1.1309393644332886,1.779560923576355,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,transformer,smiles,3,1.236760139465332,1.5141204595565796,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,transformer,smiles,4,1.1235638856887817,1.9866477251052856,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,transformer_fragsmiles,fragsmiles,0,1.155450463294983,1.7778035402297974,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,transformer_fragsmiles,fragsmiles,1,1.1364574432373047,1.563821792602539,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,transformer_fragsmiles,fragsmiles,2,1.1694517135620117,1.4215753078460693,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,transformer_fragsmiles,fragsmiles,3,1.1512107849121094,1.6983126401901245,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,transformer_fragsmiles,fragsmiles,4,1.3629708290100098,1.2765482664108276,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,xgb_binary_r2_fp,morgan_binary_r2,0,0.9264518618583679,1.2450379133224487,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,xgb_binary_r2_fp,morgan_binary_r2,1,0.9019656181335449,1.5424933433532715,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,xgb_binary_r2_fp,morgan_binary_r2,2,0.9278753399848938,1.204769492149353,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,xgb_binary_r2_fp,morgan_binary_r2,3,0.8910783529281616,1.6320327520370483,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,xgb_binary_r2_fp,morgan_binary_r2,4,0.8839659094810486,1.539792537689209,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,xgb_count_r2_fp,morgan_count_r2,0,0.997282862663269,1.2834845781326294,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,xgb_count_r2_fp,morgan_count_r2,1,0.9625571370124817,1.2481361627578735,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,xgb_count_r2_fp,morgan_count_r2,2,0.9451944828033447,1.3258098363876343,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,xgb_count_r2_fp,morgan_count_r2,3,0.9820266366004944,1.309574007987976,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,xgb_count_r2_fp,morgan_count_r2,4,0.9747905135154724,1.1781870126724243,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,xgb_hdf_fp,hdf,0,0.9984959363937378,1.3681889772415161,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,xgb_hdf_fp,hdf,1,1.0016428232192993,1.3637394905090332,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,xgb_hdf_fp,hdf,2,1.1305580139160156,1.2590783834457397,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,xgb_hdf_fp,hdf,3,1.0124002695083618,1.4136390686035156,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,xgb_hdf_fp,hdf,4,1.047667145729065,1.168623685836792,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,xgb_map4c_fp,map4c,0,0.9651622772216797,1.389465093612671,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,xgb_map4c_fp,map4c,1,0.8860920667648315,1.5132954120635986,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,xgb_map4c_fp,map4c,2,0.8951660990715027,1.161376953125,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,xgb_map4c_fp,map4c,3,0.9640375375747681,1.2150734663009644,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,xgb_map4c_fp,map4c,4,0.9077615141868591,1.245078444480896,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,xgb_mxfp_fp,mxfp,0,1.0241601467132568,1.460663914680481,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,xgb_mxfp_fp,mxfp,1,1.0666972398757935,1.4718539714813232,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,xgb_mxfp_fp,mxfp,2,1.025634765625,1.4855849742889404,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,xgb_mxfp_fp,mxfp,3,1.0998972654342651,1.4289270639419556,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,xgb_mxfp_fp,mxfp,4,1.0408786535263062,1.525317668914795,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,xgb_physchem,physchem,0,1.278615117073059,1.3780829906463623,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,xgb_physchem,physchem,1,1.139124870300293,1.3963172435760498,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,xgb_physchem,physchem,2,1.1233783960342407,1.4672404527664185,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,xgb_physchem,physchem,3,1.2905007600784302,1.3891098499298096,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_mc4r_ki_reg,xgb_physchem,physchem,4,1.1633466482162476,1.4781486988067627,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,chemberta2,smiles,0,0.9465187788009644,0.94925457239151,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,chemberta2,smiles,1,0.8886600136756897,0.9096119999885559,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,chemberta2,smiles,2,0.9428044557571411,0.8140262961387634,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,chemberta2,smiles,3,0.8933113217353821,0.8807721734046936,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,chemberta2,smiles,4,0.8645136952400208,1.038048267364502,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,gcn,graphs,0,0.9971888394491741,2.3804895548102394,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,gcn,graphs,1,1.069424584697392,1.943178375947522,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,gcn,graphs,2,1.0223543032678744,1.7145627175817229,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,gcn,graphs,3,0.9908599218342868,2.400078020959956,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,gcn,graphs,4,0.9511947619096026,1.87715207138055,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,lstm,smiles,0,1.1453118324279785,1.6865910291671753,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,lstm,smiles,1,1.217078447341919,1.5084863901138306,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,lstm,smiles,2,1.2663803100585938,1.6818901300430298,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,lstm,smiles,3,1.054022192955017,1.3235390186309814,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,lstm,smiles,4,1.0988034009933472,1.7307109832763672,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,lstm_fragsmiles,fragsmiles,0,1.2455729246139526,1.541811227798462,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,lstm_fragsmiles,fragsmiles,1,1.2525346279144287,1.7376432418823242,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,lstm_fragsmiles,fragsmiles,2,1.1555020809173584,1.7116000652313232,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,lstm_fragsmiles,fragsmiles,3,1.2099995613098145,1.5176204442977905,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,lstm_fragsmiles,fragsmiles,4,1.188968300819397,1.6134272813796997,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,molclr,smiles,0,1.0233069679743627,1.5255032717859365,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,molclr,smiles,1,0.979919172355311,1.7970215578907758,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,molclr,smiles,2,0.9607197083876706,2.1435440197730258,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,molclr,smiles,3,1.0795417256855302,1.773854205513093,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,molclr,smiles,4,1.123103117212948,1.5080167955192496,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,mpnn,graphs,0,1.1100312520617994,1.8274996574494442,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,mpnn,graphs,1,1.0531107777896804,1.634301862187304,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,mpnn,graphs,2,1.212657731857411,2.368379170010523,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,mpnn,graphs,3,1.2562661187656243,2.1324639353633743,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,mpnn,graphs,4,0.940018128634034,1.7172803401360157,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,peptide_clm2,smiles,0,0.8420494794845581,1.038230538368225,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,peptide_clm2,smiles,1,0.8050549030303955,1.3321716785430908,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,peptide_clm2,smiles,2,0.8132585287094116,0.8993868827819824,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,peptide_clm2,smiles,3,0.7696790099143982,1.104022741317749,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,peptide_clm2,smiles,4,0.8369280695915222,0.9803454875946045,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,pretrained_gin,smiles,0,0.8521207594114986,1.4104343360791087,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,pretrained_gin,smiles,1,0.8739295921318632,1.3099932766803222,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,pretrained_gin,smiles,2,0.866434116723672,1.4109078272611846,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,pretrained_gin,smiles,3,0.9025056006182822,1.1777383152241063,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,pretrained_gin,smiles,4,0.8789136504699591,1.2036503084387302,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,rf_binary_r2_fp,morgan_binary_r2,0,0.7930743578468137,1.8280824133284364,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,rf_binary_r2_fp,morgan_binary_r2,1,0.7991600420169107,1.4876881627806897,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,rf_binary_r2_fp,morgan_binary_r2,2,0.7880455543350224,1.8340798294946257,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,rf_binary_r2_fp,morgan_binary_r2,3,0.8264605697077957,1.466932225729215,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,rf_binary_r2_fp,morgan_binary_r2,4,0.7958675554729104,1.7807715333692022,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,rf_count_r2_fp,morgan_count_r2,0,0.8157451621561065,1.6565303505712023,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,rf_count_r2_fp,morgan_count_r2,1,0.8147980199675067,1.8470403953215624,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,rf_count_r2_fp,morgan_count_r2,2,0.8101334397261851,1.8533951133266187,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,rf_count_r2_fp,morgan_count_r2,3,0.8276160140528579,1.7081550013955178,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,rf_count_r2_fp,morgan_count_r2,4,0.8402945113424201,1.8443515155605748,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,rf_hdf_fp,hdf,0,0.8680381192673425,1.2221825227303202,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,rf_hdf_fp,hdf,1,0.8564406653483884,1.2398865222493916,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,rf_hdf_fp,hdf,2,0.8664258196250794,1.2544552223102519,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,rf_hdf_fp,hdf,3,0.8655531018846282,1.28231648949251,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,rf_hdf_fp,hdf,4,0.8647643604188497,1.2282184459299745,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,rf_map4c_fp,map4c,0,0.7686040486920497,1.3168843619197546,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,rf_map4c_fp,map4c,1,0.7549570089615585,1.3594657210186456,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,rf_map4c_fp,map4c,2,0.7646706638622534,1.3374140668805017,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,rf_map4c_fp,map4c,3,0.7587842991214219,1.3640821954222957,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,rf_map4c_fp,map4c,4,0.7832652126796473,1.3485434936134582,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,rf_mxfp_fp,mxfp,0,0.8194243021943836,1.2641764724617572,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,rf_mxfp_fp,mxfp,1,0.8455142595851828,1.2845846335490692,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,rf_mxfp_fp,mxfp,2,0.8401097798966766,1.2857556528445773,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,rf_mxfp_fp,mxfp,3,0.8179064672842843,1.2922331009851848,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,rf_mxfp_fp,mxfp,4,0.8444023585043521,1.2677851686900077,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,rf_physchem,physchem,0,0.935926675235599,1.1845042931539258,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,rf_physchem,physchem,1,0.9323341391380222,1.1707941336655732,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,rf_physchem,physchem,2,0.9448198750268376,1.255802581738576,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,rf_physchem,physchem,3,0.934295109725789,1.1763556849259142,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,rf_physchem,physchem,4,0.9370631377551442,1.1869600042828534,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,transformer,smiles,0,1.08558988571167,1.3678357601165771,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,transformer,smiles,1,1.0844759941101074,1.6115543842315674,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,transformer,smiles,2,1.203536033630371,1.6835236549377441,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,transformer,smiles,3,0.8312610983848572,1.4322776794433594,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,transformer,smiles,4,0.9956046938896179,1.1996290683746338,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,transformer_fragsmiles,fragsmiles,0,1.034075379371643,1.6662487983703613,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,transformer_fragsmiles,fragsmiles,1,1.0303683280944824,1.7032729387283325,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,transformer_fragsmiles,fragsmiles,2,1.1969637870788574,1.7039109468460083,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,transformer_fragsmiles,fragsmiles,3,1.1377819776535034,1.7204277515411377,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,transformer_fragsmiles,fragsmiles,4,1.0570542812347412,1.7234305143356323,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,xgb_binary_r2_fp,morgan_binary_r2,0,0.6762553453445435,1.8532023429870605,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,xgb_binary_r2_fp,morgan_binary_r2,1,0.7657454013824463,1.702465295791626,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,xgb_binary_r2_fp,morgan_binary_r2,2,0.722876787185669,1.504960060119629,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,xgb_binary_r2_fp,morgan_binary_r2,3,0.8024327754974365,1.5256927013397217,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,xgb_binary_r2_fp,morgan_binary_r2,4,0.7429419159889221,1.751023769378662,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,xgb_count_r2_fp,morgan_count_r2,0,0.6719675660133362,1.4718284606933594,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,xgb_count_r2_fp,morgan_count_r2,1,0.789803683757782,1.7929171323776245,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,xgb_count_r2_fp,morgan_count_r2,2,0.7547349333763123,1.531559705734253,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,xgb_count_r2_fp,morgan_count_r2,3,0.8399563431739807,1.643398404121399,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,xgb_count_r2_fp,morgan_count_r2,4,0.7638011574745178,1.4109221696853638,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,xgb_hdf_fp,hdf,0,0.8667438626289368,1.215355634689331,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,xgb_hdf_fp,hdf,1,0.8678956627845764,1.2812122106552124,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,xgb_hdf_fp,hdf,2,0.828315258026123,1.0701831579208374,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,xgb_hdf_fp,hdf,3,0.743679940700531,1.19374680519104,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,xgb_hdf_fp,hdf,4,0.8618252277374268,1.269788146018982,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,xgb_map4c_fp,map4c,0,0.6922162175178528,1.424852967262268,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,xgb_map4c_fp,map4c,1,0.7589440941810608,1.5155657529830933,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,xgb_map4c_fp,map4c,2,0.7397262454032898,1.3976242542266846,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,xgb_map4c_fp,map4c,3,0.8285279870033264,1.478393793106079,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,xgb_map4c_fp,map4c,4,0.7933657765388489,1.334960699081421,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,xgb_mxfp_fp,mxfp,0,0.8210382461547852,1.5704365968704224,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,xgb_mxfp_fp,mxfp,1,0.8430972099304199,1.3127628564834595,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,xgb_mxfp_fp,mxfp,2,0.8885595202445984,1.5250496864318848,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,xgb_mxfp_fp,mxfp,3,0.7703906297683716,1.2197637557983398,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,xgb_mxfp_fp,mxfp,4,0.9257510304450989,1.3335267305374146,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,xgb_physchem,physchem,0,1.03722083568573,1.3317101001739502,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,xgb_physchem,physchem,1,1.083282232284546,1.320409893989563,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,xgb_physchem,physchem,2,1.1118378639221191,1.324825406074524,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,xgb_physchem,physchem,3,1.0854123830795288,1.37064528465271,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_oprm1_ki_reg,xgb_physchem,physchem,4,1.0495643615722656,1.4042079448699951,log$_{10}$($K_\mathrm{i}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,chemberta2,smiles,0,0.750450074672699,1.4208855628967285,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,chemberta2,smiles,1,0.824703574180603,1.5019232034683228,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,chemberta2,smiles,2,0.8135508894920349,1.1044093370437622,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,chemberta2,smiles,3,0.7797163724899292,1.4595918655395508,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,chemberta2,smiles,4,0.8125004768371582,1.4889453649520874,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,gcn,graphs,0,0.8516036284852148,1.1606203257364436,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,gcn,graphs,1,0.8217715786189007,1.2618581254159473,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,gcn,graphs,2,0.7998210384244056,1.5057215030264754,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,gcn,graphs,3,0.9357571283233532,1.3307224724165787,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,gcn,graphs,4,0.7504092166102189,1.2017619575848826,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,lstm,smiles,0,1.0533584356307983,1.6450937986373901,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,lstm,smiles,1,1.0362526178359985,1.4391587972640991,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,lstm,smiles,2,1.0738177299499512,1.6363438367843628,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,lstm,smiles,3,1.009121060371399,1.6106204986572266,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,lstm,smiles,4,1.1364659070968628,1.59646737575531,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,lstm_fragsmiles,fragsmiles,0,1.0984594821929932,1.8330585956573486,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,lstm_fragsmiles,fragsmiles,1,1.1660834550857544,1.7454633712768555,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,lstm_fragsmiles,fragsmiles,2,1.100618600845337,1.5177980661392212,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,lstm_fragsmiles,fragsmiles,3,1.1275405883789062,1.6948014497756958,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,lstm_fragsmiles,fragsmiles,4,1.070345401763916,1.6736236810684204,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,molclr,smiles,0,0.7255280267682154,1.4732523496343997,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,molclr,smiles,1,1.1531095185424518,1.3238930947321987,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,molclr,smiles,2,0.8921571902127624,1.0910662918522351,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,molclr,smiles,3,1.2983285818078938,1.646313967464911,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,molclr,smiles,4,0.7778423129796579,1.0269655403763993,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,mpnn,graphs,0,0.9060661057077506,1.0124665864369624,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,mpnn,graphs,1,0.7171171718718973,0.9721962964555629,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,mpnn,graphs,2,1.1588131646143705,1.115900589102915,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,mpnn,graphs,3,0.9463341525264539,1.3181481604832914,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,mpnn,graphs,4,0.8336315465031604,1.185307917328527,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,peptide_clm2,smiles,0,1.0411146879196167,1.3569499254226685,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,peptide_clm2,smiles,1,1.2935584783554077,1.1064683198928833,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,peptide_clm2,smiles,2,1.0073314905166626,1.1442816257476807,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,peptide_clm2,smiles,3,1.1922742128372192,1.2727739810943604,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,peptide_clm2,smiles,4,1.2300283908843994,1.0325924158096313,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,pretrained_gin,smiles,0,0.8434910032307609,1.4685493755476757,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,pretrained_gin,smiles,1,0.9009479279853746,1.7185809098031612,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,pretrained_gin,smiles,2,0.8572410731895383,1.3794211828483114,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,pretrained_gin,smiles,3,0.8923815730204145,1.1658779462080562,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,pretrained_gin,smiles,4,0.8520752199601787,1.4150868730236859,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,rf_binary_r2_fp,morgan_binary_r2,0,0.7135996596496604,1.2893159040767976,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,rf_binary_r2_fp,morgan_binary_r2,1,0.7095107778292891,1.204806117386265,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,rf_binary_r2_fp,morgan_binary_r2,2,0.7158382967478504,1.312756923204833,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,rf_binary_r2_fp,morgan_binary_r2,3,0.7108660408672823,1.2203557618754988,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,rf_binary_r2_fp,morgan_binary_r2,4,0.7154162779645243,1.2298815610729306,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,rf_count_r2_fp,morgan_count_r2,0,0.7285725034088874,1.1943041409485124,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,rf_count_r2_fp,morgan_count_r2,1,0.7279418457101595,1.1740047729800747,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,rf_count_r2_fp,morgan_count_r2,2,0.6920148787364474,1.2012888319248165,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,rf_count_r2_fp,morgan_count_r2,3,0.7232551154176965,1.1625638259565167,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,rf_count_r2_fp,morgan_count_r2,4,0.6918280213285005,1.1642990373495594,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,rf_hdf_fp,hdf,0,0.7857604244862241,1.3665680036533823,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,rf_hdf_fp,hdf,1,0.7739775914756443,1.3946492093012264,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,rf_hdf_fp,hdf,2,0.7938725335054045,1.4075840252418497,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,rf_hdf_fp,hdf,3,0.7843415947154457,1.3943805815243198,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,rf_hdf_fp,hdf,4,0.7928704578058168,1.3615221834803182,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,rf_map4c_fp,map4c,0,0.7640693833918302,1.2474292015596449,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,rf_map4c_fp,map4c,1,0.7466887886442423,1.2352193515126952,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,rf_map4c_fp,map4c,2,0.7609296193465456,1.2308234688711257,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,rf_map4c_fp,map4c,3,0.7671647942943192,1.1868684390783997,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,rf_map4c_fp,map4c,4,0.7661760416074951,1.1603386515651966,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,rf_mxfp_fp,mxfp,0,0.730949447755327,1.280582570582374,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,rf_mxfp_fp,mxfp,1,0.7374943363372031,1.2916601206014717,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,rf_mxfp_fp,mxfp,2,0.7224220539949373,1.3149856317675144,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,rf_mxfp_fp,mxfp,3,0.7191342976648937,1.291010615334861,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,rf_mxfp_fp,mxfp,4,0.7169675875370759,1.2805480265451756,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,rf_physchem,physchem,0,0.8922290889611253,1.530821404727885,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,rf_physchem,physchem,1,0.9638061938564302,1.501581667511605,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,rf_physchem,physchem,2,0.8907199078345113,1.5233650777701737,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,rf_physchem,physchem,3,0.9077835657812506,1.5349224223433322,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,rf_physchem,physchem,4,1.015283457230757,1.5097410579043635,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,transformer,smiles,0,1.1203902959823608,1.427795648574829,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,transformer,smiles,1,1.0118799209594727,1.5210174322128296,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,transformer,smiles,2,1.1396100521087646,1.5117756128311157,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,transformer,smiles,3,1.1429471969604492,1.4395806789398193,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,transformer,smiles,4,1.112940788269043,1.3798935413360596,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,transformer_fragsmiles,fragsmiles,0,1.14183509349823,1.3321453332901,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,transformer_fragsmiles,fragsmiles,1,0.9918758869171143,1.3282984495162964,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,transformer_fragsmiles,fragsmiles,2,1.1934415102005005,1.2266242504119873,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,transformer_fragsmiles,fragsmiles,3,1.1155674457550049,1.3925071954727173,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,transformer_fragsmiles,fragsmiles,4,1.1337920427322388,1.3466370105743408,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,xgb_binary_r2_fp,morgan_binary_r2,0,0.7146347761154175,1.502370834350586,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,xgb_binary_r2_fp,morgan_binary_r2,1,0.7940381765365601,1.3706549406051636,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,xgb_binary_r2_fp,morgan_binary_r2,2,0.8266927003860474,1.3808798789978027,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,xgb_binary_r2_fp,morgan_binary_r2,3,0.7964146137237549,1.2830510139465332,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,xgb_binary_r2_fp,morgan_binary_r2,4,0.7090203762054443,1.4143863916397095,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,xgb_count_r2_fp,morgan_count_r2,0,0.6862226724624634,1.2189443111419678,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,xgb_count_r2_fp,morgan_count_r2,1,0.6155455112457275,1.3538572788238525,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,xgb_count_r2_fp,morgan_count_r2,2,0.6861705780029297,1.3143895864486694,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,xgb_count_r2_fp,morgan_count_r2,3,0.682088315486908,1.0855799913406372,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,xgb_count_r2_fp,morgan_count_r2,4,0.6725021004676819,1.2614425420761108,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,xgb_hdf_fp,hdf,0,0.7920922636985779,1.3587241172790527,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,xgb_hdf_fp,hdf,1,0.8164492249488831,1.3397711515426636,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,xgb_hdf_fp,hdf,2,0.7855250835418701,1.2699511051177979,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,xgb_hdf_fp,hdf,3,0.806100070476532,1.3321744203567505,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,xgb_hdf_fp,hdf,4,0.7969512343406677,1.171924114227295,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,xgb_map4c_fp,map4c,0,0.7801395654678345,1.1705034971237183,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,xgb_map4c_fp,map4c,1,0.7495720982551575,1.0658130645751953,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,xgb_map4c_fp,map4c,2,0.7918781042098999,1.1189929246902466,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,xgb_map4c_fp,map4c,3,0.6488185524940491,1.0666488409042358,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,xgb_map4c_fp,map4c,4,0.8142354488372803,1.0174931287765503,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,xgb_mxfp_fp,mxfp,0,0.7855731844902039,1.1967617273330688,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,xgb_mxfp_fp,mxfp,1,0.7808384299278259,1.3457709550857544,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,xgb_mxfp_fp,mxfp,2,0.7793881297111511,1.2632980346679688,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,xgb_mxfp_fp,mxfp,3,0.9650976061820984,1.2925196886062622,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,xgb_mxfp_fp,mxfp,4,0.9065253138542175,1.3493943214416504,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,xgb_physchem,physchem,0,0.9459576606750488,1.487957239151001,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,xgb_physchem,physchem,1,0.8932956457138062,1.5086877346038818,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,xgb_physchem,physchem,2,1.0236194133758545,1.527077317237854,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,xgb_physchem,physchem,3,0.9244256615638733,1.5387316942214966,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,macrocycledb_sstr2_ic50_reg,xgb_physchem,physchem,4,0.8985783457756042,1.6054086685180664,log$_{10}$(IC$_{50}$ / nM)
+regression,rmse,npmmpd_reg,chemberta2,smiles,0,0.4522358477115631,0.6485549807548523,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,chemberta2,smiles,1,0.5010280013084412,0.6185019612312317,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,chemberta2,smiles,2,0.46575120091438293,0.5998086333274841,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,chemberta2,smiles,3,0.44603830575942993,0.608705461025238,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,chemberta2,smiles,4,0.46488165855407715,0.5750269889831543,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,gcn,graphs,0,0.5819253647232362,0.5936396435217632,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,gcn,graphs,1,0.593407426728874,0.6038935880885069,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,gcn,graphs,2,0.4903853787214031,0.6235847584661511,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,gcn,graphs,3,0.5965481882071739,0.6870771078276444,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,gcn,graphs,4,0.47318232713015995,0.6225855899195485,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,lstm,smiles,0,0.5133472084999084,0.6940219402313232,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,lstm,smiles,1,0.4867221713066101,0.6387398838996887,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,lstm,smiles,2,0.45618152618408203,0.6490488052368164,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,lstm,smiles,3,0.49823227524757385,0.9479716420173645,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,lstm,smiles,4,0.508698582649231,0.5657253861427307,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,lstm_fragsmiles,fragsmiles,0,0.6416679620742798,0.8435810208320618,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,lstm_fragsmiles,fragsmiles,1,0.44608280062675476,0.6196662783622742,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,lstm_fragsmiles,fragsmiles,2,0.4653160870075226,0.7179147005081177,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,lstm_fragsmiles,fragsmiles,3,0.4819847047328949,0.5687518119812012,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,lstm_fragsmiles,fragsmiles,4,0.4915376305580139,0.5609084367752075,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,molclr,smiles,0,0.501356341781861,0.606227483576184,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,molclr,smiles,1,0.4214695564518215,0.5905242721576499,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,molclr,smiles,2,0.4300943769009729,0.5912149123379041,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,molclr,smiles,3,0.4450930012931799,0.7527189999767173,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,molclr,smiles,4,0.44241133068023375,0.5802171445356057,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,mpnn,graphs,0,0.506618664516395,0.5866620206444296,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,mpnn,graphs,1,0.4887897334098908,0.5734901309655019,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,mpnn,graphs,2,0.5275627870783409,0.5468912952422976,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,mpnn,graphs,3,0.45375891473580515,0.5116489592068615,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,mpnn,graphs,4,0.5420742409305734,0.7237979825280995,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,peptide_clm2,smiles,0,0.48200565576553345,0.6790242195129395,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,peptide_clm2,smiles,1,0.4733705222606659,0.5744084119796753,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,peptide_clm2,smiles,2,0.5300851464271545,0.713126540184021,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,peptide_clm2,smiles,3,0.5203073024749756,0.5472362041473389,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,peptide_clm2,smiles,4,0.6110870838165283,0.5794459581375122,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,pretrained_gin,smiles,0,0.4635618963857256,0.6667306711253871,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,pretrained_gin,smiles,1,0.46316022443527877,0.672054741024505,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,pretrained_gin,smiles,2,0.46385045388901863,0.6511901599305789,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,pretrained_gin,smiles,3,0.4841604920621088,0.6663921076331418,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,pretrained_gin,smiles,4,0.5167194091851303,0.6735132733733992,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,rf_binary_r2_fp,morgan_binary_r2,0,0.4775552327391675,0.5164427416504576,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,rf_binary_r2_fp,morgan_binary_r2,1,0.4753325910587069,0.516043020735235,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,rf_binary_r2_fp,morgan_binary_r2,2,0.47669504592644923,0.5154857885027292,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,rf_binary_r2_fp,morgan_binary_r2,3,0.47730384023371575,0.516082547482073,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,rf_binary_r2_fp,morgan_binary_r2,4,0.47990316947132433,0.5148904151934097,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,rf_count_r2_fp,morgan_count_r2,0,0.45687225550250576,0.5321262309041532,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,rf_count_r2_fp,morgan_count_r2,1,0.45685517752663607,0.5407707491476629,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,rf_count_r2_fp,morgan_count_r2,2,0.4557930105045122,0.5341758616536602,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,rf_count_r2_fp,morgan_count_r2,3,0.462733498772665,0.5376126820183126,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,rf_count_r2_fp,morgan_count_r2,4,0.46205190325057854,0.5365275879116844,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,rf_hdf_fp,hdf,0,0.4928221499026346,0.5975401898942602,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,rf_hdf_fp,hdf,1,0.4916489898046952,0.5983111951614013,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,rf_hdf_fp,hdf,2,0.49668773075805295,0.6044638219305529,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,rf_hdf_fp,hdf,3,0.4933975911617762,0.6011630372083354,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,rf_hdf_fp,hdf,4,0.4881826203676024,0.5962188748560159,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,rf_map4c_fp,map4c,0,0.49263104511455286,0.5869907183330244,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,rf_map4c_fp,map4c,1,0.491164650988618,0.5980368548959286,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,rf_map4c_fp,map4c,2,0.4885296432041441,0.5803698071849367,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,rf_map4c_fp,map4c,3,0.5077897331580029,0.5849773025353106,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,rf_map4c_fp,map4c,4,0.4956689128570717,0.590235157069654,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,rf_mxfp_fp,mxfp,0,0.4771702958567952,0.6007885965883543,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,rf_mxfp_fp,mxfp,1,0.4793546683066239,0.5933944638983047,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,rf_mxfp_fp,mxfp,2,0.47755216750688495,0.5860054253852892,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,rf_mxfp_fp,mxfp,3,0.48109389592066526,0.588961277299251,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,rf_mxfp_fp,mxfp,4,0.4767829574930113,0.584365890906778,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,rf_physchem,physchem,0,0.4885977732213682,0.7038797163331575,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,rf_physchem,physchem,1,0.491688963160183,0.6865771329901414,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,rf_physchem,physchem,2,0.4921830196315235,0.7025062526300392,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,rf_physchem,physchem,3,0.4905856733744445,0.7080369714147382,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,rf_physchem,physchem,4,0.4916242538510228,0.6733187269837929,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,transformer,smiles,0,0.5650513172149658,0.69983971118927,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,transformer,smiles,1,0.5130708813667297,0.8555992841720581,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,transformer,smiles,2,0.5418397784233093,0.6731010675430298,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,transformer,smiles,3,0.5822566151618958,0.7101240158081055,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,transformer,smiles,4,0.5814970135688782,0.7586291432380676,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,transformer_fragsmiles,fragsmiles,0,0.4997469186782837,0.5955173969268799,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,transformer_fragsmiles,fragsmiles,1,0.5054738521575928,0.7714939117431641,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,transformer_fragsmiles,fragsmiles,2,0.5383980870246887,0.7760064005851746,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,transformer_fragsmiles,fragsmiles,3,0.5645558834075928,0.6542646288871765,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,transformer_fragsmiles,fragsmiles,4,0.5358749032020569,0.7291734218597412,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,xgb_binary_r2_fp,morgan_binary_r2,0,0.4924003779888153,0.5389596223831177,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,xgb_binary_r2_fp,morgan_binary_r2,1,0.4714820683002472,0.5320616960525513,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,xgb_binary_r2_fp,morgan_binary_r2,2,0.4639463722705841,0.547332763671875,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,xgb_binary_r2_fp,morgan_binary_r2,3,0.48962587118148804,0.5236697196960449,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,xgb_binary_r2_fp,morgan_binary_r2,4,0.46166956424713135,0.5399231314659119,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,xgb_count_r2_fp,morgan_count_r2,0,0.4319443702697754,0.5413367748260498,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,xgb_count_r2_fp,morgan_count_r2,1,0.44172433018684387,0.5541000962257385,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,xgb_count_r2_fp,morgan_count_r2,2,0.4376712441444397,0.5604410767555237,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,xgb_count_r2_fp,morgan_count_r2,3,0.4419858157634735,0.5498251914978027,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,xgb_count_r2_fp,morgan_count_r2,4,0.4551718235015869,0.5542768836021423,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,xgb_hdf_fp,hdf,0,0.49116575717926025,0.6038002371788025,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,xgb_hdf_fp,hdf,1,0.48618319630622864,0.6034021973609924,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,xgb_hdf_fp,hdf,2,0.5132764577865601,0.6426037549972534,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,xgb_hdf_fp,hdf,3,0.4925040900707245,0.5862685441970825,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,xgb_hdf_fp,hdf,4,0.4926830232143402,0.621941864490509,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,xgb_map4c_fp,map4c,0,0.485357403755188,0.5806477069854736,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,xgb_map4c_fp,map4c,1,0.5047022104263306,0.5678446888923645,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,xgb_map4c_fp,map4c,2,0.48284584283828735,0.6199888586997986,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,xgb_map4c_fp,map4c,3,0.48638826608657837,0.5738394856452942,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,xgb_map4c_fp,map4c,4,0.47152531147003174,0.5750365853309631,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,xgb_mxfp_fp,mxfp,0,0.5105304718017578,0.6154645681381226,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,xgb_mxfp_fp,mxfp,1,0.47952091693878174,0.5912001132965088,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,xgb_mxfp_fp,mxfp,2,0.49584898352622986,0.5855082273483276,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,xgb_mxfp_fp,mxfp,3,0.48858803510665894,0.5960751175880432,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,xgb_mxfp_fp,mxfp,4,0.5122007727622986,0.6006247401237488,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,xgb_physchem,physchem,0,0.5116702914237976,0.7314672470092773,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,xgb_physchem,physchem,1,0.4955390691757202,0.714964747428894,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,xgb_physchem,physchem,2,0.5157318711280823,0.6899462938308716,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,xgb_physchem,physchem,3,0.49073272943496704,0.756820023059845,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,npmmpd_reg,xgb_physchem,physchem,4,0.5099324584007263,0.7086501121520996,log$_{10}$($P_\mathrm{eff}$ / cm s$^{-1}$)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,chemberta2,smiles,0,0.6981989741325378,0.9083920121192932,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,chemberta2,smiles,1,0.711920440196991,0.9584938883781433,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,chemberta2,smiles,2,0.7435274124145508,0.9602141380310059,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,chemberta2,smiles,3,0.7261272668838501,1.0548522472381592,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,chemberta2,smiles,4,0.7991189360618591,0.9258401989936829,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,gcn,graphs,0,0.6560613571037411,1.0783402303213487,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,gcn,graphs,1,0.7485892421276459,1.0458619765888466,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,gcn,graphs,2,0.6330619684410929,1.1675710382313496,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,gcn,graphs,3,0.7059707321862791,1.1670028726202983,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,gcn,graphs,4,0.6263576019430717,0.9999692152734317,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,lstm,smiles,0,0.8042476177215576,1.1649675369262695,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,lstm,smiles,1,0.7632145881652832,1.274997353553772,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,lstm,smiles,2,0.8002246022224426,1.086403489112854,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,lstm,smiles,3,0.7844989895820618,0.9353633522987366,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,lstm,smiles,4,0.7943036556243896,1.0633052587509155,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,lstm_fragsmiles,fragsmiles,0,0.7390879392623901,1.045888066291809,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,lstm_fragsmiles,fragsmiles,1,0.7708501815795898,1.0835251808166504,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,lstm_fragsmiles,fragsmiles,2,0.7577846050262451,1.0739113092422485,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,lstm_fragsmiles,fragsmiles,3,0.7431951761245728,1.072027564048767,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,lstm_fragsmiles,fragsmiles,4,0.8717944622039795,1.0857847929000854,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,molclr,smiles,0,0.6437074053980064,0.9731835091892624,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,molclr,smiles,1,0.5562484964271979,1.04279540269152,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,molclr,smiles,2,0.8919628037577152,0.9886960483399263,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,molclr,smiles,3,0.7169268212255269,1.0217155844476378,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,molclr,smiles,4,0.7218626155048263,1.1590662905357314,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,mpnn,graphs,0,0.641945300520003,0.9807109193107106,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,mpnn,graphs,1,0.7292335099673094,1.0462923836858522,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,mpnn,graphs,2,0.6418052808682605,1.0361090898429115,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,mpnn,graphs,3,0.5918669722411753,1.0094160737143278,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,mpnn,graphs,4,0.6545852716822402,1.0296439941854,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,peptide_clm2,smiles,0,0.8232107162475586,0.9056514501571655,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,peptide_clm2,smiles,1,0.8396575450897217,1.0250444412231445,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,peptide_clm2,smiles,2,0.898532509803772,0.968437671661377,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,peptide_clm2,smiles,3,0.8979341387748718,0.9401130676269531,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,peptide_clm2,smiles,4,0.6788517236709595,0.9375821948051453,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,pretrained_gin,smiles,0,0.6707103935119854,0.9994682472304373,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,pretrained_gin,smiles,1,0.6919432015944121,1.0091449747801056,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,pretrained_gin,smiles,2,0.6627019506395292,1.0602721771625339,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,pretrained_gin,smiles,3,0.6387509995053878,1.0298115698852215,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,pretrained_gin,smiles,4,0.6935362811749453,0.9934708991568664,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,rf_binary_r2_fp,morgan_binary_r2,0,0.5708768065386102,0.9621080860581039,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,rf_binary_r2_fp,morgan_binary_r2,1,0.6084445258111573,0.9794316400722235,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,rf_binary_r2_fp,morgan_binary_r2,2,0.5829773677224981,0.951885222384401,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,rf_binary_r2_fp,morgan_binary_r2,3,0.49446561668393774,0.9458357055904081,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,rf_binary_r2_fp,morgan_binary_r2,4,0.586094118246333,0.9771169698798148,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,rf_count_r2_fp,morgan_count_r2,0,0.5636285513929762,0.9170053604726058,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,rf_count_r2_fp,morgan_count_r2,1,0.5589102412310198,0.944392494306631,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,rf_count_r2_fp,morgan_count_r2,2,0.5570481534644379,0.928245883860234,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,rf_count_r2_fp,morgan_count_r2,3,0.5515535555817274,0.9511307049380089,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,rf_count_r2_fp,morgan_count_r2,4,0.5470891425285686,0.9571691022906725,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,rf_hdf_fp,hdf,0,0.7023170790172862,0.9834109292738984,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,rf_hdf_fp,hdf,1,0.7003902695442448,0.9803105027737284,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,rf_hdf_fp,hdf,2,0.7102584616094384,0.9584338228987073,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,rf_hdf_fp,hdf,3,0.7139261642187122,0.9982028061427302,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,rf_hdf_fp,hdf,4,0.7025609124556892,0.9575496183147968,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,rf_map4c_fp,map4c,0,0.6417832816627944,0.9958628936620877,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,rf_map4c_fp,map4c,1,0.6060526579242904,0.9713541708705558,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,rf_map4c_fp,map4c,2,0.643757499427266,1.0020732044364553,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,rf_map4c_fp,map4c,3,0.641594391837427,1.007027146744095,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,rf_map4c_fp,map4c,4,0.6276703642527333,0.9776140493118715,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,rf_mxfp_fp,mxfp,0,0.6712116827390954,0.9901910714833162,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,rf_mxfp_fp,mxfp,1,0.7085748133339834,0.9838257538823418,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,rf_mxfp_fp,mxfp,2,0.6576908968352888,0.9822575583107268,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,rf_mxfp_fp,mxfp,3,0.6784517194482511,0.9915716751036785,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,rf_mxfp_fp,mxfp,4,0.6674486857793162,0.9759286298017054,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,rf_physchem,physchem,0,0.6453963429806904,0.9843515242385358,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,rf_physchem,physchem,1,0.6509845623496384,0.9911490660934525,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,rf_physchem,physchem,2,0.6609501065452748,0.9893692299439855,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,rf_physchem,physchem,3,0.6720489610532072,0.9949854785016345,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,rf_physchem,physchem,4,0.6719115184282873,0.9827010489684593,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,transformer,smiles,0,0.7939568161964417,0.9970327019691467,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,transformer,smiles,1,0.8589471578598022,0.9375399351119995,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,transformer,smiles,2,0.744809091091156,1.086099624633789,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,transformer,smiles,3,0.7979904413223267,1.0638318061828613,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,transformer,smiles,4,0.7528361678123474,1.025416374206543,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,transformer_fragsmiles,fragsmiles,0,0.9273099899291992,0.9446678757667542,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,transformer_fragsmiles,fragsmiles,1,1.0561492443084717,0.92159503698349,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,transformer_fragsmiles,fragsmiles,2,0.7481287717819214,0.9249079823493958,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,transformer_fragsmiles,fragsmiles,3,0.834527313709259,0.9021141529083252,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,transformer_fragsmiles,fragsmiles,4,0.7930958271026611,0.944172739982605,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,xgb_binary_r2_fp,morgan_binary_r2,0,0.5675684213638306,0.8579961061477661,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,xgb_binary_r2_fp,morgan_binary_r2,1,0.5064958930015564,0.8193579316139221,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,xgb_binary_r2_fp,morgan_binary_r2,2,0.5147780776023865,0.876923680305481,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,xgb_binary_r2_fp,morgan_binary_r2,3,0.5108976364135742,0.9184136390686035,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,xgb_binary_r2_fp,morgan_binary_r2,4,0.49433231353759766,0.9305490851402283,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,xgb_count_r2_fp,morgan_count_r2,0,0.5861349701881409,0.9398192763328552,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,xgb_count_r2_fp,morgan_count_r2,1,0.6552871465682983,0.9752504229545593,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,xgb_count_r2_fp,morgan_count_r2,2,0.5601032376289368,0.9577334523200989,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,xgb_count_r2_fp,morgan_count_r2,3,0.48427248001098633,0.9281386733055115,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,xgb_count_r2_fp,morgan_count_r2,4,0.6378751993179321,0.9617115259170532,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,xgb_hdf_fp,hdf,0,0.6841996312141418,1.0432865619659424,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,xgb_hdf_fp,hdf,1,0.7896870374679565,0.9436171054840088,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,xgb_hdf_fp,hdf,2,0.7158399820327759,1.0820549726486206,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,xgb_hdf_fp,hdf,3,0.6887764930725098,0.9883073568344116,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,xgb_hdf_fp,hdf,4,0.7764061093330383,1.0368183851242065,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,xgb_map4c_fp,map4c,0,0.7476280331611633,1.0483835935592651,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,xgb_map4c_fp,map4c,1,0.7335266470909119,1.062186360359192,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,xgb_map4c_fp,map4c,2,0.7090204358100891,1.0471934080123901,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,xgb_map4c_fp,map4c,3,0.694349467754364,1.0560295581817627,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,xgb_map4c_fp,map4c,4,0.6962137222290039,0.9435259699821472,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,xgb_mxfp_fp,mxfp,0,0.8746218085289001,0.9489383101463318,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,xgb_mxfp_fp,mxfp,1,0.7675305008888245,1.0493661165237427,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,xgb_mxfp_fp,mxfp,2,0.702902615070343,0.9583889245986938,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,xgb_mxfp_fp,mxfp,3,0.7595929503440857,1.053930640220642,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,xgb_mxfp_fp,mxfp,4,0.6867908239364624,0.9632853269577026,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,xgb_physchem,physchem,0,0.6678194403648376,0.9424494504928589,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,xgb_physchem,physchem,1,0.7017996311187744,0.9544061422348022,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,xgb_physchem,physchem,2,0.7558009028434753,0.9566247463226318,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,xgb_physchem,physchem,3,0.7111215591430664,0.9570685625076294,log$_{10}$($t_{1/2}$ / h)
+regression,rmse,peplife2_pepmsnd_peptherdia_reg,xgb_physchem,physchem,4,0.9151160717010498,0.992480993270874,log$_{10}$($t_{1/2}$ / h)
+classification,balanced_acc,cycpeptmpdb_cls,chemberta2,smiles,0,0.8056905589139036,0.6905696633139033,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,chemberta2,smiles,1,0.8016337637820576,0.7200687714910909,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,chemberta2,smiles,2,0.7782569839134015,0.678313995182318,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,chemberta2,smiles,3,0.7821932801799449,0.6254849861169851,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,chemberta2,smiles,4,0.7291486755166389,0.708994538734531,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,gcn,graphs,0,0.7928674713313116,0.7095645698104187,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,gcn,graphs,1,0.7422278231879983,0.5495467333541731,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,gcn,graphs,2,0.7657251019219569,0.6692992295386426,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,gcn,graphs,3,0.7674271483943527,0.5797491863266094,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,gcn,graphs,4,0.7880374751471091,0.6990603681297465,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,lstm,smiles,0,0.7545187074488382,0.6649688321718183,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,lstm,smiles,1,0.758746209306529,0.659103028519942,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,lstm,smiles,2,0.7747323921033077,0.6373912803633488,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,lstm,smiles,3,0.7686823449079188,0.6599764632329956,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,lstm,smiles,4,0.7621503022513205,0.6759970946803229,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,lstm_fragsmiles,fragsmiles,0,0.7416604743638664,0.6174401927072799,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,lstm_fragsmiles,fragsmiles,1,0.7335468841001747,0.6328861960539139,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,lstm_fragsmiles,fragsmiles,2,0.7304189343883678,0.5731386646562344,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,lstm_fragsmiles,fragsmiles,3,0.7154820958769306,0.6239128036334884,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,lstm_fragsmiles,fragsmiles,4,0.7430361697427349,0.5691576411746317,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,molclr,smiles,0,0.7987468118008555,0.6855818913998859,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,molclr,smiles,1,0.7982648163396462,0.6744203151720207,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,molclr,smiles,2,0.802321611471492,0.6819916150267546,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,molclr,smiles,3,0.8026479625650191,0.7135042200687715,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,molclr,smiles,4,0.819527845279457,0.6929831013368148,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,mpnn,graphs,0,0.7856124354828993,0.6528832539580384,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,mpnn,graphs,1,0.792420621372482,0.6923211297648162,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,mpnn,graphs,2,0.7522141666499307,0.5183835021973778,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,mpnn,graphs,3,0.7838601811499608,0.7143776547818252,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,mpnn,graphs,4,0.7872291285923725,0.6487321405586304,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,peptide_clm2,smiles,0,0.798832165163778,0.7182345585936782,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,peptide_clm2,smiles,1,0.7764344385757034,0.6496009782468786,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,peptide_clm2,smiles,2,0.7990731628943828,0.6846165161907214,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,peptide_clm2,smiles,3,0.7847890265699998,0.7186253057021496,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,peptide_clm2,smiles,4,0.8015132649167553,0.6411102734310354,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,pretrained_gin,smiles,0,0.7987116662984757,0.6150267546843683,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,pretrained_gin,smiles,1,0.7864559275400156,0.5867504551054558,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,pretrained_gin,smiles,2,0.7634054987648866,0.5,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,pretrained_gin,smiles,3,0.7769164340369128,0.49781181619256015,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,pretrained_gin,smiles,4,0.7963569176390255,0.4988185646249747,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,rf_binary_r2_fp,morgan_binary_r2,0,0.7989878095314602,0.6574343085155288,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,rf_binary_r2_fp,morgan_binary_r2,1,0.7866115719076978,0.6837844547009175,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,rf_binary_r2_fp,morgan_binary_r2,2,0.8064135521057176,0.6023297721714507,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,rf_binary_r2_fp,morgan_binary_r2,3,0.7895336693912799,0.6553334681793943,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,rf_binary_r2_fp,morgan_binary_r2,4,0.8074277508886791,0.6829523932111138,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,rf_count_r2_fp,morgan_count_r2,0,0.7819874279517202,0.6975709320927496,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,rf_count_r2_fp,morgan_count_r2,1,0.7818669290864178,0.6926245334019823,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,rf_count_r2_fp,morgan_count_r2,2,0.7799590303857973,0.6964768401890297,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,rf_count_r2_fp,morgan_count_r2,3,0.7783774827787038,0.6920131291028446,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,rf_count_r2_fp,morgan_count_r2,4,0.7795121804269677,0.6868920434694665,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,rf_hdf_fp,hdf,0,0.7538308597594039,0.724532482577276,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,rf_hdf_fp,hdf,1,0.7558592573253269,0.726545979442105,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,rf_hdf_fp,hdf,2,0.7488803647098989,0.7255392310096905,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,rf_hdf_fp,hdf,3,0.7587813548089088,0.726545979442105,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,rf_hdf_fp,hdf,4,0.7558592573253269,0.7299155986245702,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,rf_map4c_fp,map4c,0,0.7604834012813046,0.6843958590000552,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,rf_map4c_fp,map4c,1,0.7679091438555621,0.6751604361657135,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,rf_map4c_fp,map4c,2,0.7520434599240857,0.6986650239964696,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,rf_map4c_fp,map4c,3,0.7580081537565522,0.6896042881047386,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,rf_map4c_fp,map4c,4,0.7590223525395137,0.6637368295239321,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,rf_mxfp_fp,mxfp,0,0.741007772176812,0.7181426180975672,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,rf_mxfp_fp,mxfp,1,0.7430361697427349,0.6786633690675394,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,rf_mxfp_fp,mxfp,2,0.7434830197015645,0.7112286927900262,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,rf_mxfp_fp,mxfp,3,0.7405609222179824,0.7087325083206149,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,rf_mxfp_fp,mxfp,4,0.7347167272508184,0.7176185572697351,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,rf_physchem,physchem,0,0.7406814210832848,0.7171358696651527,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,rf_physchem,physchem,1,0.7411282710421143,0.7194987404152032,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,rf_physchem,physchem,2,0.7456319161327898,0.7143776547818252,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,rf_physchem,physchem,3,0.7441708673909988,0.7204181453763125,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,rf_physchem,physchem,4,0.7481071636575423,0.7152970597429343,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,transformer,smiles,0,0.7602424035506998,0.5502960483974771,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,transformer,smiles,1,0.7426746731468279,0.5186501296360995,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,transformer,smiles,2,0.7711224469302914,0.5992681536509571,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,transformer,smiles,3,0.7268089892153515,0.5832061489803799,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,transformer,smiles,4,0.754363063081156,0.5070472390269017,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,transformer_fragsmiles,fragsmiles,0,0.7270499869459562,0.515496570619495,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,transformer_fragsmiles,fragsmiles,1,0.737518325869098,0.5,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,transformer_fragsmiles,fragsmiles,2,0.7279436868636153,0.5140071345824981,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,transformer_fragsmiles,fragsmiles,3,0.71118430301448,0.5102421712667562,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,transformer_fragsmiles,fragsmiles,4,0.7296457333360111,0.5,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,xgb_binary_r2_fp,morgan_binary_r2,0,0.7899805193501095,0.6742870014526599,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,xgb_binary_r2_fp,morgan_binary_r2,1,0.7834484766935111,0.656165529669198,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,xgb_binary_r2_fp,morgan_binary_r2,2,0.7808527303034563,0.6750730926944082,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,xgb_binary_r2_fp,morgan_binary_r2,3,0.7882784728777137,0.6898249452954048,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,xgb_binary_r2_fp,morgan_binary_r2,4,0.7929026168336915,0.6594478053803579,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,xgb_count_r2_fp,morgan_count_r2,0,0.7609302512401341,0.6647022047330967,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,xgb_count_r2_fp,morgan_count_r2,1,0.7779306328198743,0.6768245591453211,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,xgb_count_r2_fp,morgan_count_r2,2,0.7619444500230956,0.6805895224610632,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,xgb_count_r2_fp,morgan_count_r2,3,0.7748880364709899,0.6832144236250299,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,xgb_count_r2_fp,morgan_count_r2,4,0.7718454401221055,0.6467554198922457,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,xgb_hdf_fp,hdf,0,0.7593487036330409,0.6753810933563797,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,xgb_hdf_fp,hdf,1,0.7535045086658767,0.65997186620819,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,xgb_hdf_fp,hdf,2,0.7608097523748318,0.689034257028851,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,xgb_hdf_fp,hdf,3,0.7469724660092785,0.7070683853410074,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,xgb_hdf_fp,hdf,4,0.745958267226317,0.7082957909640881,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,xgb_map4c_fp,map4c,0,0.7689233426385236,0.6780519647684019,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,xgb_map4c_fp,map4c,1,0.776349085212781,0.6542853465237298,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,xgb_map4c_fp,map4c,2,0.7683559938143916,0.6736296269054668,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,xgb_map4c_fp,map4c,3,0.7773632839957424,0.6997177426769394,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,xgb_map4c_fp,map4c,4,0.7853563753941317,0.680327492047147,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,xgb_mxfp_fp,mxfp,0,0.749447713534031,0.6412849603736461,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,xgb_mxfp_fp,mxfp,1,0.7574408049324202,0.6663663277127043,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,xgb_mxfp_fp,mxfp,2,0.7589018536742113,0.6967848408510012,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,xgb_mxfp_fp,mxfp,3,0.7479866647922399,0.6636081128293768,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,xgb_mxfp_fp,mxfp,4,0.7478661659269374,0.6462313590644135,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,xgb_physchem,physchem,0,0.7457524149980921,0.6717908169832485,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,xgb_physchem,physchem,1,0.7402345711244552,0.700370520199327,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,xgb_physchem,physchem,2,0.7526108087482176,0.6496883217181839,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,xgb_physchem,physchem,3,0.7451850661739602,0.6780933379916518,"balanced accuracy, 0-1"
+classification,balanced_acc,cycpeptmpdb_cls,xgb_physchem,physchem,4,0.7437240174321691,0.6948127172094221,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,chemberta2,smiles,0,0.7787081339712918,0.5236486486486487,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,chemberta2,smiles,1,0.8564593301435407,0.4380630630630631,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,chemberta2,smiles,2,0.8241626794258373,0.6745495495495495,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,chemberta2,smiles,3,0.7918660287081339,0.6475225225225225,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,chemberta2,smiles,4,0.9019138755980861,0.6069819819819819,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,gcn,graphs,0,0.7787081339712918,0.5281531531531531,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,gcn,graphs,1,0.7464114832535884,0.5394144144144144,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,gcn,graphs,2,0.7141148325358851,0.4864864864864865,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,gcn,graphs,3,0.8504784688995215,0.7150900900900901,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,gcn,graphs,4,0.6232057416267942,0.7004504504504505,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,lstm,smiles,0,0.6746411483253588,0.5731981981981982,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,lstm,smiles,1,0.5,0.5990990990990991,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,lstm,smiles,2,0.7069377990430622,0.6813063063063063,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,lstm,smiles,3,0.5059808612440191,0.5596846846846847,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,lstm,smiles,4,0.6746411483253588,0.6396396396396397,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,lstm_fragsmiles,fragsmiles,0,0.5705741626794258,0.6261261261261262,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,lstm_fragsmiles,fragsmiles,1,0.5837320574162679,0.5315315315315315,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,lstm_fragsmiles,fragsmiles,2,0.6160287081339713,0.5045045045045045,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,lstm_fragsmiles,fragsmiles,3,0.6160287081339713,0.5315315315315315,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,lstm_fragsmiles,fragsmiles,4,0.6160287081339713,0.4391891891891892,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,molclr,smiles,0,0.7141148325358851,0.7646396396396397,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,molclr,smiles,1,0.7141148325358851,0.6869369369369369,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,molclr,smiles,2,0.6686602870813397,0.7105855855855856,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,molclr,smiles,3,0.700956937799043,0.7409909909909911,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,molclr,smiles,4,0.6818181818181819,0.527027027027027,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,mpnn,graphs,0,0.7141148325358851,0.6981981981981982,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,mpnn,graphs,1,0.7464114832535884,0.6024774774774775,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,mpnn,graphs,2,0.8050239234449761,0.6317567567567568,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,mpnn,graphs,3,0.6686602870813397,0.6114864864864865,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,mpnn,graphs,4,0.7464114832535884,0.5867117117117118,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,peptide_clm2,smiles,0,0.8373205741626795,0.7105855855855856,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,peptide_clm2,smiles,1,0.8827751196172249,0.6599099099099099,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,peptide_clm2,smiles,2,0.8050239234449761,0.742117117117117,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,peptide_clm2,smiles,3,0.6686602870813397,0.8378378378378378,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,peptide_clm2,smiles,4,0.7141148325358851,0.7522522522522522,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,pretrained_gin,smiles,0,0.7272727272727273,0.7680180180180181,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,pretrained_gin,smiles,1,0.6363636363636364,0.6306306306306306,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,pretrained_gin,smiles,2,0.7595693779904307,0.7094594594594594,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,pretrained_gin,smiles,3,0.7272727272727273,0.6452702702702703,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,pretrained_gin,smiles,4,0.7272727272727273,0.6204954954954955,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,rf_binary_r2_fp,morgan_binary_r2,0,0.7595693779904307,0.6565315315315315,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,rf_binary_r2_fp,morgan_binary_r2,1,0.7918660287081339,0.6813063063063063,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,rf_binary_r2_fp,morgan_binary_r2,2,0.7595693779904307,0.6148648648648649,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,rf_binary_r2_fp,morgan_binary_r2,3,0.7595693779904307,0.7252252252252251,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,rf_binary_r2_fp,morgan_binary_r2,4,0.7595693779904307,0.7533783783783784,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,rf_count_r2_fp,morgan_count_r2,0,0.7272727272727273,0.7094594594594594,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,rf_count_r2_fp,morgan_count_r2,1,0.7272727272727273,0.6114864864864865,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,rf_count_r2_fp,morgan_count_r2,2,0.6818181818181819,0.6283783783783784,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,rf_count_r2_fp,morgan_count_r2,3,0.7727272727272727,0.6114864864864865,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,rf_count_r2_fp,morgan_count_r2,4,0.7141148325358851,0.6126126126126126,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,rf_hdf_fp,hdf,0,0.7787081339712918,0.5731981981981982,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,rf_hdf_fp,hdf,1,0.7787081339712918,0.463963963963964,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,rf_hdf_fp,hdf,2,0.8241626794258373,0.6159909909909911,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,rf_hdf_fp,hdf,3,0.7787081339712918,0.588963963963964,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,rf_hdf_fp,hdf,4,0.7787081339712918,0.5731981981981982,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,rf_map4c_fp,map4c,0,0.7141148325358851,0.545045045045045,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,rf_map4c_fp,map4c,1,0.7595693779904307,0.545045045045045,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,rf_map4c_fp,map4c,2,0.7272727272727273,0.7409909909909911,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,rf_map4c_fp,map4c,3,0.7727272727272727,0.7398648648648649,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,rf_map4c_fp,map4c,4,0.7141148325358851,0.625,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,rf_mxfp_fp,mxfp,0,0.700956937799043,0.5191441441441441,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,rf_mxfp_fp,mxfp,1,0.700956937799043,0.5191441441441441,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,rf_mxfp_fp,mxfp,2,0.700956937799043,0.47860360360360366,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,rf_mxfp_fp,mxfp,3,0.700956937799043,0.49211711711711714,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,rf_mxfp_fp,mxfp,4,0.7595693779904307,0.5056306306306306,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,rf_physchem,physchem,0,0.7069377990430622,0.5045045045045045,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,rf_physchem,physchem,1,0.7069377990430622,0.5045045045045045,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,rf_physchem,physchem,2,0.7069377990430622,0.5180180180180181,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,rf_physchem,physchem,3,0.7069377990430622,0.5045045045045045,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,rf_physchem,physchem,4,0.7069377990430622,0.5045045045045045,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,transformer,smiles,0,0.7655502392344498,0.5191441441441441,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,transformer,smiles,1,0.7141148325358851,0.5495495495495495,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,transformer,smiles,2,0.7595693779904307,0.4369369369369369,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,transformer,smiles,3,0.7464114832535884,0.6981981981981982,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,transformer,smiles,4,0.700956937799043,0.7150900900900901,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,transformer_fragsmiles,fragsmiles,0,0.7523923444976077,0.6441441441441441,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,transformer_fragsmiles,fragsmiles,1,0.6746411483253588,0.7533783783783784,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,transformer_fragsmiles,fragsmiles,2,0.7727272727272727,0.545045045045045,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,transformer_fragsmiles,fragsmiles,3,0.6232057416267942,0.5585585585585585,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,transformer_fragsmiles,fragsmiles,4,0.7200956937799043,0.6858108108108107,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,xgb_binary_r2_fp,morgan_binary_r2,0,0.7141148325358851,0.5923423423423424,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,xgb_binary_r2_fp,morgan_binary_r2,1,0.7787081339712918,0.6554054054054055,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,xgb_binary_r2_fp,morgan_binary_r2,2,0.7141148325358851,0.6981981981981982,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,xgb_binary_r2_fp,morgan_binary_r2,3,0.7595693779904307,0.5731981981981982,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,xgb_binary_r2_fp,morgan_binary_r2,4,0.7141148325358851,0.7094594594594594,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,xgb_count_r2_fp,morgan_count_r2,0,0.6614832535885168,0.6114864864864865,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,xgb_count_r2_fp,morgan_count_r2,1,0.700956937799043,0.6970720720720721,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,xgb_count_r2_fp,morgan_count_r2,2,0.7069377990430622,0.6542792792792793,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,xgb_count_r2_fp,morgan_count_r2,3,0.6746411483253588,0.625,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,xgb_count_r2_fp,morgan_count_r2,4,0.7332535885167464,0.6666666666666666,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,xgb_hdf_fp,hdf,0,0.8241626794258373,0.6576576576576576,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,xgb_hdf_fp,hdf,1,0.7332535885167464,0.5743243243243243,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,xgb_hdf_fp,hdf,2,0.7655502392344498,0.5608108108108107,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,xgb_hdf_fp,hdf,3,0.8373205741626795,0.7128378378378378,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,xgb_hdf_fp,hdf,4,0.8504784688995215,0.6734234234234234,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,xgb_map4c_fp,map4c,0,0.8181818181818181,0.7117117117117118,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,xgb_map4c_fp,map4c,1,0.9282296650717703,0.7263513513513513,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,xgb_map4c_fp,map4c,2,0.8504784688995215,0.7680180180180181,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,xgb_map4c_fp,map4c,3,0.7595693779904307,0.6948198198198199,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,xgb_map4c_fp,map4c,4,0.8050239234449761,0.6813063063063063,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,xgb_mxfp_fp,mxfp,0,0.700956937799043,0.5484234234234234,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,xgb_mxfp_fp,mxfp,1,0.7141148325358851,0.49211711711711714,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,xgb_mxfp_fp,mxfp,2,0.7918660287081339,0.49211711711711714,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,xgb_mxfp_fp,mxfp,3,0.7272727272727273,0.6272522522522522,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,xgb_mxfp_fp,mxfp,4,0.7141148325358851,0.463963963963964,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,xgb_physchem,physchem,0,0.7392344497607655,0.5180180180180181,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,xgb_physchem,physchem,1,0.7332535885167464,0.5180180180180181,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,xgb_physchem,physchem,2,0.687799043062201,0.5315315315315315,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,xgb_physchem,physchem,3,0.6746411483253588,0.5315315315315315,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_mc4r_ki_cls,xgb_physchem,physchem,4,0.687799043062201,0.5315315315315315,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,chemberta2,smiles,0,0.6428571428571429,0.9222222222222223,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,chemberta2,smiles,1,0.7142857142857143,0.7222222222222222,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,chemberta2,smiles,2,0.6785714285714286,0.8222222222222222,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,chemberta2,smiles,3,0.7142857142857143,0.7833333333333333,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,chemberta2,smiles,4,0.6785714285714286,0.7722222222222221,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,gcn,graphs,0,0.6785714285714286,0.4166666666666667,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,gcn,graphs,1,0.75,0.5,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,gcn,graphs,2,0.6785714285714286,0.7722222222222221,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,gcn,graphs,3,0.6785714285714286,0.7944444444444444,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,gcn,graphs,4,0.6428571428571428,0.6555555555555556,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,lstm,smiles,0,0.6071428571428571,0.6777777777777778,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,lstm,smiles,1,0.5357142857142857,0.7055555555555556,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,lstm,smiles,2,0.5714285714285714,0.3111111111111111,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,lstm,smiles,3,0.5714285714285714,0.48333333333333334,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,lstm,smiles,4,0.6785714285714286,0.538888888888889,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,lstm_fragsmiles,fragsmiles,0,0.6785714285714286,0.7611111111111111,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,lstm_fragsmiles,fragsmiles,1,0.6785714285714286,0.8444444444444444,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,lstm_fragsmiles,fragsmiles,2,0.6785714285714286,0.7611111111111111,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,lstm_fragsmiles,fragsmiles,3,0.6785714285714286,0.8,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,lstm_fragsmiles,fragsmiles,4,0.6785714285714286,0.7444444444444445,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,molclr,smiles,0,0.6428571428571428,0.5,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,molclr,smiles,1,0.75,0.5166666666666667,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,molclr,smiles,2,0.6785714285714286,0.4277777777777778,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,molclr,smiles,3,0.6428571428571428,0.5222222222222223,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,molclr,smiles,4,0.7142857142857143,0.6,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,mpnn,graphs,0,0.7142857142857143,0.4888888888888889,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,mpnn,graphs,1,0.7142857142857142,0.4833333333333333,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,mpnn,graphs,2,0.6428571428571429,0.4666666666666667,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,mpnn,graphs,3,0.5714285714285714,0.7,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,mpnn,graphs,4,0.7857142857142857,0.55,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,peptide_clm2,smiles,0,0.75,0.788888888888889,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,peptide_clm2,smiles,1,0.6071428571428572,0.7944444444444444,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,peptide_clm2,smiles,2,0.7142857142857143,0.7722222222222221,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,peptide_clm2,smiles,3,0.7142857142857143,0.7944444444444444,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,peptide_clm2,smiles,4,0.6785714285714286,0.7944444444444444,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,pretrained_gin,smiles,0,0.6785714285714286,0.75,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,pretrained_gin,smiles,1,0.6785714285714286,0.8,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,pretrained_gin,smiles,2,0.6428571428571428,0.65,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,pretrained_gin,smiles,3,0.6785714285714286,0.65,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,pretrained_gin,smiles,4,0.7142857142857142,0.8,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,rf_binary_r2_fp,morgan_binary_r2,0,0.7142857142857143,0.8722222222222222,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,rf_binary_r2_fp,morgan_binary_r2,1,0.7142857142857143,0.8444444444444444,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,rf_binary_r2_fp,morgan_binary_r2,2,0.7142857142857143,0.8722222222222222,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,rf_binary_r2_fp,morgan_binary_r2,3,0.75,0.9,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,rf_binary_r2_fp,morgan_binary_r2,4,0.7142857142857143,0.8722222222222222,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,rf_count_r2_fp,morgan_count_r2,0,0.7142857142857143,0.9,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,rf_count_r2_fp,morgan_count_r2,1,0.75,0.8722222222222222,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,rf_count_r2_fp,morgan_count_r2,2,0.75,0.6555555555555556,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,rf_count_r2_fp,morgan_count_r2,3,0.7142857142857143,0.85,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,rf_count_r2_fp,morgan_count_r2,4,0.75,0.8722222222222222,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,rf_hdf_fp,hdf,0,0.6785714285714286,0.85,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,rf_hdf_fp,hdf,1,0.7142857142857143,0.85,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,rf_hdf_fp,hdf,2,0.7142857142857143,0.9,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,rf_hdf_fp,hdf,3,0.7142857142857143,0.8,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,rf_hdf_fp,hdf,4,0.7142857142857143,0.8,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,rf_map4c_fp,map4c,0,0.7857142857142857,0.75,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,rf_map4c_fp,map4c,1,0.7857142857142857,0.85,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,rf_map4c_fp,map4c,2,0.7142857142857142,0.85,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,rf_map4c_fp,map4c,3,0.75,0.8,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,rf_map4c_fp,map4c,4,0.7857142857142857,0.85,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,rf_mxfp_fp,mxfp,0,0.75,0.8222222222222222,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,rf_mxfp_fp,mxfp,1,0.75,0.8222222222222222,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,rf_mxfp_fp,mxfp,2,0.75,0.8222222222222222,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,rf_mxfp_fp,mxfp,3,0.75,0.8222222222222222,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,rf_mxfp_fp,mxfp,4,0.75,0.8222222222222222,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,rf_physchem,physchem,0,0.6428571428571428,0.8444444444444444,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,rf_physchem,physchem,1,0.6428571428571428,0.7944444444444444,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,rf_physchem,physchem,2,0.6785714285714286,0.7444444444444445,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,rf_physchem,physchem,3,0.6428571428571428,0.7944444444444444,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,rf_physchem,physchem,4,0.6428571428571428,0.7944444444444444,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,transformer,smiles,0,0.5714285714285714,0.711111111111111,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,transformer,smiles,1,0.6785714285714286,0.4888888888888889,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,transformer,smiles,2,0.5357142857142857,0.8722222222222222,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,transformer,smiles,3,0.7142857142857143,0.7444444444444445,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,transformer,smiles,4,0.6428571428571428,0.5888888888888889,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,transformer_fragsmiles,fragsmiles,0,0.6071428571428572,0.7722222222222221,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,transformer_fragsmiles,fragsmiles,1,0.7857142857142857,0.5,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,transformer_fragsmiles,fragsmiles,2,0.6428571428571428,0.5,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,transformer_fragsmiles,fragsmiles,3,0.6785714285714286,0.5,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,transformer_fragsmiles,fragsmiles,4,0.75,0.5,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,xgb_binary_r2_fp,morgan_binary_r2,0,0.7857142857142857,0.85,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,xgb_binary_r2_fp,morgan_binary_r2,1,0.7857142857142857,0.711111111111111,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,xgb_binary_r2_fp,morgan_binary_r2,2,0.7142857142857143,0.8444444444444444,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,xgb_binary_r2_fp,morgan_binary_r2,3,0.7142857142857142,0.8222222222222222,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,xgb_binary_r2_fp,morgan_binary_r2,4,0.8214285714285714,0.6277777777777778,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,xgb_count_r2_fp,morgan_count_r2,0,0.75,0.7388888888888889,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,xgb_count_r2_fp,morgan_count_r2,1,0.7142857142857142,0.7388888888888889,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,xgb_count_r2_fp,morgan_count_r2,2,0.75,0.8722222222222222,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,xgb_count_r2_fp,morgan_count_r2,3,0.7857142857142857,0.7222222222222222,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,xgb_count_r2_fp,morgan_count_r2,4,0.7142857142857143,0.7222222222222222,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,xgb_hdf_fp,hdf,0,0.6785714285714286,0.7,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,xgb_hdf_fp,hdf,1,0.6071428571428571,0.8222222222222222,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,xgb_hdf_fp,hdf,2,0.6785714285714286,0.8,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,xgb_hdf_fp,hdf,3,0.7142857142857143,0.75,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,xgb_hdf_fp,hdf,4,0.6785714285714286,0.9,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,xgb_map4c_fp,map4c,0,0.7857142857142857,0.85,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,xgb_map4c_fp,map4c,1,0.7857142857142857,0.85,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,xgb_map4c_fp,map4c,2,0.75,0.8,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,xgb_map4c_fp,map4c,3,0.75,0.75,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,xgb_map4c_fp,map4c,4,0.75,0.5,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,xgb_mxfp_fp,mxfp,0,0.7142857142857143,0.7222222222222222,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,xgb_mxfp_fp,mxfp,1,0.7142857142857143,0.7944444444444444,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,xgb_mxfp_fp,mxfp,2,0.75,0.7944444444444444,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,xgb_mxfp_fp,mxfp,3,0.8214285714285714,0.8222222222222222,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,xgb_mxfp_fp,mxfp,4,0.6071428571428571,0.8222222222222222,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,xgb_physchem,physchem,0,0.6428571428571428,0.5,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,xgb_physchem,physchem,1,0.75,0.6944444444444444,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,xgb_physchem,physchem,2,0.7142857142857143,0.7222222222222222,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,xgb_physchem,physchem,3,0.7142857142857143,0.7,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_oprm1_ki_cls,xgb_physchem,physchem,4,0.7142857142857143,0.7222222222222222,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,chemberta2,smiles,0,0.7900432900432901,0.7196078431372549,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,chemberta2,smiles,1,0.699134199134199,0.7196078431372549,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,chemberta2,smiles,2,0.7900432900432901,0.723529411764706,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,chemberta2,smiles,3,0.8116883116883117,0.7568627450980392,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,chemberta2,smiles,4,0.6515151515151515,0.7568627450980392,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,gcn,graphs,0,0.5670995670995671,0.7156862745098038,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,gcn,graphs,1,0.5432900432900433,0.6823529411764706,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,gcn,graphs,2,0.5909090909090909,0.5,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,gcn,graphs,3,0.5,0.7078431372549019,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,gcn,graphs,4,0.8354978354978355,0.5843137254901961,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,lstm,smiles,0,0.6796536796536796,0.5,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,lstm,smiles,1,0.5670995670995671,0.45882352941176474,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,lstm,smiles,2,0.5670995670995671,0.5,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,lstm,smiles,3,0.5,0.5,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,lstm,smiles,4,0.5,0.5,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,lstm_fragsmiles,fragsmiles,0,0.7012987012987013,0.5,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,lstm_fragsmiles,fragsmiles,1,0.6341991341991342,0.43333333333333335,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,lstm_fragsmiles,fragsmiles,2,0.6341991341991342,0.4764705882352941,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,lstm_fragsmiles,fragsmiles,3,0.6125541125541125,0.5,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,lstm_fragsmiles,fragsmiles,4,0.5670995670995671,0.503921568627451,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,molclr,smiles,0,0.5,0.6176470588235294,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,molclr,smiles,1,0.5,0.5,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,molclr,smiles,2,0.5649350649350648,0.5,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,molclr,smiles,3,0.5,0.5,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,molclr,smiles,4,0.5,0.5764705882352942,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,mpnn,graphs,0,0.5909090909090909,0.4294117647058824,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,mpnn,graphs,1,0.5,0.7568627450980392,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,mpnn,graphs,2,0.5,0.5,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,mpnn,graphs,3,0.5432900432900433,0.5,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,mpnn,graphs,4,0.5,0.7941176470588236,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,peptide_clm2,smiles,0,0.699134199134199,0.723529411764706,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,peptide_clm2,smiles,1,0.5,0.723529411764706,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,peptide_clm2,smiles,2,0.5,0.723529411764706,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,peptide_clm2,smiles,3,0.7857142857142857,0.7529411764705882,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,peptide_clm2,smiles,4,0.5,0.7274509803921569,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,pretrained_gin,smiles,0,0.6774891774891775,0.6352941176470588,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,pretrained_gin,smiles,1,0.6493506493506493,0.5843137254901961,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,pretrained_gin,smiles,2,0.6255411255411256,0.5254901960784314,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,pretrained_gin,smiles,3,0.6558441558441558,0.5176470588235295,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,pretrained_gin,smiles,4,0.7467532467532467,0.5803921568627451,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,rf_binary_r2_fp,morgan_binary_r2,0,0.5909090909090909,0.7274509803921569,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,rf_binary_r2_fp,morgan_binary_r2,1,0.5,0.7274509803921569,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,rf_binary_r2_fp,morgan_binary_r2,2,0.5454545454545454,0.7274509803921569,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,rf_binary_r2_fp,morgan_binary_r2,3,0.5,0.5,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,rf_binary_r2_fp,morgan_binary_r2,4,0.5454545454545454,0.7274509803921569,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,rf_count_r2_fp,morgan_count_r2,0,0.5,0.7274509803921569,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,rf_count_r2_fp,morgan_count_r2,1,0.5909090909090909,0.6941176470588235,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,rf_count_r2_fp,morgan_count_r2,2,0.5909090909090909,0.6941176470588235,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,rf_count_r2_fp,morgan_count_r2,3,0.5,0.6941176470588235,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,rf_count_r2_fp,morgan_count_r2,4,0.5909090909090909,0.7941176470588236,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,rf_hdf_fp,hdf,0,0.7705627705627706,0.6941176470588235,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,rf_hdf_fp,hdf,1,0.7467532467532467,0.6352941176470588,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,rf_hdf_fp,hdf,2,0.7467532467532467,0.6941176470588235,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,rf_hdf_fp,hdf,3,0.7705627705627706,0.6941176470588235,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,rf_hdf_fp,hdf,4,0.7943722943722944,0.6352941176470588,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,rf_map4c_fp,map4c,0,0.6125541125541125,0.7313725490196079,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,rf_map4c_fp,map4c,1,0.7034632034632035,0.7019607843137254,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,rf_map4c_fp,map4c,2,0.6580086580086579,0.7607843137254902,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,rf_map4c_fp,map4c,3,0.6580086580086579,0.7607843137254902,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,rf_map4c_fp,map4c,4,0.6125541125541125,0.6137254901960785,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,rf_mxfp_fp,mxfp,0,0.8398268398268398,0.6980392156862745,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,rf_mxfp_fp,mxfp,1,0.8852813852813852,0.6980392156862745,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,rf_mxfp_fp,mxfp,2,0.8852813852813852,0.5764705882352942,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,rf_mxfp_fp,mxfp,3,0.8852813852813852,0.5764705882352942,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,rf_mxfp_fp,mxfp,4,0.8852813852813852,0.5764705882352942,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,rf_physchem,physchem,0,0.5670995670995671,0.6725490196078432,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,rf_physchem,physchem,1,0.5432900432900433,0.7019607843137254,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,rf_physchem,physchem,2,0.5670995670995671,0.7019607843137254,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,rf_physchem,physchem,3,0.5670995670995671,0.6725490196078432,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,rf_physchem,physchem,4,0.5887445887445888,0.7019607843137254,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,transformer,smiles,0,0.6103896103896104,0.5843137254901961,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,transformer,smiles,1,0.6493506493506493,0.6235294117647059,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,transformer,smiles,2,0.512987012987013,0.6196078431372549,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,transformer,smiles,3,0.5844155844155844,0.5,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,transformer,smiles,4,0.5346320346320346,0.5823529411764705,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,transformer_fragsmiles,fragsmiles,0,0.4653679653679653,0.5,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,transformer_fragsmiles,fragsmiles,1,0.7012987012987013,0.4666666666666667,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,transformer_fragsmiles,fragsmiles,2,0.7727272727272727,0.6980392156862745,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,transformer_fragsmiles,fragsmiles,3,0.5865800865800865,0.38823529411764707,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,transformer_fragsmiles,fragsmiles,4,0.5562770562770563,0.5058823529411764,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,xgb_binary_r2_fp,morgan_binary_r2,0,0.6818181818181819,0.6607843137254902,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,xgb_binary_r2_fp,morgan_binary_r2,1,0.7034632034632035,0.6941176470588235,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,xgb_binary_r2_fp,morgan_binary_r2,2,0.5670995670995671,0.6941176470588235,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,xgb_binary_r2_fp,morgan_binary_r2,3,0.7034632034632035,0.6941176470588235,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,xgb_binary_r2_fp,morgan_binary_r2,4,0.7012987012987013,0.6607843137254902,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,xgb_count_r2_fp,morgan_count_r2,0,0.7489177489177489,0.6568627450980392,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,xgb_count_r2_fp,morgan_count_r2,1,0.7489177489177489,0.6941176470588235,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,xgb_count_r2_fp,morgan_count_r2,2,0.6580086580086579,0.6901960784313725,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,xgb_count_r2_fp,morgan_count_r2,3,0.6125541125541125,0.6313725490196078,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,xgb_count_r2_fp,morgan_count_r2,4,0.6125541125541125,0.7019607843137254,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,xgb_hdf_fp,hdf,0,0.7034632034632035,0.7607843137254902,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,xgb_hdf_fp,hdf,1,0.7943722943722944,0.4549019607843137,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,xgb_hdf_fp,hdf,2,0.725108225108225,0.6098039215686275,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,xgb_hdf_fp,hdf,3,0.7705627705627706,0.5803921568627451,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,xgb_hdf_fp,hdf,4,0.8398268398268398,0.7568627450980392,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,xgb_map4c_fp,map4c,0,0.7272727272727273,0.8235294117647058,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,xgb_map4c_fp,map4c,1,0.7034632034632035,0.6392156862745098,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,xgb_map4c_fp,map4c,2,0.7272727272727273,0.7019607843137254,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,xgb_map4c_fp,map4c,3,0.6796536796536796,0.7941176470588236,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,xgb_map4c_fp,map4c,4,0.6580086580086579,0.7313725490196079,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,xgb_mxfp_fp,mxfp,0,0.8398268398268398,0.6058823529411765,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,xgb_mxfp_fp,mxfp,1,0.9069264069264069,0.5176470588235295,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,xgb_mxfp_fp,mxfp,2,0.8398268398268398,0.6392156862745098,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,xgb_mxfp_fp,mxfp,3,0.8160173160173161,0.45882352941176474,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,xgb_mxfp_fp,mxfp,4,0.9069264069264069,0.6098039215686275,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,xgb_physchem,physchem,0,0.5670995670995671,0.5843137254901961,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,xgb_physchem,physchem,1,0.6125541125541125,0.5549019607843138,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,xgb_physchem,physchem,2,0.6125541125541125,0.5,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,xgb_physchem,physchem,3,0.5216450216450216,0.6176470588235294,"balanced accuracy, 0-1"
+classification,balanced_acc,macrocycledb_sstr2_ic50_cls,xgb_physchem,physchem,4,0.5670995670995671,0.5,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,chemberta2,smiles,0,0.8470588235294119,0.8963320463320463,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,chemberta2,smiles,1,0.8847058823529412,0.8693050193050194,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,chemberta2,smiles,2,0.8329411764705883,0.8903474903474904,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,chemberta2,smiles,3,0.8494117647058823,0.8534749034749035,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,chemberta2,smiles,4,0.8176470588235294,0.8737451737451738,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,gcn,graphs,0,0.8105882352941176,0.866988416988417,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,gcn,graphs,1,0.8105882352941176,0.866988416988417,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,gcn,graphs,2,0.8305882352941176,0.833976833976834,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,gcn,graphs,3,0.7305882352941176,0.8888030888030888,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,gcn,graphs,4,0.8105882352941176,0.866988416988417,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,lstm,smiles,0,0.7929411764705883,0.8391891891891892,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,lstm,smiles,1,0.7470588235294118,0.8098455598455598,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,lstm,smiles,2,0.7023529411764706,0.7527027027027027,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,lstm,smiles,3,0.7423529411764707,0.833976833976834,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,lstm,smiles,4,0.7505882352941177,0.7963320463320464,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,lstm_fragsmiles,fragsmiles,0,0.7305882352941176,0.7467181467181467,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,lstm_fragsmiles,fragsmiles,1,0.776470588235294,0.7947876447876447,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,lstm_fragsmiles,fragsmiles,2,0.7388235294117647,0.7745173745173746,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,lstm_fragsmiles,fragsmiles,3,0.808235294117647,0.5428571428571428,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,lstm_fragsmiles,fragsmiles,4,0.7905882352941176,0.7752895752895753,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,molclr,smiles,0,0.8447058823529412,0.8355212355212356,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,molclr,smiles,1,0.6905882352941176,0.849034749034749,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,molclr,smiles,2,0.8023529411764706,0.8324324324324325,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,molclr,smiles,3,0.8105882352941176,0.8069498069498069,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,molclr,smiles,4,0.796470588235294,0.8196911196911197,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,mpnn,graphs,0,0.8188235294117647,0.8196911196911197,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,mpnn,graphs,1,0.8129411764705883,0.8264478764478764,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,mpnn,graphs,2,0.7905882352941176,0.7806949806949807,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,mpnn,graphs,3,0.7929411764705883,0.8542471042471043,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,mpnn,graphs,4,0.8505882352941176,0.8106177606177607,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,peptide_clm2,smiles,0,0.8164705882352941,0.845945945945946,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,peptide_clm2,smiles,1,0.8905882352941177,0.8106177606177607,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,peptide_clm2,smiles,2,0.8988235294117647,0.8376447876447877,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,peptide_clm2,smiles,3,0.9047058823529412,0.8602316602316602,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,peptide_clm2,smiles,4,0.8823529411764706,0.8451737451737452,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,pretrained_gin,smiles,0,0.7647058823529411,0.733976833976834,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,pretrained_gin,smiles,1,0.7988235294117647,0.7407335907335908,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,pretrained_gin,smiles,2,0.7788235294117647,0.7768339768339769,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,pretrained_gin,smiles,3,0.7823529411764706,0.6978764478764479,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,pretrained_gin,smiles,4,0.8047058823529412,0.7121621621621621,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,rf_binary_r2_fp,morgan_binary_r2,0,0.8447058823529412,0.8308880308880309,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,rf_binary_r2_fp,morgan_binary_r2,1,0.8564705882352941,0.8308880308880309,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,rf_binary_r2_fp,morgan_binary_r2,2,0.8505882352941176,0.8173745173745174,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,rf_binary_r2_fp,morgan_binary_r2,3,0.8564705882352941,0.8106177606177607,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,rf_binary_r2_fp,morgan_binary_r2,4,0.8505882352941176,0.8173745173745174,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,rf_count_r2_fp,morgan_count_r2,0,0.8623529411764705,0.7872586872586873,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,rf_count_r2_fp,morgan_count_r2,1,0.888235294117647,0.8173745173745174,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,rf_count_r2_fp,morgan_count_r2,2,0.8764705882352941,0.788030888030888,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,rf_count_r2_fp,morgan_count_r2,3,0.8764705882352941,0.8241312741312741,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,rf_count_r2_fp,morgan_count_r2,4,0.8823529411764706,0.7805019305019305,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,rf_hdf_fp,hdf,0,0.8423529411764705,0.7737451737451737,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,rf_hdf_fp,hdf,1,0.8223529411764706,0.7669884169884169,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,rf_hdf_fp,hdf,2,0.8623529411764705,0.7602316602316602,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,rf_hdf_fp,hdf,3,0.8764705882352941,0.788030888030888,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,rf_hdf_fp,hdf,4,0.8623529411764705,0.788030888030888,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,rf_map4c_fp,map4c,0,0.848235294117647,0.7963320463320464,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,rf_map4c_fp,map4c,1,0.8623529411764705,0.8023166023166024,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,rf_map4c_fp,map4c,2,0.848235294117647,0.7947876447876447,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,rf_map4c_fp,map4c,3,0.848235294117647,0.8038610038610039,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,rf_map4c_fp,map4c,4,0.8282352941176471,0.8098455598455598,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,rf_mxfp_fp,mxfp,0,0.908235294117647,0.8249034749034749,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,rf_mxfp_fp,mxfp,1,0.908235294117647,0.8241312741312741,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,rf_mxfp_fp,mxfp,2,0.888235294117647,0.8023166023166024,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,rf_mxfp_fp,mxfp,3,0.888235294117647,0.8241312741312741,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,rf_mxfp_fp,mxfp,4,0.888235294117647,0.8106177606177607,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,rf_physchem,physchem,0,0.8423529411764705,0.7158301158301158,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,rf_physchem,physchem,1,0.8705882352941177,0.7015444015444016,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,rf_physchem,physchem,2,0.8423529411764705,0.7015444015444016,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,rf_physchem,physchem,3,0.848235294117647,0.7158301158301158,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,rf_physchem,physchem,4,0.848235294117647,0.7233590733590733,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,transformer,smiles,0,0.7447058823529412,0.7835907335907336,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,transformer,smiles,1,0.7188235294117646,0.7737451737451737,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,transformer,smiles,2,0.7823529411764706,0.7241312741312741,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,transformer,smiles,3,0.7729411764705882,0.6571428571428571,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,transformer,smiles,4,0.7705882352941176,0.7677606177606178,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,transformer_fragsmiles,fragsmiles,0,0.7705882352941176,0.7677606177606178,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,transformer_fragsmiles,fragsmiles,1,0.7023529411764706,0.7451737451737452,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,transformer_fragsmiles,fragsmiles,2,0.7082352941176471,0.7557915057915058,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,transformer_fragsmiles,fragsmiles,3,0.776470588235294,0.7534749034749035,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,transformer_fragsmiles,fragsmiles,4,0.776470588235294,0.8181467181467181,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,xgb_binary_r2_fp,morgan_binary_r2,0,0.8847058823529412,0.8249034749034749,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,xgb_binary_r2_fp,morgan_binary_r2,1,0.8964705882352941,0.8038610038610039,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,xgb_binary_r2_fp,morgan_binary_r2,2,0.8964705882352941,0.8308880308880309,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,xgb_binary_r2_fp,morgan_binary_r2,3,0.8705882352941177,0.797876447876448,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,xgb_binary_r2_fp,morgan_binary_r2,4,0.8905882352941177,0.8316602316602317,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,xgb_count_r2_fp,morgan_count_r2,0,0.9047058823529412,0.8241312741312741,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,xgb_count_r2_fp,morgan_count_r2,1,0.8705882352941177,0.866988416988417,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,xgb_count_r2_fp,morgan_count_r2,2,0.8764705882352941,0.8586872586872587,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,xgb_count_r2_fp,morgan_count_r2,3,0.9164705882352941,0.8534749034749035,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,xgb_count_r2_fp,morgan_count_r2,4,0.8905882352941177,0.7955598455598456,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,xgb_hdf_fp,hdf,0,0.8223529411764706,0.8384169884169884,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,xgb_hdf_fp,hdf,1,0.888235294117647,0.7745173745173746,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,xgb_hdf_fp,hdf,2,0.8364705882352941,0.8106177606177607,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,xgb_hdf_fp,hdf,3,0.8364705882352941,0.7895752895752897,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,xgb_hdf_fp,hdf,4,0.8823529411764706,0.803088803088803,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,xgb_map4c_fp,map4c,0,0.8623529411764705,0.7669884169884169,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,xgb_map4c_fp,map4c,1,0.8364705882352941,0.7955598455598456,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,xgb_map4c_fp,map4c,2,0.848235294117647,0.8015444015444015,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,xgb_map4c_fp,map4c,3,0.8764705882352941,0.803088803088803,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,xgb_map4c_fp,map4c,4,0.8023529411764706,0.7391891891891892,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,xgb_mxfp_fp,mxfp,0,0.8964705882352941,0.8090733590733591,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,xgb_mxfp_fp,mxfp,1,0.8823529411764706,0.7963320463320464,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,xgb_mxfp_fp,mxfp,2,0.8905882352941177,0.8233590733590734,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,xgb_mxfp_fp,mxfp,3,0.9023529411764706,0.772972972972973,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,xgb_mxfp_fp,mxfp,4,0.8905882352941177,0.7895752895752897,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,xgb_physchem,physchem,0,0.8964705882352941,0.6722007722007722,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,xgb_physchem,physchem,1,0.8364705882352941,0.7015444015444016,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,xgb_physchem,physchem,2,0.8564705882352941,0.7225868725868726,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,xgb_physchem,physchem,3,0.8764705882352941,0.7015444015444016,"balanced accuracy, 0-1"
+classification,balanced_acc,npmmpd_cls,xgb_physchem,physchem,4,0.8423529411764705,0.6955598455598455,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,chemberta2,smiles,0,0.3958333333333333,0.6777777777777778,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,chemberta2,smiles,1,0.6041666666666666,0.6222222222222222,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,chemberta2,smiles,2,0.5416666666666666,0.6166666666666667,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,chemberta2,smiles,3,0.4583333333333333,0.6777777777777778,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,chemberta2,smiles,4,0.6041666666666666,0.6722222222222223,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,gcn,graphs,0,0.45833333333333337,0.5166666666666666,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,gcn,graphs,1,0.6041666666666666,0.5166666666666666,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,gcn,graphs,2,0.5833333333333334,0.6333333333333333,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,gcn,graphs,3,0.41666666666666663,0.7444444444444445,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,gcn,graphs,4,0.4375,0.6166666666666667,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,lstm,smiles,0,0.5,0.7388888888888889,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,lstm,smiles,1,0.6041666666666666,0.5166666666666666,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,lstm,smiles,2,0.875,0.48888888888888893,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,lstm,smiles,3,0.5,0.4944444444444444,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,lstm,smiles,4,0.5625,0.6944444444444444,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,lstm_fragsmiles,fragsmiles,0,0.625,0.5222222222222221,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,lstm_fragsmiles,fragsmiles,1,0.375,0.5,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,lstm_fragsmiles,fragsmiles,2,0.6041666666666666,0.35,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,lstm_fragsmiles,fragsmiles,3,0.45833333333333337,0.5166666666666666,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,lstm_fragsmiles,fragsmiles,4,0.39583333333333337,0.6888888888888889,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,molclr,smiles,0,0.4375,0.5833333333333333,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,molclr,smiles,1,0.7083333333333333,0.6388888888888888,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,molclr,smiles,2,0.5625,0.6333333333333333,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,molclr,smiles,3,0.5,0.6277777777777778,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,molclr,smiles,4,0.5,0.4777777777777778,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,mpnn,graphs,0,0.6666666666666666,0.5888888888888889,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,mpnn,graphs,1,0.7083333333333334,0.6444444444444444,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,mpnn,graphs,2,0.6458333333333334,0.5777777777777777,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,mpnn,graphs,3,0.5208333333333334,0.5055555555555555,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,mpnn,graphs,4,0.5833333333333334,0.5833333333333333,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,peptide_clm2,smiles,0,0.6041666666666666,0.5777777777777777,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,peptide_clm2,smiles,1,0.5208333333333334,0.6666666666666666,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,peptide_clm2,smiles,2,0.6458333333333334,0.6166666666666667,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,peptide_clm2,smiles,3,0.5208333333333334,0.6277777777777778,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,peptide_clm2,smiles,4,0.5625,0.6388888888888888,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,pretrained_gin,smiles,0,0.5,0.5555555555555556,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,pretrained_gin,smiles,1,0.5,0.5,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,pretrained_gin,smiles,2,0.4583333333333333,0.5,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,pretrained_gin,smiles,3,0.4583333333333333,0.5,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,pretrained_gin,smiles,4,0.5,0.4777777777777778,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,rf_binary_r2_fp,morgan_binary_r2,0,0.6666666666666666,0.6277777777777778,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,rf_binary_r2_fp,morgan_binary_r2,1,0.6666666666666666,0.5666666666666667,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,rf_binary_r2_fp,morgan_binary_r2,2,0.6666666666666666,0.6722222222222223,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,rf_binary_r2_fp,morgan_binary_r2,3,0.7083333333333334,0.6222222222222222,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,rf_binary_r2_fp,morgan_binary_r2,4,0.6458333333333334,0.5666666666666667,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,rf_count_r2_fp,morgan_count_r2,0,0.7916666666666667,0.6222222222222222,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,rf_count_r2_fp,morgan_count_r2,1,0.6666666666666667,0.6277777777777778,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,rf_count_r2_fp,morgan_count_r2,2,0.75,0.6222222222222222,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,rf_count_r2_fp,morgan_count_r2,3,0.75,0.6777777777777778,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,rf_count_r2_fp,morgan_count_r2,4,0.8125,0.6777777777777778,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,rf_hdf_fp,hdf,0,0.5416666666666666,0.6277777777777778,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,rf_hdf_fp,hdf,1,0.5833333333333334,0.6277777777777778,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,rf_hdf_fp,hdf,2,0.47916666666666663,0.6277777777777778,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,rf_hdf_fp,hdf,3,0.47916666666666663,0.5777777777777777,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,rf_hdf_fp,hdf,4,0.47916666666666663,0.5722222222222222,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,rf_map4c_fp,map4c,0,0.6458333333333334,0.6722222222222223,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,rf_map4c_fp,map4c,1,0.6875,0.6166666666666667,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,rf_map4c_fp,map4c,2,0.6458333333333334,0.6722222222222223,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,rf_map4c_fp,map4c,3,0.7083333333333334,0.7277777777777779,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,rf_map4c_fp,map4c,4,0.6458333333333334,0.7277777777777779,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,rf_mxfp_fp,mxfp,0,0.6041666666666667,0.5722222222222222,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,rf_mxfp_fp,mxfp,1,0.6666666666666667,0.5222222222222221,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,rf_mxfp_fp,mxfp,2,0.6041666666666667,0.5722222222222222,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,rf_mxfp_fp,mxfp,3,0.6666666666666667,0.5222222222222221,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,rf_mxfp_fp,mxfp,4,0.6666666666666667,0.5722222222222222,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,rf_physchem,physchem,0,0.5625,0.4222222222222222,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,rf_physchem,physchem,1,0.6875,0.4222222222222222,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,rf_physchem,physchem,2,0.6875,0.4222222222222222,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,rf_physchem,physchem,3,0.6875,0.4722222222222222,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,rf_physchem,physchem,4,0.625,0.4222222222222222,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,transformer,smiles,0,0.375,0.6777777777777778,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,transformer,smiles,1,0.625,0.6722222222222223,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,transformer,smiles,2,0.5625,0.8444444444444444,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,transformer,smiles,3,0.5208333333333333,0.5666666666666667,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,transformer,smiles,4,0.4166666666666667,0.5833333333333333,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,transformer_fragsmiles,fragsmiles,0,0.4375,0.6833333333333333,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,transformer_fragsmiles,fragsmiles,1,0.4375,0.5777777777777777,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,transformer_fragsmiles,fragsmiles,2,0.47916666666666663,0.6888888888888889,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,transformer_fragsmiles,fragsmiles,3,0.5208333333333334,0.6722222222222223,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,transformer_fragsmiles,fragsmiles,4,0.4583333333333333,0.6333333333333333,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,xgb_binary_r2_fp,morgan_binary_r2,0,0.5,0.6833333333333333,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,xgb_binary_r2_fp,morgan_binary_r2,1,0.8541666666666667,0.7277777777777779,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,xgb_binary_r2_fp,morgan_binary_r2,2,0.9166666666666667,0.6777777777777778,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,xgb_binary_r2_fp,morgan_binary_r2,3,0.7291666666666667,0.7833333333333333,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,xgb_binary_r2_fp,morgan_binary_r2,4,0.8125,0.8333333333333333,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,xgb_count_r2_fp,morgan_count_r2,0,0.6041666666666666,0.6222222222222222,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,xgb_count_r2_fp,morgan_count_r2,1,0.7083333333333334,0.5833333333333333,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,xgb_count_r2_fp,morgan_count_r2,2,0.7083333333333333,0.6777777777777778,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,xgb_count_r2_fp,morgan_count_r2,3,0.75,0.7277777777777779,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,xgb_count_r2_fp,morgan_count_r2,4,0.7291666666666667,0.7277777777777779,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,xgb_hdf_fp,hdf,0,0.5208333333333334,0.5722222222222222,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,xgb_hdf_fp,hdf,1,0.5416666666666666,0.6888888888888889,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,xgb_hdf_fp,hdf,2,0.5625,0.6277777777777778,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,xgb_hdf_fp,hdf,3,0.5416666666666666,0.6333333333333333,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,xgb_hdf_fp,hdf,4,0.5625,0.3611111111111111,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,xgb_map4c_fp,map4c,0,0.7916666666666667,0.6833333333333333,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,xgb_map4c_fp,map4c,1,0.7708333333333333,0.4666666666666667,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,xgb_map4c_fp,map4c,2,0.7083333333333333,0.4722222222222222,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,xgb_map4c_fp,map4c,3,0.6875,0.6777777777777778,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,xgb_map4c_fp,map4c,4,0.6875,0.5722222222222222,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,xgb_mxfp_fp,mxfp,0,0.6458333333333333,0.41666666666666663,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,xgb_mxfp_fp,mxfp,1,0.4375,0.6333333333333333,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,xgb_mxfp_fp,mxfp,2,0.5416666666666667,0.5,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,xgb_mxfp_fp,mxfp,3,0.5625,0.5222222222222221,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,xgb_mxfp_fp,mxfp,4,0.5416666666666667,0.5277777777777778,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,xgb_physchem,physchem,0,0.4375,0.41666666666666663,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,xgb_physchem,physchem,1,0.5208333333333334,0.3666666666666667,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,xgb_physchem,physchem,2,0.5416666666666666,0.4722222222222222,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,xgb_physchem,physchem,3,0.5833333333333334,0.3666666666666667,"balanced accuracy, 0-1"
+classification,balanced_acc,peplife2_pepmsnd_peptherdia_cls,xgb_physchem,physchem,4,0.47916666666666663,0.5,"balanced accuracy, 0-1"

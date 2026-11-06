@@ -1,0 +1,17 @@
+{
+  "task": "cycpeptmpdb_npmmpd_reg",
+  "model_key": "transformer_fragsmiles",
+  "rep": "fragsmiles",
+  "seed": 2,
+  "split_method": "butina_morgan",
+  "log_transform": false,
+  "timestamp": "2026-03-21T09:51:57",
+  "val_rmse": 0.7210666537284851,
+  "val_qf3": 0.17604154348373413,
+  "rmse": 0.9079841375350952,
+  "qf3": -0.3065047264099121,
+  "n_train": 6381,
+  "n_val": 798,
+  "n_test": 798,
+  "n_valid_test": 798
+}

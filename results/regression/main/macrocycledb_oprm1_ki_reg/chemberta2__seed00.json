@@ -1,0 +1,21 @@
+{
+  "task": "macrocycledb_oprm1_ki_reg",
+  "task_type": "regression",
+  "model_key": "chemberta2",
+  "rep": "smiles",
+  "seed": 0,
+  "split_method": "butina_morgan",
+  "log_transform": true,
+  "timestamp": "2026-04-11T00:10:03",
+  "pretrained_model_id": "DeepChem/ChemBERTa-77M-MTR",
+  "pretrained_revision": "66b895cab8adebea0cb59a8effa66b2020f204ca",
+  "pretrained_remote_code": false,
+  "val_rmse": 0.8975719809532166,
+  "val_qf3": 0.5871646404266357,
+  "rmse": 0.94925457239151,
+  "qf3": 0.5382534265518188,
+  "n_train": 227,
+  "n_val": 28,
+  "n_test": 28,
+  "n_valid_test": 28
+}

@@ -1,0 +1,18 @@
+{
+  "task": "npmmpd_rzepiela_reg",
+  "task_type": "regression",
+  "model_key": "rf_map6c",
+  "rep": "map6c+physchem",
+  "seed": 4,
+  "split_method": "butina_morgan",
+  "log_transform": false,
+  "timestamp": "2026-04-22T18:11:47",
+  "val_rmse": 0.538533696398967,
+  "val_qf3": 0.42467473664043454,
+  "rmse": 0.4885506739109887,
+  "qf3": 0.5265142498375202,
+  "n_train": 735,
+  "n_val": 92,
+  "n_test": 92,
+  "n_valid_test": 92
+}

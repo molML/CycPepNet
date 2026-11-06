@@ -1,0 +1,9 @@
+grouping,metric,comparison,row_a,row_b,p_fdr,label,drawn
+family,balanced_acc,GCN vs MPNN,GCN,MPNN,0.5738814716667823,n.s.,False
+representation,balanced_acc,ECFP4c vs ECFP4b,ECFP4c,ECFP4b,0.7166493790932323,n.s.,False
+representation,balanced_acc,fragSMILES vs SMILES (Transformer),fragSMILES,SMILES,0.7166493790932323,n.s.,False
+family,balanced_acc,RF vs XGBoost,RF,XGBoost,0.7738560880028594,n.s.,False
+family,balanced_acc,LSTM vs Transformer,LSTM,Transformer,0.8499258560218327,n.s.,False
+family,balanced_acc,ChemBERTa vs PeptideCLM,ChemBERTa,PeptideCLM,0.8499258560218327,n.s.,False
+family,balanced_acc,GIN vs MolCLR,GIN,MolCLR,0.8499258560218327,n.s.,False
+representation,balanced_acc,fragSMILES vs SMILES (LSTM),fragSMILES,SMILES,0.8499258560218327,n.s.,False

@@ -1,0 +1,21 @@
+{
+  "task": "macrocycledb_sstr2_ic50_reg",
+  "task_type": "regression",
+  "model_key": "pretrained_gin",
+  "rep": "smiles",
+  "seed": 1,
+  "split_method": "random",
+  "log_transform": true,
+  "timestamp": "2026-05-29T08:10:05",
+  "pretrained_checkpoint_url": "https://raw.githubusercontent.com/snap-stanford/pretrain-gnns/master/chem/model_gin/supervised_contextpred.pth",
+  "pretrained_checkpoint_file": "gin_supervised_contextpred.pth",
+  "pretrained_architecture": "GIN-5L-300d-JKlast-contextpred",
+  "val_rmse": 1.1039243265296423,
+  "val_qf3": -0.13143840700989462,
+  "rmse": 0.9009479279853746,
+  "qf3": 0.246381257071133,
+  "n_train": 257,
+  "n_val": 32,
+  "n_test": 32,
+  "n_valid_test": 32
+}

@@ -1,0 +1,18 @@
+{
+  "task": "npmmpd_reg",
+  "task_type": "regression",
+  "model_key": "lstm",
+  "rep": "smiles",
+  "seed": 4,
+  "split_method": "random",
+  "log_transform": false,
+  "timestamp": "2026-04-24T03:32:33",
+  "val_rmse": 0.4612138271331787,
+  "val_qf3": 0.6815937757492065,
+  "rmse": 0.508698582649231,
+  "qf3": 0.6126550436019897,
+  "n_train": 876,
+  "n_val": 110,
+  "n_test": 110,
+  "n_valid_test": 110
+}

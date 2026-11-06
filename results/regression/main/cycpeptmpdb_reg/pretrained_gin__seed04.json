@@ -1,0 +1,21 @@
+{
+  "task": "cycpeptmpdb_reg",
+  "task_type": "regression",
+  "model_key": "pretrained_gin",
+  "rep": "smiles",
+  "seed": 4,
+  "split_method": "butina_morgan",
+  "log_transform": false,
+  "timestamp": "2026-05-28T05:56:02",
+  "pretrained_checkpoint_url": "https://raw.githubusercontent.com/snap-stanford/pretrain-gnns/master/chem/model_gin/supervised_contextpred.pth",
+  "pretrained_checkpoint_file": "gin_supervised_contextpred.pth",
+  "pretrained_architecture": "GIN-5L-300d-JKlast-contextpred",
+  "val_rmse": 0.9257186692088206,
+  "val_qf3": -0.5181940050960756,
+  "rmse": 0.8446458616685131,
+  "qf3": -0.2639170713079946,
+  "n_train": 5563,
+  "n_val": 696,
+  "n_test": 695,
+  "n_valid_test": 695
+}

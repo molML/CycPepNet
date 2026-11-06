@@ -1,0 +1,18 @@
+{
+  "task": "macrocycledb_oprm1_ki_reg",
+  "task_type": "regression",
+  "model_key": "transformer_fragsmiles",
+  "rep": "fragsmiles",
+  "seed": 4,
+  "split_method": "butina_morgan",
+  "log_transform": true,
+  "timestamp": "2026-04-11T00:05:53",
+  "val_rmse": 1.0697177648544312,
+  "val_qf3": 0.41362327337265015,
+  "rmse": 1.7234305143356323,
+  "qf3": -0.5220394134521484,
+  "n_train": 227,
+  "n_val": 28,
+  "n_test": 28,
+  "n_valid_test": 28
+}

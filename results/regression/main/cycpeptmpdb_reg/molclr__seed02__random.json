@@ -1,0 +1,21 @@
+{
+  "task": "cycpeptmpdb_reg",
+  "task_type": "regression",
+  "model_key": "molclr",
+  "rep": "smiles",
+  "seed": 2,
+  "split_method": "random",
+  "log_transform": false,
+  "timestamp": "2026-05-29T21:47:45",
+  "pretrained_checkpoint_url": "https://raw.githubusercontent.com/yuyangw/MolCLR/master/ckpt/pretrained_gin/checkpoints/model.pth",
+  "pretrained_checkpoint_file": "molclr_pretrained_gin.pth",
+  "pretrained_architecture": "GIN-5L-300d-feat512-simclr",
+  "val_rmse": 0.5128935605482849,
+  "val_qf3": 0.5776181151521265,
+  "rmse": 0.5042330422696855,
+  "qf3": 0.5917620317552178,
+  "n_train": 5564,
+  "n_val": 695,
+  "n_test": 695,
+  "n_valid_test": 695
+}

@@ -1,0 +1,18 @@
+{
+  "task": "half_life_peplife2_reg",
+  "task_type": "regression",
+  "model_key": "xgb_map4c",
+  "rep": "map4c+physchem",
+  "seed": 0,
+  "split_method": "random",
+  "log_transform": true,
+  "timestamp": "2026-06-16T14:05:55",
+  "val_rmse": 0.5826931595802307,
+  "val_qf3": 0.16209787130355835,
+  "rmse": 0.6386124491691589,
+  "qf3": -0.00644075870513916,
+  "n_train": 71,
+  "n_val": 9,
+  "n_test": 9,
+  "n_valid_test": 9
+}

@@ -1,0 +1,18 @@
+{
+  "task": "npmmpd_rzepiela_reg",
+  "task_type": "regression",
+  "model_key": "transformer_fragsmiles",
+  "rep": "fragsmiles",
+  "seed": 4,
+  "split_method": "butina_morgan",
+  "log_transform": false,
+  "timestamp": "2026-04-30T20:28:01",
+  "val_rmse": 0.5873117446899414,
+  "val_qf3": 0.3157338500022888,
+  "rmse": 0.545340895652771,
+  "qf3": 0.4100383520126343,
+  "n_train": 735,
+  "n_val": 92,
+  "n_test": 92,
+  "n_valid_test": 92
+}

@@ -1,0 +1,23 @@
+model,rep,family,family_label,base_representation,representation,marker_family,physchem_augmented,configuration_label,PC1,PC2,view,fit_mode,panel
+chemberta2,smiles,ChemBERTa,ChemBERTa-2,SMILES,SMILES,SMILES,False,ChemBERTa-2 / SMILES,1.5190631575234503,0.21757527271694613,companion,with_references,d
+gcn,graphs,GCN,GCN,Graph,Graph,Graph,False,GCN / Graph,-2.1564000678381556,3.2653880549243555,companion,with_references,d
+lstm,smiles,LSTM,LSTM,SMILES,SMILES,SMILES,False,LSTM / SMILES,-3.514174326996172,0.1552267035731894,companion,with_references,d
+lstm_fragsmiles,fragsmiles,LSTM,LSTM,fragSMILES,fragSMILES,fragSMILES,False,LSTM / fragSMILES,-4.198591938543806,-1.4249790838851688,companion,with_references,d
+molclr,smiles,MolCLR,MolCLR,Graph,Graph,Graph,False,MolCLR / Graph,-0.5755101456563668,1.911861876541962,companion,with_references,d
+mpnn,graphs,MPNN,MPNN,Graph,Graph,Graph,False,MPNN / Graph,-0.76672686822941,2.141376140701447,companion,with_references,d
+peptide_clm2,smiles,PeptideCLM,PeptideCLM-2,SMILES,SMILES,SMILES,False,PeptideCLM-2 / SMILES,2.164893184639674,0.5286375497923304,companion,with_references,d
+pretrained_gin,smiles,GIN,GIN,Graph,Graph,Graph,False,GIN / Graph,-1.5869382581232745,-0.9391924891589085,companion,with_references,d
+rf_binary_r2_fp,morgan_binary_r2,RF,RF,ECFP4b,ECFP4b,ECFP,False,RF / ECFP4b,2.4678831767959766,0.9527083786154089,companion,with_references,d
+rf_count_r2_fp,morgan_count_r2,RF,RF,ECFP4c,ECFP4c,ECFP,False,RF / ECFP4c,2.319339032983715,0.7378093257423057,companion,with_references,d
+rf_hdf_fp,hdf,RF,RF,HDF,HDF,HDF,False,RF / HDF,1.9938733455203717,-1.2654807600248645,companion,with_references,d
+rf_map4c_fp,map4c,RF,RF,MAP4C,MAP4C,MAPC,False,RF / MAP4C,2.352769111243576,-0.2526220946101196,companion,with_references,d
+rf_mxfp_fp,mxfp,RF,RF,MXFP,MXFP,MXFP,False,RF / MXFP,0.9994663851392238,-1.4642453061579497,companion,with_references,d
+rf_physchem,physchem,RF,RF,PhysChem,PhysChem,PhysChem,False,RF / PhysChem,-0.13719378170544427,-2.938164876412615,companion,with_references,d
+transformer,smiles,Transformer,Transformer,SMILES,SMILES,SMILES,False,Transformer / SMILES,-2.730171518247021,0.17135530655345957,companion,with_references,d
+transformer_fragsmiles,fragsmiles,Transformer,Transformer,fragSMILES,fragSMILES,fragSMILES,False,Transformer / fragSMILES,-2.004721513255241,0.8255991052638998,companion,with_references,d
+xgb_binary_r2_fp,morgan_binary_r2,XGBoost,XGBoost,ECFP4b,ECFP4b,ECFP,False,XGBoost / ECFP4b,1.8429151246978497,1.1163069172069466,companion,with_references,d
+xgb_count_r2_fp,morgan_count_r2,XGBoost,XGBoost,ECFP4c,ECFP4c,ECFP,False,XGBoost / ECFP4c,2.031374705139668,0.8880584739902188,companion,with_references,d
+xgb_hdf_fp,hdf,XGBoost,XGBoost,HDF,HDF,HDF,False,XGBoost / HDF,1.390655682476316,-1.053650188577122,companion,with_references,d
+xgb_map4c_fp,map4c,XGBoost,XGBoost,MAP4C,MAP4C,MAPC,False,XGBoost / MAP4C,1.7227882724836379,-0.2366128632679748,companion,with_references,d
+xgb_mxfp_fp,mxfp,XGBoost,XGBoost,MXFP,MXFP,MXFP,False,XGBoost / MXFP,0.4658906339625647,-1.1890690512576534,companion,with_references,d
+xgb_physchem,physchem,XGBoost,XGBoost,PhysChem,PhysChem,PhysChem,False,XGBoost / PhysChem,-1.2622502499972534,-2.9782192077907452,companion,with_references,d

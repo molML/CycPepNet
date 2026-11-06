@@ -1,0 +1,18 @@
+{
+  "task": "macrocycledb_sstr2_ic50_reg",
+  "task_type": "regression",
+  "model_key": "xgb_count_r2",
+  "rep": "morgan_count_r2+physchem",
+  "seed": 3,
+  "split_method": "butina_morgan",
+  "log_transform": true,
+  "timestamp": "2026-05-23T09:20:55",
+  "val_rmse": 0.6561754941940308,
+  "val_qf3": 0.5411650538444519,
+  "rmse": 1.2775816917419434,
+  "qf3": -0.7393772602081299,
+  "n_train": 257,
+  "n_val": 32,
+  "n_test": 32,
+  "n_valid_test": 32
+}

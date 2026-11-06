@@ -1,0 +1,17 @@
+{
+  "task": "peplife2_pepmsnd_peptherdia_reg",
+  "model_key": "xgb_physchem",
+  "rep": "physchem",
+  "seed": 4,
+  "split_method": "random",
+  "log_transform": true,
+  "timestamp": "2026-03-20T16:01:36",
+  "val_rmse": 0.7314692139625549,
+  "val_qf3": 0.21972399950027466,
+  "rmse": 0.9151160717010498,
+  "qf3": -0.2212611436843872,
+  "n_train": 156,
+  "n_val": 20,
+  "n_test": 20,
+  "n_valid_test": 20
+}

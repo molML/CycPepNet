@@ -1,0 +1,18 @@
+{
+  "task": "cycpeptmpdb_npmmpd_reg",
+  "task_type": "regression",
+  "model_key": "rf_hdf_fp",
+  "rep": "hdf",
+  "seed": 3,
+  "split_method": "butina_morgan",
+  "log_transform": false,
+  "timestamp": "2026-05-06T18:44:11",
+  "val_rmse": 0.5998825107525811,
+  "val_qf3": 0.4297216910503677,
+  "rmse": 0.7991627678695773,
+  "qf3": -0.01210352366059464,
+  "n_train": 6381,
+  "n_val": 798,
+  "n_test": 798,
+  "n_valid_test": 798
+}

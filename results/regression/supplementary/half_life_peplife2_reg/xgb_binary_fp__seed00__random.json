@@ -1,0 +1,18 @@
+{
+  "task": "half_life_peplife2_reg",
+  "task_type": "regression",
+  "model_key": "xgb_binary_fp",
+  "rep": "morgan_binary",
+  "seed": 0,
+  "split_method": "random",
+  "log_transform": true,
+  "timestamp": "2026-06-16T13:59:48",
+  "val_rmse": 0.5861765742301941,
+  "val_qf3": 0.15204983949661255,
+  "rmse": 0.6875351071357727,
+  "qf3": -0.16654956340789795,
+  "n_train": 71,
+  "n_val": 9,
+  "n_test": 9,
+  "n_valid_test": 9
+}

@@ -1,0 +1,18 @@
+{
+  "task": "macrocycledb_oprm1_ki_reg",
+  "task_type": "regression",
+  "model_key": "rf_physchem",
+  "rep": "physchem",
+  "seed": 0,
+  "split_method": "butina_morgan",
+  "log_transform": true,
+  "timestamp": "2026-04-08T14:31:18",
+  "val_rmse": 1.120879900499717,
+  "val_qf3": 0.35619185459690406,
+  "rmse": 1.1845042931539258,
+  "qf3": 0.2810286540088869,
+  "n_train": 227,
+  "n_val": 28,
+  "n_test": 28,
+  "n_valid_test": 28
+}

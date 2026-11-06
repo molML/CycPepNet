@@ -1,0 +1,18 @@
+{
+  "task": "macrocycledb_oprm1_ki_reg",
+  "task_type": "regression",
+  "model_key": "xgb_hdf_fp",
+  "rep": "hdf",
+  "seed": 0,
+  "split_method": "butina_morgan",
+  "log_transform": true,
+  "timestamp": "2026-05-06T13:59:33",
+  "val_rmse": 0.837578296661377,
+  "val_qf3": 0.6405080556869507,
+  "rmse": 1.215355634689331,
+  "qf3": 0.24308854341506958,
+  "n_train": 227,
+  "n_val": 28,
+  "n_test": 28,
+  "n_valid_test": 28
+}

@@ -1,0 +1,18 @@
+{
+  "task": "macrocycledb_oprm1_ki_reg",
+  "task_type": "regression",
+  "model_key": "xgb_count_fp",
+  "rep": "morgan_count",
+  "seed": 1,
+  "split_method": "random",
+  "log_transform": true,
+  "timestamp": "2026-04-09T17:36:06",
+  "val_rmse": 0.7756788730621338,
+  "val_qf3": 0.7000851631164551,
+  "rmse": 0.8687101006507874,
+  "qf3": 0.6238303184509277,
+  "n_train": 227,
+  "n_val": 28,
+  "n_test": 28,
+  "n_valid_test": 28
+}

@@ -1,0 +1,25 @@
+task,task_label,property,task_type,category,configuration,representation,metric,value
+macrocycledb_oprm1_ki_reg,OPRM1,Binding,regression,Selected model,xgb_map4c_fp,map4c,qf3,-0.0503
+macrocycledb_oprm1_ki_reg,OPRM1,Binding,regression,Training-mean predictor,mean,none (constant predictor),qf3,-0.5638477802276611
+macrocycledb_mc4r_ki_reg,MC4R,Binding,regression,Selected model,xgb_count_r2_fp,morgan_count_r2,qf3,-0.0546
+macrocycledb_mc4r_ki_reg,MC4R,Binding,regression,Training-mean predictor,mean,none (constant predictor),qf3,-0.8123674392700195
+macrocycledb_sstr2_ic50_reg,SSTR2,Binding,regression,Selected model,xgb_count_r2_fp,morgan_count_r2,qf3,-0.6659
+macrocycledb_sstr2_ic50_reg,SSTR2,Binding,regression,Training-mean predictor,mean,none (constant predictor),qf3,-2.0439770221710205
+npmmpd_reg,NPMMPD,Permeability,regression,Selected model,chemberta2,smiles,qf3,0.3914
+npmmpd_reg,NPMMPD,Permeability,regression,Training-mean predictor,mean,none (constant predictor),qf3,-0.5164774656295776
+cycpeptmpdb_reg,CycPeptMPDB,Permeability,regression,Selected model,xgb_mxfp_fp,mxfp,qf3,0.1926
+cycpeptmpdb_reg,CycPeptMPDB,Permeability,regression,Training-mean predictor,mean,none (constant predictor),qf3,-0.4302549362182617
+peplife2_pepmsnd_peptherdia_reg,Half-life,Half-life,regression,Selected model,xgb_physchem,physchem,qf3,-0.348
+peplife2_pepmsnd_peptherdia_reg,Half-life,Half-life,regression,Training-mean predictor,mean,none (constant predictor),qf3,-0.6650933027267456
+macrocycledb_oprm1_ki_cls,OPRM1,Binding,classification,Selected model,lstm,smiles,auroc,0.63
+macrocycledb_mc4r_ki_cls,MC4R,Binding,classification,Selected model,transformer,smiles,auroc,0.6437
+macrocycledb_sstr2_ic50_cls,SSTR2,Binding,classification,Selected model,xgb_hdf_fp,hdf,auroc,0.7635
+npmmpd_cls,NPMMPD,Permeability,classification,Selected model,gcn,graphs,auroc,0.9454
+cycpeptmpdb_cls,CycPeptMPDB,Permeability,classification,Selected model,lstm,smiles,auroc,0.7208
+peplife2_pepmsnd_peptherdia_cls,Half-life,Half-life,classification,Selected model,molclr,smiles,auroc,0.6778
+cycpeptmpdb_cls,CycPeptMPDB,Permeability,classification,Training-mean predictor,mean,none (constant predictor),auroc,0.5
+macrocycledb_mc4r_ki_cls,MC4R,Binding,classification,Training-mean predictor,mean,none (constant predictor),auroc,0.5
+macrocycledb_oprm1_ki_cls,OPRM1,Binding,classification,Training-mean predictor,mean,none (constant predictor),auroc,0.5
+macrocycledb_sstr2_ic50_cls,SSTR2,Binding,classification,Training-mean predictor,mean,none (constant predictor),auroc,0.5
+npmmpd_cls,NPMMPD,Permeability,classification,Training-mean predictor,mean,none (constant predictor),auroc,0.5
+peplife2_pepmsnd_peptherdia_cls,Half-life,Half-life,classification,Training-mean predictor,mean,none (constant predictor),auroc,0.5

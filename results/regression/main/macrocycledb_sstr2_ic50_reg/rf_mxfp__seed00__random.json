@@ -1,0 +1,18 @@
+{
+  "task": "macrocycledb_sstr2_ic50_reg",
+  "task_type": "regression",
+  "model_key": "rf_mxfp",
+  "rep": "mxfp+physchem",
+  "seed": 0,
+  "split_method": "random",
+  "log_transform": true,
+  "timestamp": "2026-05-23T10:58:41",
+  "val_rmse": 0.9923949046851888,
+  "val_qf3": 0.08563127936880921,
+  "rmse": 0.730982589527778,
+  "qf3": 0.5039032571939998,
+  "n_train": 257,
+  "n_val": 32,
+  "n_test": 32,
+  "n_valid_test": 32
+}

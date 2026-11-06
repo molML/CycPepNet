@@ -1,0 +1,18 @@
+{
+  "task": "macrocycledb_oprm1_ki_reg",
+  "task_type": "regression",
+  "model_key": "rf_map4c",
+  "rep": "map4c+physchem",
+  "seed": 2,
+  "split_method": "random",
+  "log_transform": true,
+  "timestamp": "2026-04-10T15:16:03",
+  "val_rmse": 0.8858868748288933,
+  "val_qf3": 0.6088074971786787,
+  "rmse": 0.7736057205852346,
+  "qf3": 0.7016862073977901,
+  "n_train": 227,
+  "n_val": 28,
+  "n_test": 28,
+  "n_valid_test": 28
+}

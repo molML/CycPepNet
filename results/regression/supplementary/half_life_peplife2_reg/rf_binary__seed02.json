@@ -1,0 +1,18 @@
+{
+  "task": "half_life_peplife2_reg",
+  "task_type": "regression",
+  "model_key": "rf_binary",
+  "rep": "morgan_binary+physchem",
+  "seed": 2,
+  "split_method": "butina_morgan",
+  "log_transform": true,
+  "timestamp": "2026-06-16T12:33:21",
+  "val_rmse": 0.7137106434468348,
+  "val_qf3": -0.3557284604638169,
+  "rmse": 0.8044138390702888,
+  "qf3": -0.7222152619977973,
+  "n_train": 71,
+  "n_val": 9,
+  "n_test": 9,
+  "n_valid_test": 9
+}

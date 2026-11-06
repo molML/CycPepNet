@@ -1,0 +1,18 @@
+{
+  "task": "half_life_peplife2_reg",
+  "task_type": "regression",
+  "model_key": "mpnn",
+  "rep": "graphs",
+  "seed": 2,
+  "split_method": "random",
+  "log_transform": true,
+  "timestamp": "2026-06-16T15:51:46",
+  "val_rmse": 0.6620457930244633,
+  "val_qf3": -0.08165681792152935,
+  "rmse": 0.7181249626582551,
+  "qf3": -0.272663177358913,
+  "n_train": 71,
+  "n_val": 9,
+  "n_test": 9,
+  "n_valid_test": 9
+}

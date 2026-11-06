@@ -1,0 +1,17 @@
+{
+  "task": "peplife2_pepmsnd_peptherdia_reg",
+  "model_key": "lstm_fragsmiles",
+  "rep": "fragsmiles",
+  "seed": 3,
+  "split_method": "butina_morgan",
+  "log_transform": true,
+  "timestamp": "2026-03-22T20:29:38",
+  "val_rmse": 0.7096684575080872,
+  "val_qf3": 0.26451820135116577,
+  "rmse": 1.072027564048767,
+  "qf3": -0.6783124208450317,
+  "n_train": 157,
+  "n_val": 20,
+  "n_test": 19,
+  "n_valid_test": 19
+}

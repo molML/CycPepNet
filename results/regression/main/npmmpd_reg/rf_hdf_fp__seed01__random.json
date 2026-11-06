@@ -1,0 +1,18 @@
+{
+  "task": "npmmpd_reg",
+  "task_type": "regression",
+  "model_key": "rf_hdf_fp",
+  "rep": "hdf",
+  "seed": 1,
+  "split_method": "random",
+  "log_transform": false,
+  "timestamp": "2026-05-08T14:36:04",
+  "val_rmse": 0.49250159906936347,
+  "val_qf3": 0.6369284629055343,
+  "rmse": 0.4916489898046952,
+  "qf3": 0.6381844596628858,
+  "n_train": 876,
+  "n_val": 110,
+  "n_test": 110,
+  "n_valid_test": 110
+}

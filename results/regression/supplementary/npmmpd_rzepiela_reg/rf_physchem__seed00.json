@@ -1,0 +1,18 @@
+{
+  "task": "npmmpd_rzepiela_reg",
+  "task_type": "regression",
+  "model_key": "rf_physchem",
+  "rep": "physchem",
+  "seed": 0,
+  "split_method": "butina_morgan",
+  "log_transform": false,
+  "timestamp": "2026-04-22T17:05:33",
+  "val_rmse": 0.5674965594116437,
+  "val_qf3": 0.361127572077395,
+  "rmse": 0.5142233144778708,
+  "qf3": 0.4754447881304307,
+  "n_train": 735,
+  "n_val": 92,
+  "n_test": 92,
+  "n_valid_test": 92
+}

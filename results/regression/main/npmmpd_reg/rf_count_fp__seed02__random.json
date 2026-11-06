@@ -1,0 +1,17 @@
+{
+  "task": "npmmpd_reg",
+  "model_key": "rf_count_fp",
+  "rep": "morgan_count",
+  "seed": 2,
+  "split_method": "random",
+  "log_transform": false,
+  "timestamp": "2026-03-20T14:11:19",
+  "val_rmse": 0.47115275274379337,
+  "val_qf3": 0.6677229242670139,
+  "rmse": 0.4562611856146057,
+  "qf3": 0.6883953260070765,
+  "n_train": 876,
+  "n_val": 110,
+  "n_test": 110,
+  "n_valid_test": 110
+}

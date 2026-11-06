@@ -1,0 +1,18 @@
+{
+  "task": "cycpeptmpdb_townsend_reg",
+  "task_type": "regression",
+  "model_key": "transformer_fragsmiles",
+  "rep": "fragsmiles",
+  "seed": 2,
+  "split_method": "random",
+  "log_transform": false,
+  "timestamp": "2026-05-22T00:43:13",
+  "val_rmse": 0.3813088536262512,
+  "val_qf3": 0.4542608857154846,
+  "rmse": 0.34799763560295105,
+  "qf3": 0.545447587966919,
+  "n_train": 2305,
+  "n_val": 288,
+  "n_test": 288,
+  "n_valid_test": 288
+}

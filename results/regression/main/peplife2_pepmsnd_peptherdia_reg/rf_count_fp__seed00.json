@@ -1,0 +1,17 @@
+{
+  "task": "peplife2_pepmsnd_peptherdia_reg",
+  "model_key": "rf_count_fp",
+  "rep": "morgan_count",
+  "seed": 0,
+  "split_method": "butina_morgan",
+  "log_transform": true,
+  "timestamp": "2026-03-20T10:56:29",
+  "val_rmse": 0.6893425058793732,
+  "val_qf3": 0.30604537307379875,
+  "rmse": 0.9261010498429866,
+  "qf3": -0.25249991163975705,
+  "n_train": 157,
+  "n_val": 20,
+  "n_test": 19,
+  "n_valid_test": 19
+}

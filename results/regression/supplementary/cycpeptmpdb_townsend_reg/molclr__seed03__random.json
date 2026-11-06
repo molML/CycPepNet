@@ -1,0 +1,21 @@
+{
+  "task": "cycpeptmpdb_townsend_reg",
+  "task_type": "regression",
+  "model_key": "molclr",
+  "rep": "smiles",
+  "seed": 3,
+  "split_method": "random",
+  "log_transform": false,
+  "timestamp": "2026-05-30T02:53:31",
+  "pretrained_checkpoint_url": "https://raw.githubusercontent.com/yuyangw/MolCLR/master/ckpt/pretrained_gin/checkpoints/model.pth",
+  "pretrained_checkpoint_file": "molclr_pretrained_gin.pth",
+  "pretrained_architecture": "GIN-5L-300d-feat512-simclr",
+  "val_rmse": 0.36792490979421094,
+  "val_qf3": 0.49189942427833755,
+  "rmse": 0.3411636874597864,
+  "qf3": 0.5631252923046937,
+  "n_train": 2305,
+  "n_val": 288,
+  "n_test": 288,
+  "n_valid_test": 288
+}

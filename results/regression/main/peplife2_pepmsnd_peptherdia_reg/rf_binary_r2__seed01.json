@@ -1,0 +1,18 @@
+{
+  "task": "peplife2_pepmsnd_peptherdia_reg",
+  "task_type": "regression",
+  "model_key": "rf_binary_r2",
+  "rep": "morgan_binary_r2+physchem",
+  "seed": 1,
+  "split_method": "butina_morgan",
+  "log_transform": true,
+  "timestamp": "2026-04-08T16:12:20",
+  "val_rmse": 0.6734814760788295,
+  "val_qf3": 0.3376122856205416,
+  "rmse": 0.8835905541946842,
+  "qf3": -0.14015285704735758,
+  "n_train": 157,
+  "n_val": 20,
+  "n_test": 19,
+  "n_valid_test": 19
+}

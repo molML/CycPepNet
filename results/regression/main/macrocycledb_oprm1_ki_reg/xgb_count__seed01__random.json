@@ -1,0 +1,18 @@
+{
+  "task": "macrocycledb_oprm1_ki_reg",
+  "task_type": "regression",
+  "model_key": "xgb_count",
+  "rep": "morgan_count+physchem",
+  "seed": 1,
+  "split_method": "random",
+  "log_transform": true,
+  "timestamp": "2026-04-09T17:31:56",
+  "val_rmse": 0.7930575013160706,
+  "val_qf3": 0.686495840549469,
+  "rmse": 0.8605421781539917,
+  "qf3": 0.6308708190917969,
+  "n_train": 227,
+  "n_val": 28,
+  "n_test": 28,
+  "n_valid_test": 28
+}

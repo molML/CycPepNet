@@ -1,0 +1,18 @@
+{
+  "task": "macrocycledb_oprm1_ki_reg",
+  "task_type": "regression",
+  "model_key": "rf_count",
+  "rep": "morgan_count+physchem",
+  "seed": 4,
+  "split_method": "butina_morgan",
+  "log_transform": true,
+  "timestamp": "2026-04-08T14:42:27",
+  "val_rmse": 1.072279910446738,
+  "val_qf3": 0.4108109827282892,
+  "rmse": 1.5581841516331805,
+  "qf3": -0.24415895450376057,
+  "n_train": 227,
+  "n_val": 28,
+  "n_test": 28,
+  "n_valid_test": 28
+}

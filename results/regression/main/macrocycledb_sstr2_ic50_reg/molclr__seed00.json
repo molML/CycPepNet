@@ -1,0 +1,21 @@
+{
+  "task": "macrocycledb_sstr2_ic50_reg",
+  "task_type": "regression",
+  "model_key": "molclr",
+  "rep": "smiles",
+  "seed": 0,
+  "split_method": "butina_morgan",
+  "log_transform": true,
+  "timestamp": "2026-05-30T05:33:27",
+  "pretrained_checkpoint_url": "https://raw.githubusercontent.com/yuyangw/MolCLR/master/ckpt/pretrained_gin/checkpoints/model.pth",
+  "pretrained_checkpoint_file": "molclr_pretrained_gin.pth",
+  "pretrained_architecture": "GIN-5L-300d-feat512-simclr",
+  "val_rmse": 0.7195270151872257,
+  "val_qf3": 0.44829026534497873,
+  "rmse": 1.4732523496343997,
+  "qf3": -1.3129738500814567,
+  "n_train": 257,
+  "n_val": 32,
+  "n_test": 32,
+  "n_valid_test": 32
+}

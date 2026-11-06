@@ -1,0 +1,18 @@
+{
+  "task": "npmmpd_reg",
+  "task_type": "regression",
+  "model_key": "xgb_mxfp",
+  "rep": "mxfp+physchem",
+  "seed": 0,
+  "split_method": "random",
+  "log_transform": false,
+  "timestamp": "2026-03-29T14:05:42",
+  "val_rmse": 0.4605581760406494,
+  "val_qf3": 0.6824983358383179,
+  "rmse": 0.5070267915725708,
+  "qf3": 0.615196704864502,
+  "n_train": 876,
+  "n_val": 110,
+  "n_test": 110,
+  "n_valid_test": 110
+}

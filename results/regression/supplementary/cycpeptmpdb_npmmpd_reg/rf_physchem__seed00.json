@@ -1,0 +1,17 @@
+{
+  "task": "cycpeptmpdb_npmmpd_reg",
+  "model_key": "rf_physchem",
+  "rep": "physchem",
+  "seed": 0,
+  "split_method": "butina_morgan",
+  "log_transform": false,
+  "timestamp": "2026-03-14T08:39:45",
+  "val_rmse": 0.6251355762279677,
+  "val_qf3": 0.38069742981665666,
+  "rmse": 0.8502676745786099,
+  "qf3": -0.14568648217493418,
+  "n_train": 6381,
+  "n_val": 798,
+  "n_test": 798,
+  "n_valid_test": 798
+}

@@ -1,0 +1,17 @@
+{
+  "task": "cycpeptmpdb_npmmpd_reg",
+  "model_key": "rf_count",
+  "rep": "morgan_count+physchem",
+  "seed": 4,
+  "split_method": "random",
+  "log_transform": false,
+  "timestamp": "2026-03-19T16:16:00",
+  "val_rmse": 0.38536101042013177,
+  "val_qf3": 0.7906439670577842,
+  "rmse": 0.40026016540611953,
+  "qf3": 0.7741424164698645,
+  "n_train": 6381,
+  "n_val": 798,
+  "n_test": 798,
+  "n_valid_test": 798
+}

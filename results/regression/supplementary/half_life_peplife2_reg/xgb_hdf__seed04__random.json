@@ -1,0 +1,18 @@
+{
+  "task": "half_life_peplife2_reg",
+  "task_type": "regression",
+  "model_key": "xgb_hdf",
+  "rep": "hdf+physchem",
+  "seed": 4,
+  "split_method": "random",
+  "log_transform": true,
+  "timestamp": "2026-06-16T14:19:00",
+  "val_rmse": 0.6687607169151306,
+  "val_qf3": -0.10370993614196777,
+  "rmse": 0.671543300151825,
+  "qf3": -0.11291372776031494,
+  "n_train": 71,
+  "n_val": 9,
+  "n_test": 9,
+  "n_valid_test": 9
+}

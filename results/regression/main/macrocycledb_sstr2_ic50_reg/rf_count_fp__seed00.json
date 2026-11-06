@@ -1,0 +1,18 @@
+{
+  "task": "macrocycledb_sstr2_ic50_reg",
+  "task_type": "regression",
+  "model_key": "rf_count_fp",
+  "rep": "morgan_count",
+  "seed": 0,
+  "split_method": "butina_morgan",
+  "log_transform": true,
+  "timestamp": "2026-05-23T09:33:10",
+  "val_rmse": 0.7597817509932214,
+  "val_qf3": 0.38483140775944835,
+  "rmse": 1.2221194656342909,
+  "qf3": -0.5916360270685652,
+  "n_train": 257,
+  "n_val": 32,
+  "n_test": 32,
+  "n_valid_test": 32
+}

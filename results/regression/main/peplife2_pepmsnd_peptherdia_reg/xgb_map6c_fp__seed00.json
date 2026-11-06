@@ -1,0 +1,17 @@
+{
+  "task": "peplife2_pepmsnd_peptherdia_reg",
+  "model_key": "xgb_map6c_fp",
+  "rep": "map6c",
+  "seed": 0,
+  "split_method": "butina_morgan",
+  "log_transform": true,
+  "timestamp": "2026-03-20T11:36:08",
+  "val_rmse": 0.6556496024131775,
+  "val_qf3": 0.37222427129745483,
+  "rmse": 1.078616738319397,
+  "qf3": -0.6990072727203369,
+  "n_train": 157,
+  "n_val": 20,
+  "n_test": 19,
+  "n_valid_test": 19
+}

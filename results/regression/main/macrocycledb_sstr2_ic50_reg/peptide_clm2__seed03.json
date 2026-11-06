@@ -1,0 +1,21 @@
+{
+  "task": "macrocycledb_sstr2_ic50_reg",
+  "task_type": "regression",
+  "model_key": "peptide_clm2",
+  "rep": "smiles",
+  "seed": 3,
+  "split_method": "butina_morgan",
+  "log_transform": true,
+  "timestamp": "2026-05-25T09:31:15",
+  "pretrained_model_id": "aaronfeller/PeptideMLM-MTR_sm",
+  "pretrained_revision": "154d4c69f03c025a4f70e16bb2a39f3a08700628",
+  "pretrained_remote_code": true,
+  "val_rmse": 0.8989306688308716,
+  "val_qf3": 0.1388697624206543,
+  "rmse": 1.2727739810943604,
+  "qf3": -0.7263109683990479,
+  "n_train": 257,
+  "n_val": 32,
+  "n_test": 32,
+  "n_valid_test": 32
+}

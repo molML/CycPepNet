@@ -1,0 +1,21 @@
+{
+  "task": "cycpeptmpdb_reg",
+  "task_type": "regression",
+  "model_key": "peptide_clm2",
+  "rep": "smiles",
+  "seed": 2,
+  "split_method": "random",
+  "log_transform": false,
+  "timestamp": "2026-05-07T13:02:41",
+  "pretrained_model_id": "aaronfeller/PeptideMLM-MTR_sm",
+  "pretrained_revision": "154d4c69f03c025a4f70e16bb2a39f3a08700628",
+  "pretrained_remote_code": true,
+  "val_rmse": 0.41125184297561646,
+  "val_qf3": 0.7284395694732666,
+  "rmse": 0.44375163316726685,
+  "qf3": 0.6838226318359375,
+  "n_train": 5564,
+  "n_val": 695,
+  "n_test": 695,
+  "n_valid_test": 695
+}

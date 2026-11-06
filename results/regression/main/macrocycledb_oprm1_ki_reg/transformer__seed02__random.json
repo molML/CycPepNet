@@ -1,0 +1,18 @@
+{
+  "task": "macrocycledb_oprm1_ki_reg",
+  "task_type": "regression",
+  "model_key": "transformer",
+  "rep": "smiles",
+  "seed": 2,
+  "split_method": "random",
+  "log_transform": true,
+  "timestamp": "2026-04-17T15:51:59",
+  "val_rmse": 0.8989359736442566,
+  "val_qf3": 0.5971980690956116,
+  "rmse": 1.203536033630371,
+  "qf3": 0.2779751420021057,
+  "n_train": 227,
+  "n_val": 28,
+  "n_test": 28,
+  "n_valid_test": 28
+}

@@ -1,0 +1,18 @@
+{
+  "task": "cycpeptmpdb_reg",
+  "task_type": "regression",
+  "model_key": "rf_binary_r2",
+  "rep": "morgan_binary_r2+physchem",
+  "seed": 1,
+  "split_method": "random",
+  "log_transform": false,
+  "timestamp": "2026-04-09T23:33:00",
+  "val_rmse": 0.43794965303674943,
+  "val_qf3": 0.6920365585651269,
+  "rmse": 0.4281465541818493,
+  "qf3": 0.7056692093454353,
+  "n_train": 5564,
+  "n_val": 695,
+  "n_test": 695,
+  "n_valid_test": 695
+}

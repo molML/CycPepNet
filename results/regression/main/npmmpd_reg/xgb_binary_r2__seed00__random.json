@@ -1,0 +1,18 @@
+{
+  "task": "npmmpd_reg",
+  "task_type": "regression",
+  "model_key": "xgb_binary_r2",
+  "rep": "morgan_binary_r2+physchem",
+  "seed": 0,
+  "split_method": "random",
+  "log_transform": false,
+  "timestamp": "2026-04-09T22:48:56",
+  "val_rmse": 0.42373982071876526,
+  "val_qf3": 0.7312332987785339,
+  "rmse": 0.4111669957637787,
+  "qf3": 0.746945858001709,
+  "n_train": 876,
+  "n_val": 110,
+  "n_test": 110,
+  "n_valid_test": 110
+}

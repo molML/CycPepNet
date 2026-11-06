@@ -1,0 +1,21 @@
+{
+  "task": "peplife2_pepmsnd_peptherdia_reg",
+  "task_type": "regression",
+  "model_key": "molclr",
+  "rep": "smiles",
+  "seed": 4,
+  "split_method": "butina_morgan",
+  "log_transform": true,
+  "timestamp": "2026-05-30T05:54:15",
+  "pretrained_checkpoint_url": "https://raw.githubusercontent.com/yuyangw/MolCLR/master/ckpt/pretrained_gin/checkpoints/model.pth",
+  "pretrained_checkpoint_file": "molclr_pretrained_gin.pth",
+  "pretrained_architecture": "GIN-5L-300d-feat512-simclr",
+  "val_rmse": 0.6621289192990424,
+  "val_qf3": 0.35975518221606495,
+  "rmse": 1.1590662905357314,
+  "qf3": -0.9619028652570638,
+  "n_train": 157,
+  "n_val": 20,
+  "n_test": 19,
+  "n_valid_test": 19
+}

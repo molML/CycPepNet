@@ -1,0 +1,18 @@
+{
+  "task": "half_life_peplife2_reg",
+  "task_type": "regression",
+  "model_key": "xgb_map6c_fp",
+  "rep": "map6c",
+  "seed": 4,
+  "split_method": "butina_morgan",
+  "log_transform": true,
+  "timestamp": "2026-06-16T12:50:24",
+  "val_rmse": 0.5832266807556152,
+  "val_qf3": 0.09467792510986328,
+  "rmse": 1.0365822315216064,
+  "qf3": -1.8598015308380127,
+  "n_train": 71,
+  "n_val": 9,
+  "n_test": 9,
+  "n_valid_test": 9
+}

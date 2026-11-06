@@ -1,0 +1,17 @@
+{
+  "task": "npmmpd_reg",
+  "model_key": "xgb_count_fp",
+  "rep": "morgan_count",
+  "seed": 2,
+  "split_method": "butina_morgan",
+  "log_transform": false,
+  "timestamp": "2026-03-20T07:44:11",
+  "val_rmse": 0.6862104535102844,
+  "val_qf3": 0.2313600778579712,
+  "rmse": 0.5294545292854309,
+  "qf3": 0.5424215197563171,
+  "n_train": 877,
+  "n_val": 110,
+  "n_test": 109,
+  "n_valid_test": 109
+}

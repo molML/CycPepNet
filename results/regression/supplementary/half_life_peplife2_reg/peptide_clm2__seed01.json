@@ -1,0 +1,21 @@
+{
+  "task": "half_life_peplife2_reg",
+  "task_type": "regression",
+  "model_key": "peptide_clm2",
+  "rep": "smiles",
+  "seed": 1,
+  "split_method": "butina_morgan",
+  "log_transform": true,
+  "timestamp": "2026-06-16T13:11:05",
+  "pretrained_model_id": "aaronfeller/PeptideMLM-MTR_sm",
+  "pretrained_revision": "154d4c69f03c025a4f70e16bb2a39f3a08700628",
+  "pretrained_remote_code": true,
+  "val_rmse": 0.6579309701919556,
+  "val_qf3": -0.15209698677062988,
+  "rmse": 1.1013603210449219,
+  "qf3": -2.2283987998962402,
+  "n_train": 71,
+  "n_val": 9,
+  "n_test": 9,
+  "n_valid_test": 9
+}

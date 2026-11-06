@@ -1,0 +1,91 @@
+# Pixi environments
+.pixi/*
+!.pixi/config.toml
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Generated logs
+logs/
+results/logs/
+
+# Generated plots
+plots/
+
+# Vector figures; the repository distributes PNG only
+*.svg
+
+# IDE and coding-agent metadata
+.vscode/
+.idea/
+*.swp
+*.swo
+.claude/
+.codex/
+.agents/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Environment
+.venv/
+.env
+.env.local
+*.local
+
+# Logs
+*.log
+
+# Provider inputs
+data/original/
+
+# Large binary files
+data/processed/**/graphs.pt
+data/processed/**/morgan_fp.npy
+data/processed/**/morgan_count_fp.npy
+data/processed/**/morgan_r2_fp.npy
+data/processed/**/morgan_r2_count_fp.npy
+data/processed/**/map4c_fp.npy
+data/processed/**/map6c_fp.npy
+data/processed/**/mxfp_fp.npy
+data/processed/**/hdf_fp.npy
+
+# Generated sequence representations
+data/processed/**/fragsmiles.txt
+
+# Model artifacts
+checkpoints/
+*.pkl
+*.ckpt
+
+# Weights & Biases local run files
+wandb/
+
+# Tooling caches
+.pytest_cache/
+.ipynb_checkpoints/
+.mypy_cache/
+.ruff_cache/
+
+# Local audit artifacts (never publish)
+AUDIT.md
+
+# Archived/obsolete outputs
+archives/
+_archive*/
+
+/review
+
+# Local reproductions and generated data
+/outputs/
+*.tmp

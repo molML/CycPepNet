@@ -1,0 +1,18 @@
+{
+  "task": "macrocycledb_oprm1_ki_reg",
+  "task_type": "regression",
+  "model_key": "xgb_physchem",
+  "rep": "physchem",
+  "seed": 0,
+  "split_method": "random",
+  "log_transform": true,
+  "timestamp": "2026-04-09T17:17:39",
+  "val_rmse": 0.8852813243865967,
+  "val_qf3": 0.609342098236084,
+  "rmse": 1.03722083568573,
+  "qf3": 0.46373873949050903,
+  "n_train": 227,
+  "n_val": 28,
+  "n_test": 28,
+  "n_valid_test": 28
+}

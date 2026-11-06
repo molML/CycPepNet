@@ -1,0 +1,18 @@
+{
+  "task": "npmmpd_reg",
+  "task_type": "regression",
+  "model_key": "rf_mxfp_fp",
+  "rep": "mxfp",
+  "seed": 3,
+  "split_method": "butina_morgan",
+  "log_transform": false,
+  "timestamp": "2026-03-29T12:33:01",
+  "val_rmse": 0.7349017217284031,
+  "val_qf3": 0.11840970489366742,
+  "rmse": 0.588961277299251,
+  "qf3": 0.433784488037265,
+  "n_train": 877,
+  "n_val": 110,
+  "n_test": 109,
+  "n_valid_test": 109
+}

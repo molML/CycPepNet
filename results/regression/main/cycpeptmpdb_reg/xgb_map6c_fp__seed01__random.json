@@ -1,0 +1,17 @@
+{
+  "task": "cycpeptmpdb_reg",
+  "model_key": "xgb_map6c_fp",
+  "rep": "map6c",
+  "seed": 1,
+  "split_method": "random",
+  "log_transform": false,
+  "timestamp": "2026-03-21T07:52:30",
+  "val_rmse": 0.4493494927883148,
+  "val_qf3": 0.675795316696167,
+  "rmse": 0.47989678382873535,
+  "qf3": 0.630217432975769,
+  "n_train": 5564,
+  "n_val": 695,
+  "n_test": 695,
+  "n_valid_test": 695
+}

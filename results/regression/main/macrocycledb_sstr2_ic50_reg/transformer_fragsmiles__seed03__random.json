@@ -1,0 +1,18 @@
+{
+  "task": "macrocycledb_sstr2_ic50_reg",
+  "task_type": "regression",
+  "model_key": "transformer_fragsmiles",
+  "rep": "fragsmiles",
+  "seed": 3,
+  "split_method": "random",
+  "log_transform": true,
+  "timestamp": "2026-05-23T04:49:14",
+  "val_rmse": 0.9103822112083435,
+  "val_qf3": 0.23051553964614868,
+  "rmse": 1.1155674457550049,
+  "qf3": -0.15543079376220703,
+  "n_train": 257,
+  "n_val": 32,
+  "n_test": 32,
+  "n_valid_test": 32
+}

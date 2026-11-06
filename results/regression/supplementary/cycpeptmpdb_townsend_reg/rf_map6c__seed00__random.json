@@ -1,0 +1,18 @@
+{
+  "task": "cycpeptmpdb_townsend_reg",
+  "task_type": "regression",
+  "model_key": "rf_map6c",
+  "rep": "map6c+physchem",
+  "seed": 0,
+  "split_method": "random",
+  "log_transform": false,
+  "timestamp": "2026-04-22T21:54:09",
+  "val_rmse": 0.3597927930369696,
+  "val_qf3": 0.5141119451142767,
+  "rmse": 0.33142402392802006,
+  "qf3": 0.5877133478190857,
+  "n_train": 2305,
+  "n_val": 288,
+  "n_test": 288,
+  "n_valid_test": 288
+}

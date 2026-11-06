@@ -1,0 +1,720 @@
+{
+  "schema_version": 1,
+  "groups": {
+    "data/processed/binding/macrocycledb/macrocycledb.csv": {
+      "files": 1,
+      "sha256": "2ddab29a9aa6d750892685aa3b6062822ae8dcb1ea2e451280b3fd74430a3ab8"
+    },
+    "data/processed/binding/macrocycledb/splits/macrocycledb_mc4r_ki_cls_butina_morgan.json": {
+      "files": 1,
+      "sha256": "47553bdf553d1e86628c056b465c6a19718e9ff09bb9ccf684a10abf0ff606e9"
+    },
+    "data/processed/binding/macrocycledb/splits/macrocycledb_mc4r_ki_cls_random.json": {
+      "files": 1,
+      "sha256": "577b3c550c8eb7d8d74229eab21ad33569426797fca9e38707b9d737f3f970e0"
+    },
+    "data/processed/binding/macrocycledb/splits/macrocycledb_mc4r_ki_reg_butina_morgan.json": {
+      "files": 1,
+      "sha256": "6abaaadb5eb358c60803885ade9ab8911c2d781307ac337fde4454ecc9de618f"
+    },
+    "data/processed/binding/macrocycledb/splits/macrocycledb_mc4r_ki_reg_random.json": {
+      "files": 1,
+      "sha256": "2920a0c9f01e5879fcb07698e828ac84cb5c19dc6a26c99ca7b8fc76556768ff"
+    },
+    "data/processed/binding/macrocycledb/splits/macrocycledb_oprm1_ki_cls_butina_morgan.json": {
+      "files": 1,
+      "sha256": "f9c81eb85496e4a37e42a1a8ebd3c21b9be2b4dbcde07565c8b8b6dbab819031"
+    },
+    "data/processed/binding/macrocycledb/splits/macrocycledb_oprm1_ki_cls_random.json": {
+      "files": 1,
+      "sha256": "82e4405c73827675f809a1a6e47f69c97f5932d79e2f345361a98ac2a7446087"
+    },
+    "data/processed/binding/macrocycledb/splits/macrocycledb_oprm1_ki_reg_butina_morgan.json": {
+      "files": 1,
+      "sha256": "446b127ed84c6ecbf6aa7a1650b3ae687c5b6cff4235a58d9a030a8fea477e85"
+    },
+    "data/processed/binding/macrocycledb/splits/macrocycledb_oprm1_ki_reg_random.json": {
+      "files": 1,
+      "sha256": "3e4827d76a90640b3a3b1e42c91204ab73e2a5443a67ff52755717ddb564f4e8"
+    },
+    "data/processed/binding/macrocycledb/splits/macrocycledb_sstr2_ic50_cls_butina_morgan.json": {
+      "files": 1,
+      "sha256": "b6a242145e8b7287bfc37652d9d52e6f31db513c02c47057030d2c8a0ba13073"
+    },
+    "data/processed/binding/macrocycledb/splits/macrocycledb_sstr2_ic50_cls_random.json": {
+      "files": 1,
+      "sha256": "8345d0711322042dfa1077887debe92763fa7453b392f5e0d58b7682f288cc5f"
+    },
+    "data/processed/binding/macrocycledb/splits/macrocycledb_sstr2_ic50_reg_butina_morgan.json": {
+      "files": 1,
+      "sha256": "4b34e9adc6d82552125c5507d20af46c511a5099ab13a9612be1d08cd687849c"
+    },
+    "data/processed/binding/macrocycledb/splits/macrocycledb_sstr2_ic50_reg_random.json": {
+      "files": 1,
+      "sha256": "fab9b3011c98a71d1ec2840f90049e19270b1d0e2990dbfe28c13bf5641e3dad"
+    },
+    "data/processed/half-life/peplife2/peplife2.csv": {
+      "files": 1,
+      "sha256": "4f0283a4d633491681a9982273f98c1310c6a30707bbd9c2bb9e38c130a4db38"
+    },
+    "data/processed/half-life/peplife2_pepmsnd_peptherdia/peplife2_pepmsnd_peptherdia.csv": {
+      "files": 1,
+      "sha256": "a6ffd5afc5311e0073f4ef959970ecda05b99e11c6b5ff2f452397d406ca6c5d"
+    },
+    "data/processed/half-life/peplife2_pepmsnd_peptherdia/splits/half_life_peplife2_cls_butina_morgan.json": {
+      "files": 1,
+      "sha256": "ae0cd85b9d4053c8de4faf8ff61e184a17b3c72d87100e693398dd4f2c3dcf5c"
+    },
+    "data/processed/half-life/peplife2_pepmsnd_peptherdia/splits/half_life_peplife2_cls_random.json": {
+      "files": 1,
+      "sha256": "ecb4088438e4b72d9110306d1ceb7b49610df54829575bc03b67be3c7825e48f"
+    },
+    "data/processed/half-life/peplife2_pepmsnd_peptherdia/splits/half_life_peplife2_reg_butina_morgan.json": {
+      "files": 1,
+      "sha256": "5fcac8fd377687dd3b7fe4191eeb1993724caddae5e08617c9f46ab27a2e8dcb"
+    },
+    "data/processed/half-life/peplife2_pepmsnd_peptherdia/splits/half_life_peplife2_reg_random.json": {
+      "files": 1,
+      "sha256": "dbb2e069cddbf053f672f2bdfeaee76b7b960def1c6a17dbce8a655db0dce2fe"
+    },
+    "data/processed/half-life/peplife2_pepmsnd_peptherdia/splits/peplife2_pepmsnd_peptherdia_cls_butina_morgan.json": {
+      "files": 1,
+      "sha256": "4467e1d01f21e162404985c0d55f6eebbd7106104be8a504a9c9ba4576b7744c"
+    },
+    "data/processed/half-life/peplife2_pepmsnd_peptherdia/splits/peplife2_pepmsnd_peptherdia_cls_random.json": {
+      "files": 1,
+      "sha256": "384514b57ef16edba735466c639d42d4ece4e6cb6791d58924b8c9e65b8a8237"
+    },
+    "data/processed/half-life/peplife2_pepmsnd_peptherdia/splits/peplife2_pepmsnd_peptherdia_reg_butina_morgan.json": {
+      "files": 1,
+      "sha256": "338fc8661f99f8c720c72afe10ae16eaa59500df78c616438603b677ff56be69"
+    },
+    "data/processed/half-life/peplife2_pepmsnd_peptherdia/splits/peplife2_pepmsnd_peptherdia_reg_random.json": {
+      "files": 1,
+      "sha256": "40db1beeab547747bf5630209b78563b3cd214c2e4777df339d19d36db4a3380"
+    },
+    "data/processed/half-life/pepmsnd/pepmsnd.csv": {
+      "files": 1,
+      "sha256": "ccf2722f79c2318899d88e282fe5a0850fec8ee230658a42a7a934a9866025a0"
+    },
+    "data/processed/half-life/peptherdia/peptherdia.csv": {
+      "files": 1,
+      "sha256": "f7f38934d82ff797a7b499c631d232d3eb56f1785d132ece600a8842553ac3b7"
+    },
+    "data/processed/permeability/cycpeptmpdb/cycpeptmpdb.csv": {
+      "files": 1,
+      "sha256": "6dd0217c958873e52dd6b4e98cfb984f0a59d346bf915bc1014265981c1a5159"
+    },
+    "data/processed/permeability/cycpeptmpdb/splits/cycpeptmpdb_cls_butina_morgan.json": {
+      "files": 1,
+      "sha256": "4dec8f3786b21678b594a390f91d3c468003211d301f256f548152e6f282e759"
+    },
+    "data/processed/permeability/cycpeptmpdb/splits/cycpeptmpdb_cls_random.json": {
+      "files": 1,
+      "sha256": "1bdb04492167b92f66013de48c14a0e76c45048cc2ff3a6615316abf68081fd1"
+    },
+    "data/processed/permeability/cycpeptmpdb/splits/cycpeptmpdb_reg_butina_morgan.json": {
+      "files": 1,
+      "sha256": "989c0eeb40c76449abf19f3180462ff1710e51b08020f249b9fb1e99899a194c"
+    },
+    "data/processed/permeability/cycpeptmpdb/splits/cycpeptmpdb_reg_random.json": {
+      "files": 1,
+      "sha256": "b85f616e0ee154ef01a99893cb828982dc9155eb3c85fb8abdbf937b3000da00"
+    },
+    "data/processed/permeability/cycpeptmpdb/splits/cycpeptmpdb_townsend_cls_butina_morgan.json": {
+      "files": 1,
+      "sha256": "1ae721a85ab664a2869212c6748252739514ffb790f431c0741c8c50c4fd81d8"
+    },
+    "data/processed/permeability/cycpeptmpdb/splits/cycpeptmpdb_townsend_cls_random.json": {
+      "files": 1,
+      "sha256": "3e5622b63f0a61f4be0f05b6fc502acad0a1c61876eb01f07e687cfd79b8a013"
+    },
+    "data/processed/permeability/cycpeptmpdb/splits/cycpeptmpdb_townsend_reg_butina_morgan.json": {
+      "files": 1,
+      "sha256": "264e859e4b1272b9d23b134365083fc175db254697d1c4a9017e4c42fd90ecdd"
+    },
+    "data/processed/permeability/cycpeptmpdb/splits/cycpeptmpdb_townsend_reg_random.json": {
+      "files": 1,
+      "sha256": "fa6ca13bfe686576cf1f213afd0c5a91b729fb6bafe94efef672d1ddadcd7a16"
+    },
+    "data/processed/permeability/cycpeptmpdb_npmmpd/cycpeptmpdb_npmmpd.csv": {
+      "files": 1,
+      "sha256": "9c60a5ca62b138e2c2d4108fc7cb156a778ebde662915e99246499d33a2bf329"
+    },
+    "data/processed/permeability/cycpeptmpdb_npmmpd/splits/cycpeptmpdb_npmmpd_cls_butina_morgan.json": {
+      "files": 1,
+      "sha256": "6f5d840666afcd9897f8d461eade2fdbd2357279beeb884b6d101bed5c873486"
+    },
+    "data/processed/permeability/cycpeptmpdb_npmmpd/splits/cycpeptmpdb_npmmpd_cls_random.json": {
+      "files": 1,
+      "sha256": "637edd5eff19edeafc3284f4fb2a59f439edf6168d59228214a203ec1f6035fb"
+    },
+    "data/processed/permeability/cycpeptmpdb_npmmpd/splits/cycpeptmpdb_npmmpd_reg_butina_morgan.json": {
+      "files": 1,
+      "sha256": "c1a323c75c9e1389e61d0d3addd2400a988c4327c9e9f51a2e1c3e1bf3826983"
+    },
+    "data/processed/permeability/cycpeptmpdb_npmmpd/splits/cycpeptmpdb_npmmpd_reg_random.json": {
+      "files": 1,
+      "sha256": "84fc8a157b2c004c016352cc85377c834d59f9bddb3a2eedcbba77620d41a9d6"
+    },
+    "data/processed/permeability/npmmpd/npmmpd.csv": {
+      "files": 1,
+      "sha256": "1cabd556a841cd331f07a5f1f5a45c76fd9b2efb9916ae6cddd53744c887b3fa"
+    },
+    "data/processed/permeability/npmmpd/splits/npmmpd_cls_butina_morgan.json": {
+      "files": 1,
+      "sha256": "ca9809b7ddefc3dd44458e18f82d6048f79fb516cdbb053f3cfe3bb676923550"
+    },
+    "data/processed/permeability/npmmpd/splits/npmmpd_cls_random.json": {
+      "files": 1,
+      "sha256": "4f584871f9844fa7b0479b74c1459a6ec417a861df6ff41cde013f0004261aae"
+    },
+    "data/processed/permeability/npmmpd/splits/npmmpd_reg_butina_morgan.json": {
+      "files": 1,
+      "sha256": "29e6d108a4ad4a7765614e709e78eddcfeb3da362356aa56204899030f4ff5fa"
+    },
+    "data/processed/permeability/npmmpd/splits/npmmpd_reg_random.json": {
+      "files": 1,
+      "sha256": "f1748c72b6bbcd9ff2c963d30e015193955d2363c0b4773a3c4a9af25d451919"
+    },
+    "data/processed/permeability/npmmpd/splits/npmmpd_rzepiela_cls_butina_morgan.json": {
+      "files": 1,
+      "sha256": "02153b27b030ead65eb885576e10a51a2c8d2f74026b03edda44f3218b10f331"
+    },
+    "data/processed/permeability/npmmpd/splits/npmmpd_rzepiela_cls_random.json": {
+      "files": 1,
+      "sha256": "835b839506f3f84e63d2532ef116d4a38ea5784acca41ea2ac24682e65b97df8"
+    },
+    "data/processed/permeability/npmmpd/splits/npmmpd_rzepiela_reg_butina_morgan.json": {
+      "files": 1,
+      "sha256": "adac108b5c59411cb518ca39ad369106ded18e8ad43b5eea822d9f52086c8ce1"
+    },
+    "data/processed/permeability/npmmpd/splits/npmmpd_rzepiela_reg_random.json": {
+      "files": 1,
+      "sha256": "0a4cf58ef28c39d05e64461b7529255717d8983304d26baba0adc143039cff5a"
+    },
+    "results/best_models_summary.csv": {
+      "files": 1,
+      "sha256": "7fc0cd29e9388cc43e4b536c1e9af8815da03988f6f87301d1d83f56943cf3bf"
+    },
+    "results/classification/main/cycpeptmpdb_cls": {
+      "files": 460,
+      "sha256": "e9c1ab501a99eba006af84e8425ef8523586cfae2bc9c8900e68915ccfe75e4e"
+    },
+    "results/classification/main/macrocycledb_mc4r_ki_cls": {
+      "files": 900,
+      "sha256": "baa7f685caa27289e2df9a3a842ea35fc227f946327200b116d0e0bc6d7114af"
+    },
+    "results/classification/main/macrocycledb_oprm1_ki_cls": {
+      "files": 450,
+      "sha256": "fb6daa8b630aa91645851360f6904959027555f676aa3652a9400c3873e5dd7f"
+    },
+    "results/classification/main/macrocycledb_sstr2_ic50_cls": {
+      "files": 450,
+      "sha256": "dc81c5ceed2ba4748252b1abff5b00b92c26351aaf1863b846ee69eed9794cff"
+    },
+    "results/classification/main/npmmpd_cls": {
+      "files": 460,
+      "sha256": "69edce27b4205de85c16913bd300bd8e85b46a07d8858a7973f8be9a5ceb7e42"
+    },
+    "results/classification/main/peplife2_pepmsnd_peptherdia_cls": {
+      "files": 460,
+      "sha256": "27ad07440c559dc0ad5ff28e6991257f739615e4450bb95bb457fb8b744e99d8"
+    },
+    "results/classification/supplementary/cycpeptmpdb_npmmpd_cls": {
+      "files": 450,
+      "sha256": "9e387ada4bb16a9fbeba20e63e005dbd7e0e0c0b6886809e70095b5bbd40fe83"
+    },
+    "results/classification/supplementary/cycpeptmpdb_townsend_cls": {
+      "files": 450,
+      "sha256": "8fbb89b1d3b557770f1de441e02214f9315972bf321aa67c31911946c136bdd9"
+    },
+    "results/classification/supplementary/half_life_peplife2_cls": {
+      "files": 900,
+      "sha256": "036c817b772531135da0e2781e34a402361bbe9a5e56f7e9b77e0ce6ded32a7e"
+    },
+    "results/classification/supplementary/npmmpd_rzepiela_cls": {
+      "files": 450,
+      "sha256": "f854cbdec7a70f5ecf0b7a2f910770cb17653e73093e470c1d65f082a387d113"
+    },
+    "results/cutoff_analysis.json": {
+      "files": 1,
+      "sha256": "46d97a97843045463dc03a3e54fd2893609acdc8de34facdaf8ed3948eb04a2c"
+    },
+    "results/kneedle_cutoffs.csv": {
+      "files": 1,
+      "sha256": "2067cca739a869da4f181ef0e530edcf5932ffd1a152c9f5bba4113490125afc"
+    },
+    "results/learnability.csv": {
+      "files": 1,
+      "sha256": "fcf49764ea08ee4e02bdfeaf490ac4ce90d3b71e8d18f107d66f4eb13bd45b34"
+    },
+    "results/method_ranking.csv": {
+      "files": 1,
+      "sha256": "7a74670b3cb8ccdd90cde32d53b8bb45e311c228a9d950c79089c6d310cf9ff1"
+    },
+    "results/noskill_tests.csv": {
+      "files": 1,
+      "sha256": "7cdf8e1a580697a5c059733f8e59192e46139f698ecb99a39afcaa19fcfa5337"
+    },
+    "results/regression/main/cycpeptmpdb_reg": {
+      "files": 450,
+      "sha256": "90ecedab6d187f596fa2355ef92fb4c8a6fa5591d890a6868da3feadf8e45e4e"
+    },
+    "results/regression/main/macrocycledb_mc4r_ki_reg": {
+      "files": 900,
+      "sha256": "84e0cc88c4a6baee5cf396ed90f44fb8be3e907dd66c81e78bd8b10b81522ffb"
+    },
+    "results/regression/main/macrocycledb_oprm1_ki_reg": {
+      "files": 450,
+      "sha256": "e0fd28c4622ef9541fa8230778511e3f96121eeb3e0da3586b7164b296775618"
+    },
+    "results/regression/main/macrocycledb_sstr2_ic50_reg": {
+      "files": 450,
+      "sha256": "ed44beda5d64a813046b8285c08806e85146cf8e8d73144ad4ab74d29c70746b"
+    },
+    "results/regression/main/npmmpd_reg": {
+      "files": 450,
+      "sha256": "1f22b6a8652706c24a96fff349a5dbec95c498c90b81b66c706bcdbe7ef9bd9c"
+    },
+    "results/regression/main/peplife2_pepmsnd_peptherdia_reg": {
+      "files": 450,
+      "sha256": "cc88da1fc480c20ac64f2d8c3be02f044ee3081f200af1fd563fffa986a824f1"
+    },
+    "results/regression/supplementary/cycpeptmpdb_npmmpd_reg": {
+      "files": 450,
+      "sha256": "5cec53fe0922e57b983558263df621bd447ac2de0d5ac9249695e90a485a8ea6"
+    },
+    "results/regression/supplementary/cycpeptmpdb_townsend_reg": {
+      "files": 450,
+      "sha256": "a69385ad88da9b8a62c017e0b2850eed20bedf8c2a6ce1d9bca4ab4a395537ef"
+    },
+    "results/regression/supplementary/half_life_peplife2_reg": {
+      "files": 900,
+      "sha256": "6975ed749f6f2b8d00b08f5302dd5e665bb81ade4fb7a62a3dc7efd6fb1b6b95"
+    },
+    "results/regression/supplementary/npmmpd_rzepiela_reg": {
+      "files": 450,
+      "sha256": "6ce990285c94e85c08ca0c12a6ec242395039aca536d2987724e7529203f183f"
+    },
+    "results/source_data/dataset_composition_companion_plotted_points.csv": {
+      "files": 1,
+      "sha256": "0ffc435d699d11b7b9be09cb322983967bb74593e74f905f3b55c067eb3cf0bd"
+    },
+    "results/source_data/dataset_composition_paired_deltas.csv": {
+      "files": 1,
+      "sha256": "934b48ad1d00a820b9f964c48d64db3f5eb09952ec15fbf4d45ef9cad81e5651"
+    },
+    "results/source_data/dataset_composition_paired_deltas_companion_metrics.csv": {
+      "files": 1,
+      "sha256": "71c9b4839660d669c61f699bdf093e54b1ec26a4f31ed2ef315722b17c093b54"
+    },
+    "results/source_data/dataset_composition_plotted_points.csv": {
+      "files": 1,
+      "sha256": "622447fb68f67c0f17984d669e3d4ba909b08d09ce2348ee35a1933dc1ce7434"
+    },
+    "results/source_data/fig_joint_pca_by_representation_and_model_points.csv": {
+      "files": 1,
+      "sha256": "c2698d6b369b6a9af41cf4ceb2cb33e61f72c5ccdf295c64d155953c7a80cdbc"
+    },
+    "results/source_data/fig_joint_pca_by_representation_points.csv": {
+      "files": 1,
+      "sha256": "a86e381547b0d78e68af1c202bb314551544bc9271b356f5204b71f7cd6bcb17"
+    },
+    "results/source_data/joint_pca_companion_configuration_scores.csv": {
+      "files": 1,
+      "sha256": "9d05179fef343780a748d7fc7a76e4950f6e77bdf33fc528b6fae3e371da47c7"
+    },
+    "results/source_data/joint_pca_companion_original_matrix.csv": {
+      "files": 1,
+      "sha256": "50eb827ffaa01381bbed07e8d3cb7d26d7cb24ded4db64c12515ede1a1eed491"
+    },
+    "results/source_data/joint_pca_companion_original_values.csv": {
+      "files": 1,
+      "sha256": "d3db1c9c555bdf4a12c6365056672746514e07225644604930ae4010e93f4122"
+    },
+    "results/source_data/joint_pca_companion_reference_scores.csv": {
+      "files": 1,
+      "sha256": "62a858f3722f9c6bd37b126bc5c72436e763d68c64f911c94035d11ae241af86"
+    },
+    "results/source_data/joint_pca_companion_transformed_matrix.csv": {
+      "files": 1,
+      "sha256": "1d0e5d7c01a787bf931e0ff3fff2df5b1e7f4b885d50813fdd55a0f12ea7c210"
+    },
+    "results/source_data/joint_pca_configuration_scores.csv": {
+      "files": 1,
+      "sha256": "54f8da1f6c5bace7b6333ff097f47fdcf6cad84cadcc7a87137205cedd9bdc2a"
+    },
+    "results/source_data/joint_pca_original_values.csv": {
+      "files": 1,
+      "sha256": "a4f91924600b66c916a315a6c0519c39015f1d88d2dff0c0c8b91506f1041097"
+    },
+    "results/source_data/joint_pca_reference_scores.csv": {
+      "files": 1,
+      "sha256": "8a416b079e9439f791b84a01450eafb2f564518a982835fc5d1951fc3d3d55f6"
+    },
+    "results/source_data/joint_pca_transformed_matrix.csv": {
+      "files": 1,
+      "sha256": "0af0a7c1c0a542323260989ea2befc7ecb9d80631003d3fcdd5c1e470184666c"
+    },
+    "results/source_data/method_comparison_companion_family_per_task.csv": {
+      "files": 1,
+      "sha256": "53d9d51ddafac6fc4067cab89d725d38331433ae9c2a364bcfa962a577449621"
+    },
+    "results/source_data/method_comparison_companion_representation_per_task.csv": {
+      "files": 1,
+      "sha256": "da21df36ef052707e35297a9e4814053ff1b3ef9b74691b8ed3e1561e2331b2f"
+    },
+    "results/source_data/method_comparison_companion_scatter_per_task.csv": {
+      "files": 1,
+      "sha256": "144d3a0c76773ca0f0d69d3be29d0d6bc880e582f9d2a6e2fa6a162de1a71cf3"
+    },
+    "results/source_data/method_comparison_companion_scatter_points.csv": {
+      "files": 1,
+      "sha256": "7cb6f1cc7e5d6874523e4b5831ac04a5636d7fd04108ac12813d2b07b3fa0a79"
+    },
+    "results/source_data/method_distributions.csv": {
+      "files": 1,
+      "sha256": "b2532deee1a418ea8864b5410eb9a14dda95b734c2dc19625e799b0fd03a55f2"
+    },
+    "results/source_data/method_performance_family_per_task.csv": {
+      "files": 1,
+      "sha256": "f8dbc4279b0376adffe3046840ebcb3f00c43b9213ab928184939e28591f9ddc"
+    },
+    "results/source_data/method_performance_representation_per_task.csv": {
+      "files": 1,
+      "sha256": "491e91c2d6ef414c61897834cc486c13f5982a37f1fdc6f658a7dad7cc65e106"
+    },
+    "results/source_data/method_ranks_scatter_per_task.csv": {
+      "files": 1,
+      "sha256": "76ea1d9d18ae7ad2cd0048606c3c6e28937f0fcf15ea8a4efd9bd62bbc639a1b"
+    },
+    "results/source_data/method_ranks_scatter_points.csv": {
+      "files": 1,
+      "sha256": "5c0b2f9e39c8456cd4cb4dcc31df12adb4e6ad945e7ed4f5274dfea78fe2255e"
+    },
+    "results/source_data/pretraining_distributions.csv": {
+      "files": 1,
+      "sha256": "f1a2a20b3b1b66b4c1f7cf7ea3741eaf486dc016abba7f0c19ec9a0829f538f2"
+    },
+    "results/source_data/regression_vs_classification_family_ranks.csv": {
+      "files": 1,
+      "sha256": "c6a9b8b538efe5756589f4b6a1fb6985984c2688f048894a847c2ad43adb1fee"
+    },
+    "results/source_data/representation_ablation_exclusions.csv": {
+      "files": 1,
+      "sha256": "bef49e350a66135244b93a1b3f499083698da237c66778af18fcca8e6fcb28ea"
+    },
+    "results/source_data/representation_ablation_paired_deltas.csv": {
+      "files": 1,
+      "sha256": "c0bfb6e25a81face499b007667236caabc7fee217b81e4ecb8a77cdd83f10efa"
+    },
+    "results/source_data/representation_ablation_paired_deltas_companion_metrics.csv": {
+      "files": 1,
+      "sha256": "9b392a0bbfa35f1b50c7562ba53f095ee549358c2af4cb7929cae0370da338b5"
+    },
+    "results/source_data/sensitivity_specificity_per_seed.csv": {
+      "files": 1,
+      "sha256": "24f80402202d189db96f4c4cd48661dfd2eb97dc641c45141ba2abae759b5e83"
+    },
+    "results/source_data/split_effect_companion_exclusions.csv": {
+      "files": 1,
+      "sha256": "ea2e601e061b7224b906459a3bb1c6fa8a99129f4cc21f7c6cff4fed99b9342a"
+    },
+    "results/source_data/split_effect_companion_paired_observations.csv": {
+      "files": 1,
+      "sha256": "3c288e1c3620c678000d8dce6fdc30b4b984941482d0d96a3690e39fb272f0cf"
+    },
+    "results/source_data/split_effect_companion_plotted_points.csv": {
+      "files": 1,
+      "sha256": "1380fa2eeb7ce3c5e00e2fba3da48dd7433bdad9d9b8a636d76717ecc430005b"
+    },
+    "results/source_data/split_effect_deltas_analysed.csv": {
+      "files": 1,
+      "sha256": "a46addacbcc1338585b9f220ce2b3384657e5c8418de3fbb8a406de0906b1e98"
+    },
+    "results/source_data/split_effect_exclusions.csv": {
+      "files": 1,
+      "sha256": "8c7141fd022beea71b8e87eb2cde6943bba14b1ad318b6490ac56029a1a315ec"
+    },
+    "results/source_data/split_effect_paired_observations.csv": {
+      "files": 1,
+      "sha256": "112a870b7fde3c8beac4636dff988e5070e9bc41d35fd10014a19646b343287c"
+    },
+    "results/source_data/split_effect_plotted_points.csv": {
+      "files": 1,
+      "sha256": "df4949ef6ef75f0f5ad3e3cd2e65d83c7e42f19659130b6e759c85d9ffb868cb"
+    },
+    "results/source_data/task_learnability_companion_marks.csv": {
+      "files": 1,
+      "sha256": "b379fd7bda2234a2791a672d20483a4c41f4c0e3c7c48b0f5ed827c5d161275d"
+    },
+    "results/source_data/task_learnability_companion_points.csv": {
+      "files": 1,
+      "sha256": "acb245b72c1433fb60bb6450bb6291d405b712117389b00d78d093b49f920a3e"
+    },
+    "results/source_data/task_learnability_marks.csv": {
+      "files": 1,
+      "sha256": "c93a6eeb02e5cd231e547bbaee95e4c5552c6d037e290959a292d06185135053"
+    },
+    "results/source_data/task_learnability_points.csv": {
+      "files": 1,
+      "sha256": "241d0190f41bc29253554c7010bc27e297c91093e18dcc9d92389273a45a96f6"
+    },
+    "results/splits_diagnostics.csv": {
+      "files": 1,
+      "sha256": "cc236b35ee5d8705598c0bd20c491fbf47b405e6e50f49f7ad3dd1d7090497e6"
+    },
+    "results/splits_summary.csv": {
+      "files": 1,
+      "sha256": "745e58b023a21a975d1de8e881e9e79b236bfd862d1d24729c9ebbc8ab42a763"
+    },
+    "results/statistical_tests.csv": {
+      "files": 1,
+      "sha256": "6fbbfd40c065b3179440291a624befc61244ea6b2bc38bd73941f79d6ef3c51f"
+    },
+    "results/summary.csv": {
+      "files": 1,
+      "sha256": "b30e278b443a6fb9a096015fe55e63362094178e6e0f6fb1a68707171f219199"
+    },
+    "results/tables/dataset_composition_companion_plotted_values.csv": {
+      "files": 1,
+      "sha256": "e37210570d1eb7588552c855ac941409d3af607bb2b430680f2c0761d6653b5d"
+    },
+    "results/tables/dataset_composition_plotted_values.csv": {
+      "files": 1,
+      "sha256": "609ce0d93036a7f090449a23e70e7bd53923f89d24fcf6b55777a46edf0bce98"
+    },
+    "results/tables/dataset_composition_relative_to_training_mean.csv": {
+      "files": 1,
+      "sha256": "80a428034deb93b76b3f92cb75a42c6a7a8ce9f40a6cd02c888e6b48145de2cf"
+    },
+    "results/tables/joint_pca_all_configurations_explained_variance.csv": {
+      "files": 1,
+      "sha256": "96494279020a465f8d641b46b33da3cf74bf6f58bd9d84855a0897989cd48b47"
+    },
+    "results/tables/joint_pca_block_diagnostics.csv": {
+      "files": 1,
+      "sha256": "47440a4ab18f4494858c49531a7ccdbcac7306c9ad664946737ea064f42fbe61"
+    },
+    "results/tables/joint_pca_column_diagnostics.csv": {
+      "files": 1,
+      "sha256": "710f932bb5fff417d32dc3eb7176556de618f741d7f3544882e0d348f547aad2"
+    },
+    "results/tables/joint_pca_companion_block_diagnostics.csv": {
+      "files": 1,
+      "sha256": "5723bf39f7b8d05ef0e18097a594a5abf9030e32f1b61473aebd75e909ac8210"
+    },
+    "results/tables/joint_pca_companion_column_diagnostics.csv": {
+      "files": 1,
+      "sha256": "42ee7afc46f6d3f6136978737fd30327c1c331a08776477ec225f2ef68140a17"
+    },
+    "results/tables/joint_pca_companion_explained_variance.csv": {
+      "files": 1,
+      "sha256": "dcee2c94886272a7bc2f19293d7bd57d89b6d56cbd80d3bae3ce140aef6b6754"
+    },
+    "results/tables/joint_pca_companion_loadings.csv": {
+      "files": 1,
+      "sha256": "092b6cafa561da6cd5a6f840afc4fc6491895a21996e352065c8e5d18c838b78"
+    },
+    "results/tables/joint_pca_companion_reference_extremes.csv": {
+      "files": 1,
+      "sha256": "aa71f85b2007b04d678fd97ecd8ca94efbbc7ac3f106574d163376ee666ca91b"
+    },
+    "results/tables/joint_pca_explained_variance.csv": {
+      "files": 1,
+      "sha256": "9949a3641a69bc4119632c97c87cbcaccd55111b7126dd8f87cb84b3c6399849"
+    },
+    "results/tables/joint_pca_loadings.csv": {
+      "files": 1,
+      "sha256": "19204880623a964e1b05845e79012cc476e72a03cab225c5376136af519b4afe"
+    },
+    "results/tables/joint_pca_reference_extremes.csv": {
+      "files": 1,
+      "sha256": "58ee9449694ef36a859979e0e87eebf39c6704977fda57c9c06b27aefe1b6dc8"
+    },
+    "results/tables/method_comparison_companion_heatmap_cells.csv": {
+      "files": 1,
+      "sha256": "74fcb81a3aff50dd67dd79ffbf1f35763838e4b6e8dcd2213b315010d3f3b678"
+    },
+    "results/tables/method_distributions_box_statistics.csv": {
+      "files": 1,
+      "sha256": "3d643ba836ed278df279dca70c9907e89941011bdb36d4e04b150a2cec71624a"
+    },
+    "results/tables/method_distributions_drawable_contrasts.csv": {
+      "files": 1,
+      "sha256": "e4c4940ed02d58fa0a980493167bc027de7366e2bc1f7df67cf629a0fcae74bd"
+    },
+    "results/tables/method_performance_heatmap_cells.csv": {
+      "files": 1,
+      "sha256": "3ff5d4006af767d2ecfd7764cc150e18978bd163c7fc4e9cb4c44c439fa14dee"
+    },
+    "results/tables/multiplicity_families.csv": {
+      "files": 1,
+      "sha256": "dd582826b62e6ca38e4c95b6e699fb680125574730e45df0b3bbb11c5304b3fb"
+    },
+    "results/tables/regression_contrasts_by_task.csv": {
+      "files": 1,
+      "sha256": "68265e329ffb8a4805b34ef96d6999928f021e51cdaae6d639cfec16fded9410"
+    },
+    "results/tables/relative_rmse_reference.csv": {
+      "files": 1,
+      "sha256": "be82aaa91bb2234c44c3d6b5b3a154e7804afa94f124e86346eb546b524fe932"
+    },
+    "results/tables/relative_to_training_mean_by_task.csv": {
+      "files": 1,
+      "sha256": "28142992801d30d178b55b78d802103ffdc2319309f5998aa8265996218c5798"
+    },
+    "results/tables/representation_ablation_by_property.csv": {
+      "files": 1,
+      "sha256": "99a5e441769d8fc8c3d7b48968f105bd8ffc85b973ce75cc7e73957aad0298a6"
+    },
+    "results/tables/representation_ablation_by_task.csv": {
+      "files": 1,
+      "sha256": "e178beb560bfc9e364051d01791cc6f18ed966707e15d59cdbbe418c84f92d9d"
+    },
+    "results/tables/representation_ablation_classification_by_property.tex": {
+      "files": 1,
+      "sha256": "6f62718ec1a18560482e9631b96bd9ac7488ff4a4642875a624ba27ab9b7c86f"
+    },
+    "results/tables/representation_ablation_regression_by_task.tex": {
+      "files": 1,
+      "sha256": "bd8006238e8c8a30586d4e037ce09efc0b1c1237fdf118b644556bd7349a8f19"
+    },
+    "results/tables/representation_ablation_regression_by_task_wide.csv": {
+      "files": 1,
+      "sha256": "99f318e4ddad461dcc67840c86ed6bbb6692ede8dd15b4d1d8646e4f5a621d87"
+    },
+    "results/tables/sensitivity_specificity_summary.csv": {
+      "files": 1,
+      "sha256": "aa8bfa7625a34da8e27561a9b8aef103651a2672ab0490b9d8219aa896a871da"
+    },
+    "results/tables/split_effect_companion_distribution_statistics.csv": {
+      "files": 1,
+      "sha256": "ba870b7d0cde6228e8549b5a65304ea8e7da3db4872992efc41dc335ee961727"
+    },
+    "results/tables/split_effect_companion_per_task_tests.csv": {
+      "files": 1,
+      "sha256": "c8994c6ec16e2057fe9e3c636a10cfb38b7dd1c54bb48dafd7fc9502f35b6f68"
+    },
+    "results/tables/split_effect_companion_pool_comparison.csv": {
+      "files": 1,
+      "sha256": "e2a34239947478a503e6d8bdb96f50c94c31452b81a3bdcd0fb82ef7ce3f1010"
+    },
+    "results/tables/split_effect_distribution_statistics.csv": {
+      "files": 1,
+      "sha256": "3570d9fae4349b3c8ba2d01afab47837c8e82d6fd728159cef72316008fbc005"
+    },
+    "results/tables/split_effect_per_task_tests.csv": {
+      "files": 1,
+      "sha256": "6d6d668880b811861939883f3242e548b0f6aa1232d907680506e7dff345387e"
+    },
+    "results/tables/statistical_tests.tex": {
+      "files": 1,
+      "sha256": "be656a780bd75991dd0a0e4ba885728c7d5a094d0cf57ccc77ce2d868b2aab1b"
+    },
+    "results/tables/statistical_tests_retired.csv": {
+      "files": 1,
+      "sha256": "4e009963272b7e52ed1d6640164f38d3ed218ca046ded07feb47a6c8adcd4cff"
+    },
+    "results/tables/task_learnability_companion_statistics.csv": {
+      "files": 1,
+      "sha256": "0a2f25ef24d0ff8f42c878d30a7c5b36e05c21f8b14a9c6721db77752d1870a5"
+    },
+    "results/tables/task_learnability_statistics.csv": {
+      "files": 1,
+      "sha256": "e89ec337887890398fea1673d40559c896033841d4368f53a1a7d754368c1c11"
+    },
+    "results/tables/variance_decomposition.csv": {
+      "files": 1,
+      "sha256": "7b5a00a5b57bfc9238db8eda100d9dcb5bf06438228e8b93dbbf92a715d6765b"
+    }
+  },
+  "reproduced_outputs": [
+    "learnability.csv",
+    "method_ranking.csv",
+    "noskill_tests.csv",
+    "source_data/dataset_composition_companion_plotted_points.csv",
+    "source_data/dataset_composition_paired_deltas.csv",
+    "source_data/dataset_composition_paired_deltas_companion_metrics.csv",
+    "source_data/dataset_composition_plotted_points.csv",
+    "source_data/fig_joint_pca_by_representation_and_model_points.csv",
+    "source_data/fig_joint_pca_by_representation_points.csv",
+    "source_data/joint_pca_companion_configuration_scores.csv",
+    "source_data/joint_pca_companion_original_matrix.csv",
+    "source_data/joint_pca_companion_original_values.csv",
+    "source_data/joint_pca_companion_reference_scores.csv",
+    "source_data/joint_pca_companion_transformed_matrix.csv",
+    "source_data/joint_pca_configuration_scores.csv",
+    "source_data/joint_pca_original_values.csv",
+    "source_data/joint_pca_reference_scores.csv",
+    "source_data/joint_pca_transformed_matrix.csv",
+    "source_data/method_comparison_companion_family_per_task.csv",
+    "source_data/method_comparison_companion_representation_per_task.csv",
+    "source_data/method_comparison_companion_scatter_per_task.csv",
+    "source_data/method_comparison_companion_scatter_points.csv",
+    "source_data/method_distributions.csv",
+    "source_data/method_performance_family_per_task.csv",
+    "source_data/method_performance_representation_per_task.csv",
+    "source_data/method_ranks_scatter_per_task.csv",
+    "source_data/method_ranks_scatter_points.csv",
+    "source_data/pretraining_distributions.csv",
+    "source_data/regression_vs_classification_family_ranks.csv",
+    "source_data/representation_ablation_exclusions.csv",
+    "source_data/representation_ablation_paired_deltas.csv",
+    "source_data/representation_ablation_paired_deltas_companion_metrics.csv",
+    "source_data/sensitivity_specificity_per_seed.csv",
+    "source_data/split_effect_companion_exclusions.csv",
+    "source_data/split_effect_companion_paired_observations.csv",
+    "source_data/split_effect_companion_plotted_points.csv",
+    "source_data/split_effect_deltas_analysed.csv",
+    "source_data/split_effect_exclusions.csv",
+    "source_data/split_effect_paired_observations.csv",
+    "source_data/split_effect_plotted_points.csv",
+    "source_data/task_learnability_companion_marks.csv",
+    "source_data/task_learnability_companion_points.csv",
+    "source_data/task_learnability_marks.csv",
+    "source_data/task_learnability_points.csv",
+    "splits_diagnostics.csv",
+    "splits_summary.csv",
+    "statistical_tests.csv",
+    "tables/dataset_composition_companion_plotted_values.csv",
+    "tables/dataset_composition_plotted_values.csv",
+    "tables/dataset_composition_relative_to_training_mean.csv",
+    "tables/joint_pca_all_configurations_explained_variance.csv",
+    "tables/joint_pca_block_diagnostics.csv",
+    "tables/joint_pca_column_diagnostics.csv",
+    "tables/joint_pca_companion_block_diagnostics.csv",
+    "tables/joint_pca_companion_column_diagnostics.csv",
+    "tables/joint_pca_companion_explained_variance.csv",
+    "tables/joint_pca_companion_loadings.csv",
+    "tables/joint_pca_companion_reference_extremes.csv",
+    "tables/joint_pca_explained_variance.csv",
+    "tables/joint_pca_loadings.csv",
+    "tables/joint_pca_reference_extremes.csv",
+    "tables/method_comparison_companion_heatmap_cells.csv",
+    "tables/method_distributions_box_statistics.csv",
+    "tables/method_distributions_drawable_contrasts.csv",
+    "tables/method_performance_heatmap_cells.csv",
+    "tables/multiplicity_families.csv",
+    "tables/regression_contrasts_by_task.csv",
+    "tables/relative_rmse_reference.csv",
+    "tables/relative_to_training_mean_by_task.csv",
+    "tables/representation_ablation_by_property.csv",
+    "tables/representation_ablation_by_task.csv",
+    "tables/representation_ablation_classification_by_property.tex",
+    "tables/representation_ablation_regression_by_task.tex",
+    "tables/representation_ablation_regression_by_task_wide.csv",
+    "tables/sensitivity_specificity_summary.csv",
+    "tables/split_effect_companion_distribution_statistics.csv",
+    "tables/split_effect_companion_per_task_tests.csv",
+    "tables/split_effect_companion_pool_comparison.csv",
+    "tables/split_effect_distribution_statistics.csv",
+    "tables/split_effect_per_task_tests.csv",
+    "tables/statistical_tests.tex",
+    "tables/statistical_tests_retired.csv",
+    "tables/task_learnability_companion_statistics.csv",
+    "tables/task_learnability_statistics.csv",
+    "tables/variance_decomposition.csv"
+  ]
+}

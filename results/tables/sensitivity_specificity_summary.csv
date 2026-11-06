@@ -1,0 +1,7 @@
+task,task_label,property,configuration,model_family,representation,n_seeds,n_test,n_positive,n_negative,sensitivity_n_defined,sensitivity_mean,sensitivity_sd,specificity_n_defined,specificity_mean,specificity_sd,balanced_acc_mean
+macrocycledb_oprm1_ki_cls,OPRM1,Binding,lstm,LSTM,SMILES,5,28,18,10,5,0.3666666666666667,0.20260647254233857,5,0.72,0.17888543819998318,0.5433333333333333
+macrocycledb_mc4r_ki_cls,MC4R,Binding,transformer,Transformer,SMILES,5,49,37,12,5,0.5675675675675675,0.11306216574784803,5,0.6,0.23124061542519345,0.5837837837837838
+macrocycledb_sstr2_ic50_cls,SSTR2,Binding,xgb_hdf_fp,XGBoost,HDF,5,32,15,17,5,0.8533333333333333,0.07302967433402216,5,0.4117647058823529,0.1994802936213314,0.6325490196078432
+npmmpd_cls,NPMMPD,Permeability,gcn,GCN,Graph,5,109,35,74,5,0.8457142857142858,0.025555062599997555,5,0.8837837837837839,0.04121067751885647,0.8647490347490348
+cycpeptmpdb_cls,CycPeptMPDB,Permeability,lstm,LSTM,SMILES,5,695,457,238,5,0.8332603938730854,0.03695375375507137,5,0.48571428571428577,0.0610763101019866,0.6594873397936855
+peplife2_pepmsnd_peptherdia_cls,Half-life,Half-life,molclr,MolCLR,Graph,5,19,10,9,5,0.54,0.11401754250991376,5,0.6444444444444445,0.09296222517045286,0.5922222222222222

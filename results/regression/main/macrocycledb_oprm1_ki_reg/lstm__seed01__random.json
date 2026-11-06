@@ -1,0 +1,18 @@
+{
+  "task": "macrocycledb_oprm1_ki_reg",
+  "task_type": "regression",
+  "model_key": "lstm",
+  "rep": "smiles",
+  "seed": 1,
+  "split_method": "random",
+  "log_transform": true,
+  "timestamp": "2026-04-17T13:52:02",
+  "val_rmse": 1.0818525552749634,
+  "val_qf3": 0.4165949821472168,
+  "rmse": 1.217078447341919,
+  "qf3": 0.2616349458694458,
+  "n_train": 227,
+  "n_val": 28,
+  "n_test": 28,
+  "n_valid_test": 28
+}

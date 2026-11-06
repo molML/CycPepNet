@@ -1,0 +1,18 @@
+{
+  "task": "npmmpd_reg",
+  "task_type": "regression",
+  "model_key": "mpnn",
+  "rep": "graphs",
+  "seed": 0,
+  "split_method": "random",
+  "log_transform": false,
+  "timestamp": "2026-04-23T23:47:01",
+  "val_rmse": 0.5239280670961384,
+  "val_qf3": 0.5891150416741726,
+  "rmse": 0.506618664516395,
+  "qf3": 0.6158159898025914,
+  "n_train": 876,
+  "n_val": 110,
+  "n_test": 110,
+  "n_valid_test": 110
+}

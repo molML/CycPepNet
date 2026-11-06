@@ -1,0 +1,18 @@
+{
+  "task": "cycpeptmpdb_reg",
+  "task_type": "regression",
+  "model_key": "transformer",
+  "rep": "smiles",
+  "seed": 4,
+  "split_method": "random",
+  "log_transform": false,
+  "timestamp": "2026-04-02T14:22:58",
+  "val_rmse": 0.5481324195861816,
+  "val_qf3": 0.5175839066505432,
+  "rmse": 0.5517980456352234,
+  "qf3": 0.5111100077629089,
+  "n_train": 5564,
+  "n_val": 695,
+  "n_test": 695,
+  "n_valid_test": 695
+}

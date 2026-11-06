@@ -1,0 +1,18 @@
+{
+  "task": "npmmpd_reg",
+  "task_type": "regression",
+  "model_key": "xgb_hdf",
+  "rep": "hdf+physchem",
+  "seed": 1,
+  "split_method": "random",
+  "log_transform": false,
+  "timestamp": "2026-05-08T14:12:23",
+  "val_rmse": 0.433006227016449,
+  "val_qf3": 0.7193498611450195,
+  "rmse": 0.47545555233955383,
+  "qf3": 0.6616261601448059,
+  "n_train": 876,
+  "n_val": 110,
+  "n_test": 110,
+  "n_valid_test": 110
+}

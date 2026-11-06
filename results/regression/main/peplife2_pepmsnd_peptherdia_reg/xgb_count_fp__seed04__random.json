@@ -1,0 +1,17 @@
+{
+  "task": "peplife2_pepmsnd_peptherdia_reg",
+  "model_key": "xgb_count_fp",
+  "rep": "morgan_count",
+  "seed": 4,
+  "split_method": "random",
+  "log_transform": true,
+  "timestamp": "2026-03-20T16:20:12",
+  "val_rmse": 0.7384101748466492,
+  "val_qf3": 0.20484554767608643,
+  "rmse": 0.6136938333511353,
+  "qf3": 0.45076316595077515,
+  "n_train": 156,
+  "n_val": 20,
+  "n_test": 20,
+  "n_valid_test": 20
+}

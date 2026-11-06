@@ -1,0 +1,18 @@
+{
+  "task": "npmmpd_reg",
+  "task_type": "regression",
+  "model_key": "lstm_fragsmiles",
+  "rep": "fragsmiles",
+  "seed": 1,
+  "split_method": "random",
+  "log_transform": false,
+  "timestamp": "2026-04-24T05:56:35",
+  "val_rmse": 0.48101741075515747,
+  "val_qf3": 0.6536632776260376,
+  "rmse": 0.44608280062675476,
+  "qf3": 0.7021429538726807,
+  "n_train": 876,
+  "n_val": 110,
+  "n_test": 110,
+  "n_valid_test": 110
+}

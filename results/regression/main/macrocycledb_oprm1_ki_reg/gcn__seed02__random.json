@@ -1,0 +1,18 @@
+{
+  "task": "macrocycledb_oprm1_ki_reg",
+  "task_type": "regression",
+  "model_key": "gcn",
+  "rep": "graphs",
+  "seed": 2,
+  "split_method": "random",
+  "log_transform": true,
+  "timestamp": "2026-04-17T13:23:26",
+  "val_rmse": 0.9007832124459486,
+  "val_qf3": 0.5955409513498227,
+  "rmse": 1.0223543032678744,
+  "qf3": 0.47900105113967484,
+  "n_train": 227,
+  "n_val": 28,
+  "n_test": 28,
+  "n_valid_test": 28
+}

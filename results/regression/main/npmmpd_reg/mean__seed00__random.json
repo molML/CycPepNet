@@ -1,0 +1,17 @@
+{
+  "task": "npmmpd_reg",
+  "model_key": "mean",
+  "rep": "morgan_binary+physchem",
+  "seed": 0,
+  "split_method": "random",
+  "log_transform": false,
+  "timestamp": "2026-03-20T13:48:09",
+  "val_rmse": 0.7788320183753967,
+  "val_qf3": 0.09204459190368652,
+  "rmse": 0.8336172699928284,
+  "qf3": -0.0401843786239624,
+  "n_train": 876,
+  "n_val": 110,
+  "n_test": 110,
+  "n_valid_test": 110
+}

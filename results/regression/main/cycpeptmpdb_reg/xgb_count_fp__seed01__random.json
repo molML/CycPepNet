@@ -1,0 +1,17 @@
+{
+  "task": "cycpeptmpdb_reg",
+  "model_key": "xgb_count_fp",
+  "rep": "morgan_count",
+  "seed": 1,
+  "split_method": "random",
+  "log_transform": false,
+  "timestamp": "2026-03-20T21:04:12",
+  "val_rmse": 0.40413424372673035,
+  "val_qf3": 0.7377581596374512,
+  "rmse": 0.41995006799697876,
+  "qf3": 0.7168307304382324,
+  "n_train": 5564,
+  "n_val": 695,
+  "n_test": 695,
+  "n_valid_test": 695
+}

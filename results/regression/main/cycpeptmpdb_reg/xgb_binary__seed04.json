@@ -1,0 +1,17 @@
+{
+  "task": "cycpeptmpdb_reg",
+  "model_key": "xgb_binary",
+  "rep": "morgan_binary+physchem",
+  "seed": 4,
+  "split_method": "butina_morgan",
+  "log_transform": false,
+  "timestamp": "2026-03-19T16:21:47",
+  "val_rmse": 0.6788565516471863,
+  "val_qf3": 0.18355810642242432,
+  "rmse": 0.5854854583740234,
+  "qf3": 0.3927024006843567,
+  "n_train": 5563,
+  "n_val": 696,
+  "n_test": 695,
+  "n_valid_test": 695
+}

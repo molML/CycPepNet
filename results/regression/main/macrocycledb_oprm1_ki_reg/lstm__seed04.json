@@ -1,0 +1,18 @@
+{
+  "task": "macrocycledb_oprm1_ki_reg",
+  "task_type": "regression",
+  "model_key": "lstm",
+  "rep": "smiles",
+  "seed": 4,
+  "split_method": "butina_morgan",
+  "log_transform": true,
+  "timestamp": "2026-04-10T19:08:27",
+  "val_rmse": 1.1132445335388184,
+  "val_qf3": 0.3649331331253052,
+  "rmse": 1.7307109832763672,
+  "qf3": -0.5349259376525879,
+  "n_train": 227,
+  "n_val": 28,
+  "n_test": 28,
+  "n_valid_test": 28
+}

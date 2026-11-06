@@ -1,0 +1,18 @@
+{
+  "task": "cycpeptmpdb_reg",
+  "task_type": "regression",
+  "model_key": "rf_hdf",
+  "rep": "hdf+physchem",
+  "seed": 1,
+  "split_method": "butina_morgan",
+  "log_transform": false,
+  "timestamp": "2026-05-06T22:03:17",
+  "val_rmse": 0.8482396361488801,
+  "val_qf3": -0.2746952037717729,
+  "rmse": 0.6259738663508926,
+  "qf3": 0.3058047027948977,
+  "n_train": 5563,
+  "n_val": 696,
+  "n_test": 695,
+  "n_valid_test": 695
+}

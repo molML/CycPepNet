@@ -1,0 +1,18 @@
+{
+  "task": "npmmpd_rzepiela_reg",
+  "task_type": "regression",
+  "model_key": "xgb_mxfp",
+  "rep": "mxfp+physchem",
+  "seed": 2,
+  "split_method": "random",
+  "log_transform": false,
+  "timestamp": "2026-04-23T02:45:38",
+  "val_rmse": 0.4477727711200714,
+  "val_qf3": 0.5866477489471436,
+  "rmse": 0.5148468017578125,
+  "qf3": 0.4535366892814636,
+  "n_train": 735,
+  "n_val": 92,
+  "n_test": 92,
+  "n_valid_test": 92
+}

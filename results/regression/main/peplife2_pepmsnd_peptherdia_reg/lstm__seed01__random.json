@@ -1,0 +1,18 @@
+{
+  "task": "peplife2_pepmsnd_peptherdia_reg",
+  "task_type": "regression",
+  "model_key": "lstm",
+  "rep": "smiles",
+  "seed": 1,
+  "split_method": "random",
+  "log_transform": true,
+  "timestamp": "2026-04-23T18:57:17",
+  "val_rmse": 0.8043383359909058,
+  "val_qf3": 0.05651789903640747,
+  "rmse": 0.7632145881652832,
+  "qf3": 0.15052717924118042,
+  "n_train": 156,
+  "n_val": 20,
+  "n_test": 20,
+  "n_valid_test": 20
+}

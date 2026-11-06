@@ -1,0 +1,18 @@
+{
+  "task": "cycpeptmpdb_reg",
+  "task_type": "regression",
+  "model_key": "rf_count_r2_fp",
+  "rep": "morgan_count_r2",
+  "seed": 3,
+  "split_method": "random",
+  "log_transform": false,
+  "timestamp": "2026-04-10T01:46:20",
+  "val_rmse": 0.4479988093171443,
+  "val_qf3": 0.6777414041843193,
+  "rmse": 0.44155435715582764,
+  "qf3": 0.6869460843993201,
+  "n_train": 5564,
+  "n_val": 695,
+  "n_test": 695,
+  "n_valid_test": 695
+}

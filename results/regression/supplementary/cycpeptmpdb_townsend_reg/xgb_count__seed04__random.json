@@ -1,0 +1,18 @@
+{
+  "task": "cycpeptmpdb_townsend_reg",
+  "task_type": "regression",
+  "model_key": "xgb_count",
+  "rep": "morgan_count+physchem",
+  "seed": 4,
+  "split_method": "random",
+  "log_transform": false,
+  "timestamp": "2026-04-22T21:12:52",
+  "val_rmse": 0.32078972458839417,
+  "val_qf3": 0.613746702671051,
+  "rmse": 0.31217819452285767,
+  "qf3": 0.6342061161994934,
+  "n_train": 2305,
+  "n_val": 288,
+  "n_test": 288,
+  "n_valid_test": 288
+}

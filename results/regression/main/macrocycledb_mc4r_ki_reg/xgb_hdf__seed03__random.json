@@ -1,0 +1,33 @@
+{
+  "task": "macrocycledb_mc4r_ki_reg",
+  "task_type": "regression",
+  "model_key": "xgb_hdf",
+  "rep": "hdf+physchem",
+  "seed": 3,
+  "split_method": "random",
+  "log_transform": true,
+  "timestamp": "2026-06-24T14:03:11",
+  "benchmark_kwargs": {
+    "n_trials": 50
+  },
+  "dataset_size": 491,
+  "n_total": 491,
+  "n_train": 393,
+  "n_val": 49,
+  "n_test": 49,
+  "smiles_sha256": "d09808a8ae4f4b4d4f35f2529d42d7ffe773e7d8654daabd883e9fc0d47641b1",
+  "target_sha256": "e643b296d50f4548671617fe5aa1f425c6c80a4f9d739e08901aea4ad0a708e4",
+  "original_row_sha256": "5f8f3a00109065e4776f97b306f5e3d6f0800025346f684d63d281bdb2d77609",
+  "dataset_sha256": "bd418d14011762a4407d50df4297e36738c93f6a52db81f50a4d0e4b7c49fcab",
+  "dataset_csv_sha256": "dcd1c7079b24b3594f4059476d6028f4dad7ec805e7f1739f20b7014cfcabe7e",
+  "dataset_directory_sha256": "66f7f05c27a07d9f713aee14f793b55bbd9c82d08ce8d01d348b4149ff7e289a",
+  "split_file_sha256": "1d54a0006fe86a22d374b4da957ae3673279c49c82866ff7142bd7261480303f",
+  "split_sha256": "00225414fe0706a46e51ae175ad4628a41e92e16a75ede75feedaca67413611e",
+  "split_smiles_sha256": "487447749412a34efda943438415cd9c2249da55d1dd95345f778adf66c1aa14",
+  "source_code_sha256": "b638841dd7ac2a798895be84767a6350d7120ec2b9d50c9b757cd70f264f7276",
+  "val_rmse": 0.6134855151176453,
+  "val_qf3": 0.7749202847480774,
+  "rmse": 0.9726675152778625,
+  "qf3": 0.43420833349227905,
+  "n_valid_test": 49
+}

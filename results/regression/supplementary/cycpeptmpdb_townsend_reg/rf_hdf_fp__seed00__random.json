@@ -1,0 +1,18 @@
+{
+  "task": "cycpeptmpdb_townsend_reg",
+  "task_type": "regression",
+  "model_key": "rf_hdf_fp",
+  "rep": "hdf",
+  "seed": 0,
+  "split_method": "random",
+  "log_transform": false,
+  "timestamp": "2026-05-09T02:23:05",
+  "val_rmse": 0.365340398673514,
+  "val_qf3": 0.49901271971486316,
+  "rmse": 0.33691848658851214,
+  "qf3": 0.5739299714590496,
+  "n_train": 2305,
+  "n_val": 288,
+  "n_test": 288,
+  "n_valid_test": 288
+}

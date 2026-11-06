@@ -1,0 +1,5 @@
+task_type,metric,scale,n_observations,n_configurations,share_task,share_family
+classification,balanced_acc,raw,660,22,0.3610837161310224,0.08856764442858071
+classification,balanced_acc,per_task,660,22,0.035730588948491494,0.14333410545883787
+regression,rmse,raw,660,22,0.7795499844781657,0.04776607004431022
+regression,rmse,per_task,660,22,0.052875955042747516,0.28945312386210037

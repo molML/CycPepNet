@@ -1,0 +1,11 @@
+name,ECFP6_binary,ECFP6_count,ECFP4_binary,ECFP4_count,MAP6C,MAP4C
+macrocycledb_oprm1_ki_reg,0.45,0.5,0.5,0.45,0.4,0.55
+macrocycledb_mc4r_ki_reg,0.35,0.4,0.5,0.45,0.45,0.4
+macrocycledb_sstr2_ic50_reg,0.45,0.4,0.4,0.4,0.45,0.4
+cycpeptmpdb_npmmpd_reg,0.45,0.4,0.4,0.4,0.7,0.55
+npmmpd_reg,0.4,0.4,0.4,0.4,0.6,0.55
+cycpeptmpdb_reg,0.45,0.4,0.4,0.4,0.45,0.55
+cycpeptmpdb_townsend_reg,0.4,0.35,0.35,0.35,0.55,0.4
+npmmpd_rzepiela_reg,0.4,0.4,0.4,0.4,0.6,0.55
+peplife2_pepmsnd_peptherdia_reg,0.6,0.6,0.55,0.5,0.65,0.55
+half_life_peplife2_reg,0.6,0.55,0.5,0.55,0.75,0.6

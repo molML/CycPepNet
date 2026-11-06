@@ -1,0 +1,18 @@
+{
+  "task": "half_life_peplife2_reg",
+  "task_type": "regression",
+  "model_key": "transformer",
+  "rep": "smiles",
+  "seed": 1,
+  "split_method": "butina_morgan",
+  "log_transform": true,
+  "timestamp": "2026-06-16T12:46:29",
+  "val_rmse": 0.6487984657287598,
+  "val_qf3": -0.12033522129058838,
+  "rmse": 0.9375689625740051,
+  "qf3": -1.3395631313323975,
+  "n_train": 71,
+  "n_val": 9,
+  "n_test": 9,
+  "n_valid_test": 9
+}

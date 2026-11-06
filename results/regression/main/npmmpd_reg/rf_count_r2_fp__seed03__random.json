@@ -1,0 +1,18 @@
+{
+  "task": "npmmpd_reg",
+  "task_type": "regression",
+  "model_key": "rf_count_r2_fp",
+  "rep": "morgan_count_r2",
+  "seed": 3,
+  "split_method": "random",
+  "log_transform": false,
+  "timestamp": "2026-04-09T23:03:59",
+  "val_rmse": 0.45797946376122134,
+  "val_qf3": 0.686043902216473,
+  "rmse": 0.462733498772665,
+  "qf3": 0.6794920582307111,
+  "n_train": 876,
+  "n_val": 110,
+  "n_test": 110,
+  "n_valid_test": 110
+}

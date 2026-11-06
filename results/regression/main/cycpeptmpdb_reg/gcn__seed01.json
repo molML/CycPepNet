@@ -1,0 +1,17 @@
+{
+  "task": "cycpeptmpdb_reg",
+  "model_key": "gcn",
+  "rep": "graphs",
+  "seed": 1,
+  "split_method": "butina_morgan",
+  "log_transform": false,
+  "timestamp": "2026-03-25T10:54:40",
+  "val_rmse": 0.8762720960394835,
+  "val_qf3": -0.36033913424276176,
+  "rmse": 0.866587749976347,
+  "qf3": -0.33043712093657374,
+  "n_train": 5563,
+  "n_val": 696,
+  "n_test": 695,
+  "n_valid_test": 695
+}

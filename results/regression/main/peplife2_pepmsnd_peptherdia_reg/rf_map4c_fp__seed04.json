@@ -1,0 +1,18 @@
+{
+  "task": "peplife2_pepmsnd_peptherdia_reg",
+  "task_type": "regression",
+  "model_key": "rf_map4c_fp",
+  "rep": "map4c",
+  "seed": 4,
+  "split_method": "butina_morgan",
+  "log_transform": true,
+  "timestamp": "2026-04-13T22:05:16",
+  "val_rmse": 0.7098109200435073,
+  "val_qf3": 0.2642228244377407,
+  "rmse": 0.9776140493118715,
+  "qf3": -0.39571202176634723,
+  "n_train": 157,
+  "n_val": 20,
+  "n_test": 19,
+  "n_valid_test": 19
+}

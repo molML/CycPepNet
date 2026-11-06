@@ -1,0 +1,13 @@
+task,task_label,metric,block,n_reference,min_observed,max_observed,min_config,max_config,degenerate
+cycpeptmpdb_reg,CycPeptMPDB,qf3,qf3_minmax,22,-0.33159167766571046,0.26014583459274043,transformer|smiles,rf_physchem|physchem,False
+macrocycledb_mc4r_ki_reg,MC4R,qf3,qf3_minmax,22,-1.7622822436383427,0.01772094968099469,gcn|graphs,rf_count_r2_fp|morgan_count_r2,False
+macrocycledb_oprm1_ki_reg,OPRM1,qf3,qf3_minmax,22,-1.220529301753435,0.5650025367736816,gcn|graphs,chemberta2|smiles,False
+macrocycledb_sstr2_ic50_reg,SSTR2,qf3,qf3_minmax,22,-2.065637731552124,-0.26412477493286135,lstm_fragsmiles|fragsmiles,xgb_map4c_fp|map4c,False
+npmmpd_reg,NPMMPD,qf3,qf3_minmax,22,0.1006882905960083,0.5657370787884114,transformer|smiles,rf_binary_r2_fp|morgan_binary_r2,False
+peplife2_pepmsnd_peptherdia_reg,Half-life,qf3,qf3_minmax,22,-0.8016687154769897,-0.13496676683425904,lstm|smiles,xgb_binary_r2_fp|morgan_binary_r2,False
+cycpeptmpdb_cls,CycPeptMPDB,auroc,auroc_minmax,22,0.6563907838846699,0.8352692937131089,transformer_fragsmiles|fragsmiles,rf_hdf_fp|hdf,False
+macrocycledb_mc4r_ki_cls,MC4R,auroc,auroc_minmax,22,0.5668918918918919,0.8558558558558559,xgb_physchem|physchem,peptide_clm2|smiles,False
+macrocycledb_oprm1_ki_cls,OPRM1,auroc,auroc_minmax,22,0.51,0.9788888888888889,molclr|smiles,rf_map4c_fp|map4c,False
+macrocycledb_sstr2_ic50_cls,SSTR2,auroc,auroc_minmax,22,0.41843137254901963,0.8345098039215687,lstm_fragsmiles|fragsmiles,peptide_clm2|smiles,False
+npmmpd_cls,NPMMPD,auroc,auroc_minmax,22,0.8144015444015444,0.9454054054054055,xgb_physchem|physchem,gcn|graphs,False
+peplife2_pepmsnd_peptherdia_cls,Half-life,auroc,auroc_minmax,22,0.4333333333333333,0.8377777777777778,lstm_fragsmiles|fragsmiles,chemberta2|smiles,False

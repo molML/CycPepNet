@@ -1,0 +1,18 @@
+{
+  "task": "npmmpd_reg",
+  "task_type": "regression",
+  "model_key": "rf_map4c",
+  "rep": "map4c+physchem",
+  "seed": 1,
+  "split_method": "butina_morgan",
+  "log_transform": false,
+  "timestamp": "2026-04-13T17:41:14",
+  "val_rmse": 0.7363777762491259,
+  "val_qf3": 0.11486478967120484,
+  "rmse": 0.5677963915423196,
+  "qf3": 0.4737482713110026,
+  "n_train": 877,
+  "n_val": 110,
+  "n_test": 109,
+  "n_valid_test": 109
+}

@@ -1,0 +1,17 @@
+{
+  "task": "npmmpd_reg",
+  "model_key": "rf_physchem",
+  "rep": "physchem",
+  "seed": 0,
+  "split_method": "butina_morgan",
+  "log_transform": false,
+  "timestamp": "2026-03-20T07:04:32",
+  "val_rmse": 0.8060371168277272,
+  "val_qf3": -0.060518753608082676,
+  "rmse": 0.7038797163331575,
+  "qf3": 0.1912669718218597,
+  "n_train": 877,
+  "n_val": 110,
+  "n_test": 109,
+  "n_valid_test": 109
+}

@@ -1,0 +1,18 @@
+{
+  "task": "cycpeptmpdb_reg",
+  "task_type": "regression",
+  "model_key": "transformer_fragsmiles",
+  "rep": "fragsmiles",
+  "seed": 4,
+  "split_method": "butina_morgan",
+  "log_transform": false,
+  "timestamp": "2026-03-27T21:17:01",
+  "val_rmse": 0.9412784576416016,
+  "val_qf3": -0.5696594715118408,
+  "rmse": 0.8202944397926331,
+  "qf3": -0.19208931922912598,
+  "n_train": 5563,
+  "n_val": 696,
+  "n_test": 695,
+  "n_valid_test": 695
+}

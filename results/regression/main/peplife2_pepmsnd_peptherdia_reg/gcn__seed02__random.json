@@ -1,0 +1,18 @@
+{
+  "task": "peplife2_pepmsnd_peptherdia_reg",
+  "task_type": "regression",
+  "model_key": "gcn",
+  "rep": "graphs",
+  "seed": 2,
+  "split_method": "random",
+  "log_transform": true,
+  "timestamp": "2026-04-23T11:49:01",
+  "val_rmse": 0.8822356226528918,
+  "val_qf3": -0.13507709187151784,
+  "rmse": 0.6330619684410929,
+  "qf3": 0.4155482986123208,
+  "n_train": 156,
+  "n_val": 20,
+  "n_test": 20,
+  "n_valid_test": 20
+}

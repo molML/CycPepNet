@@ -1,0 +1,18 @@
+{
+  "task": "npmmpd_rzepiela_reg",
+  "task_type": "regression",
+  "model_key": "mpnn",
+  "rep": "graphs",
+  "seed": 1,
+  "split_method": "butina_morgan",
+  "log_transform": false,
+  "timestamp": "2026-04-29T17:27:14",
+  "val_rmse": 0.5823522598774763,
+  "val_qf3": 0.3272414744613744,
+  "rmse": 0.5526161718560862,
+  "qf3": 0.39419220120130005,
+  "n_train": 735,
+  "n_val": 92,
+  "n_test": 92,
+  "n_valid_test": 92
+}

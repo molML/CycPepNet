@@ -1,0 +1,18 @@
+{
+  "task": "npmmpd_rzepiela_reg",
+  "task_type": "regression",
+  "model_key": "rf_hdf_fp",
+  "rep": "hdf",
+  "seed": 4,
+  "split_method": "random",
+  "log_transform": false,
+  "timestamp": "2026-05-09T03:22:10",
+  "val_rmse": 0.4975849387156233,
+  "val_qf3": 0.48956617327278684,
+  "rmse": 0.509180613354058,
+  "qf3": 0.4654987629032519,
+  "n_train": 735,
+  "n_val": 92,
+  "n_test": 92,
+  "n_valid_test": 92
+}

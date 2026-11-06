@@ -1,0 +1,10 @@
+Task,Property,Butina_Train,Butina_Val,Butina_Test,Random_Train,Random_Val,Random_Test
+MacrocycleDB - OPRM1 (Human),Bioactivity,227,28,28,227,28,28
+MacrocycleDB - MC4R (Human),Bioactivity,393,49,49,393,49,49
+MacrocycleDB - SSTR2 (Human),Bioactivity,257,32,32,257,32,32
+CycPeptMPDB + NPMMPD,Permeability,6381,798,798,6381,798,798
+NPMMPD,Permeability,877,110,109,876,110,110
+PEPlife2 + PEPMSND + PepTherDia,Half-life,157,20,19,156,20,20
+CycPeptMPDB,Permeability,5563,696,695,5564,695,695
+CycPeptMPDB - Townsend 2020,Permeability,2305,288,288,2305,288,288
+NPMMPD - Rzepiela 2022,Permeability,735,92,92,735,92,92

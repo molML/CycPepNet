@@ -1,0 +1,18 @@
+{
+  "task": "cycpeptmpdb_reg",
+  "task_type": "regression",
+  "model_key": "rf_map4c",
+  "rep": "map4c+physchem",
+  "seed": 1,
+  "split_method": "random",
+  "log_transform": false,
+  "timestamp": "2026-04-10T22:21:03",
+  "val_rmse": 0.4310178421113399,
+  "val_qf3": 0.7017082187819532,
+  "rmse": 0.445233228211398,
+  "qf3": 0.6817078495981184,
+  "n_train": 5564,
+  "n_val": 695,
+  "n_test": 695,
+  "n_valid_test": 695
+}

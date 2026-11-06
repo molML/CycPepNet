@@ -1,0 +1,18 @@
+{
+  "task": "npmmpd_reg",
+  "task_type": "regression",
+  "model_key": "rf_map4c_fp",
+  "rep": "map4c",
+  "seed": 1,
+  "split_method": "random",
+  "log_transform": false,
+  "timestamp": "2026-04-10T21:40:12",
+  "val_rmse": 0.5253631048436699,
+  "val_qf3": 0.5868611332955416,
+  "rmse": 0.491164650988618,
+  "qf3": 0.63889698016522,
+  "n_train": 876,
+  "n_val": 110,
+  "n_test": 110,
+  "n_valid_test": 110
+}

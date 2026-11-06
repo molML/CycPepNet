@@ -1,0 +1,17 @@
+{
+  "task": "cycpeptmpdb_npmmpd_reg",
+  "model_key": "rf_map6c_fp",
+  "rep": "map6c",
+  "seed": 0,
+  "split_method": "random",
+  "log_transform": false,
+  "timestamp": "2026-03-20T11:44:19",
+  "val_rmse": 0.4769556563031349,
+  "val_qf3": 0.6792948431479101,
+  "rmse": 0.4623826441748858,
+  "qf3": 0.6985932426745128,
+  "n_train": 6381,
+  "n_val": 798,
+  "n_test": 798,
+  "n_valid_test": 798
+}

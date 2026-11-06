@@ -1,0 +1,18 @@
+{
+  "task": "macrocycledb_sstr2_ic50_reg",
+  "task_type": "regression",
+  "model_key": "rf_map4c_fp",
+  "rep": "map4c",
+  "seed": 1,
+  "split_method": "random",
+  "log_transform": true,
+  "timestamp": "2026-05-23T10:44:54",
+  "val_rmse": 0.8998532707552556,
+  "val_qf3": 0.24821144729166422,
+  "rmse": 0.7466887886442423,
+  "qf3": 0.4823555398640005,
+  "n_train": 257,
+  "n_val": 32,
+  "n_test": 32,
+  "n_valid_test": 32
+}

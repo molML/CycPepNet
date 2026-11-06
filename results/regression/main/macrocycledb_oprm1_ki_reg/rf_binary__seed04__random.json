@@ -1,0 +1,18 @@
+{
+  "task": "macrocycledb_oprm1_ki_reg",
+  "task_type": "regression",
+  "model_key": "rf_binary",
+  "rep": "morgan_binary+physchem",
+  "seed": 4,
+  "split_method": "random",
+  "log_transform": true,
+  "timestamp": "2026-04-09T17:22:09",
+  "val_rmse": 0.8184536371768303,
+  "val_qf3": 0.666095590407914,
+  "rmse": 0.8467240656627261,
+  "qf3": 0.6426302441916938,
+  "n_train": 227,
+  "n_val": 28,
+  "n_test": 28,
+  "n_valid_test": 28
+}

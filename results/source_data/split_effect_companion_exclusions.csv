@@ -1,0 +1,47 @@
+task_type,model,rep,n_rows,reason
+regression,mean,morgan_binary+physchem,60,baseline or non-benchmark family
+regression,rf_binary,morgan_binary+physchem,60,outside the main pool: higher fingerprint radius or PhysChem augmentation
+regression,rf_binary_fp,morgan_binary,60,outside the main pool: higher fingerprint radius or PhysChem augmentation
+regression,rf_binary_r2,morgan_binary_r2+physchem,60,outside the main pool: higher fingerprint radius or PhysChem augmentation
+regression,rf_count,morgan_count+physchem,60,outside the main pool: higher fingerprint radius or PhysChem augmentation
+regression,rf_count_fp,morgan_count,60,outside the main pool: higher fingerprint radius or PhysChem augmentation
+regression,rf_count_r2,morgan_count_r2+physchem,60,outside the main pool: higher fingerprint radius or PhysChem augmentation
+regression,rf_hdf,hdf+physchem,60,outside the main pool: higher fingerprint radius or PhysChem augmentation
+regression,rf_map4c,map4c+physchem,60,outside the main pool: higher fingerprint radius or PhysChem augmentation
+regression,rf_map6c,map6c+physchem,60,outside the main pool: higher fingerprint radius or PhysChem augmentation
+regression,rf_map6c_fp,map6c,60,outside the main pool: higher fingerprint radius or PhysChem augmentation
+regression,rf_mxfp,mxfp+physchem,60,outside the main pool: higher fingerprint radius or PhysChem augmentation
+regression,xgb_binary,morgan_binary+physchem,60,outside the main pool: higher fingerprint radius or PhysChem augmentation
+regression,xgb_binary_fp,morgan_binary,60,outside the main pool: higher fingerprint radius or PhysChem augmentation
+regression,xgb_binary_r2,morgan_binary_r2+physchem,60,outside the main pool: higher fingerprint radius or PhysChem augmentation
+regression,xgb_count,morgan_count+physchem,60,outside the main pool: higher fingerprint radius or PhysChem augmentation
+regression,xgb_count_fp,morgan_count,60,outside the main pool: higher fingerprint radius or PhysChem augmentation
+regression,xgb_count_r2,morgan_count_r2+physchem,60,outside the main pool: higher fingerprint radius or PhysChem augmentation
+regression,xgb_hdf,hdf+physchem,60,outside the main pool: higher fingerprint radius or PhysChem augmentation
+regression,xgb_map4c,map4c+physchem,60,outside the main pool: higher fingerprint radius or PhysChem augmentation
+regression,xgb_map6c,map6c+physchem,60,outside the main pool: higher fingerprint radius or PhysChem augmentation
+regression,xgb_map6c_fp,map6c,60,outside the main pool: higher fingerprint radius or PhysChem augmentation
+regression,xgb_mxfp,mxfp+physchem,60,outside the main pool: higher fingerprint radius or PhysChem augmentation
+classification,mean,morgan_binary+physchem,60,baseline or non-benchmark family
+classification,rf_binary,morgan_binary+physchem,60,outside the main pool: higher fingerprint radius or PhysChem augmentation
+classification,rf_binary_fp,morgan_binary,60,outside the main pool: higher fingerprint radius or PhysChem augmentation
+classification,rf_binary_r2,morgan_binary_r2+physchem,60,outside the main pool: higher fingerprint radius or PhysChem augmentation
+classification,rf_count,morgan_count+physchem,60,outside the main pool: higher fingerprint radius or PhysChem augmentation
+classification,rf_count_fp,morgan_count,60,outside the main pool: higher fingerprint radius or PhysChem augmentation
+classification,rf_count_r2,morgan_count_r2+physchem,60,outside the main pool: higher fingerprint radius or PhysChem augmentation
+classification,rf_hdf,hdf+physchem,60,outside the main pool: higher fingerprint radius or PhysChem augmentation
+classification,rf_map4c,map4c+physchem,60,outside the main pool: higher fingerprint radius or PhysChem augmentation
+classification,rf_map6c,map6c+physchem,60,outside the main pool: higher fingerprint radius or PhysChem augmentation
+classification,rf_map6c_fp,map6c,60,outside the main pool: higher fingerprint radius or PhysChem augmentation
+classification,rf_mxfp,mxfp+physchem,60,outside the main pool: higher fingerprint radius or PhysChem augmentation
+classification,xgb_binary,morgan_binary+physchem,60,outside the main pool: higher fingerprint radius or PhysChem augmentation
+classification,xgb_binary_fp,morgan_binary,60,outside the main pool: higher fingerprint radius or PhysChem augmentation
+classification,xgb_binary_r2,morgan_binary_r2+physchem,60,outside the main pool: higher fingerprint radius or PhysChem augmentation
+classification,xgb_count,morgan_count+physchem,60,outside the main pool: higher fingerprint radius or PhysChem augmentation
+classification,xgb_count_fp,morgan_count,60,outside the main pool: higher fingerprint radius or PhysChem augmentation
+classification,xgb_count_r2,morgan_count_r2+physchem,60,outside the main pool: higher fingerprint radius or PhysChem augmentation
+classification,xgb_hdf,hdf+physchem,60,outside the main pool: higher fingerprint radius or PhysChem augmentation
+classification,xgb_map4c,map4c+physchem,60,outside the main pool: higher fingerprint radius or PhysChem augmentation
+classification,xgb_map6c,map6c+physchem,60,outside the main pool: higher fingerprint radius or PhysChem augmentation
+classification,xgb_map6c_fp,map6c,60,outside the main pool: higher fingerprint radius or PhysChem augmentation
+classification,xgb_mxfp,mxfp+physchem,60,outside the main pool: higher fingerprint radius or PhysChem augmentation

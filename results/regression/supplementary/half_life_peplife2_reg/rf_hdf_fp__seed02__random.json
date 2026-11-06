@@ -1,0 +1,18 @@
+{
+  "task": "half_life_peplife2_reg",
+  "task_type": "regression",
+  "model_key": "rf_hdf_fp",
+  "rep": "hdf",
+  "seed": 2,
+  "split_method": "random",
+  "log_transform": true,
+  "timestamp": "2026-06-16T14:20:03",
+  "val_rmse": 0.7879718542063114,
+  "val_qf3": -0.5322683882222841,
+  "rmse": 0.7475778245339812,
+  "qf3": -0.37919683699534157,
+  "n_train": 71,
+  "n_val": 9,
+  "n_test": 9,
+  "n_valid_test": 9
+}

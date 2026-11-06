@@ -1,0 +1,178 @@
+{
+  "reviewed_on": "2026-09-28",
+  "repository_destination": {
+    "current": "https://github.com/markelbenito/CycPepNet",
+    "planned": "https://github.com/molML/CycPepNet",
+    "basis": "Maintainer confirmed molML/CycPepNet as intended destination. Authenticated GitHub API confirms markelbenito/CycPepNet is private; no visibility change was made."
+  },
+  "sources": {
+    "cycpeptmpdb": {
+      "upstream_page_url": "http://cycpeptmpdb.com/download/",
+      "upstream_download_url": "http://cycpeptmpdb.com/static//download/peptides/CycPeptMPDB_Peptide_All.csv",
+      "redistribution_status": "redistribution_terms_not_established",
+      "data_license": null,
+      "identity_check": "exact_sha256_match",
+      "upstream_sha256": "54e2be28199c0c3a8d6d0923192161d418eca8efd5c9b804e9bceae2faa52e51",
+      "evidence_urls": [
+        "http://cycpeptmpdb.com/download/",
+        "http://cycpeptmpdb.com/usage/",
+        "http://cycpeptmpdb.com/",
+        "http://cycpeptmpdb.com/contact/",
+        "https://github.com/akiyamalab/cycpeptmp/blob/main/LICENSE",
+        "https://api.github.com/repos/akiyamalab/cycpeptmp/contents/data/CycPeptMPDB_Peptide_All.csv"
+      ],
+      "note": "Download and usage pages were accessible over HTTP; no explicit dataset redistribution license was found on the reviewed pages. TLS endpoint failed. The checksum matches the benchmark input.",
+      "related_license": {
+        "license": "MIT",
+        "scope": "CycPeptMP prediction project software and associated documentation",
+        "license_url": "https://github.com/akiyamalab/cycpeptmp/blob/main/LICENSE",
+        "data_url": "https://github.com/akiyamalab/cycpeptmp/blob/main/data/CycPeptMPDB_Peptide_All.csv",
+        "related_file_bytes": 15842300,
+        "local_file_bytes": 19068277,
+        "applies_to_exact_local_snapshot": "not_established"
+      },
+      "individual_permission_required": "not_determined"
+    },
+    "macrocycledb": {
+      "upstream_page_url": "https://macro-db.dpbio.tech/",
+      "upstream_download_url": null,
+      "redistribution_status": "redistribution_terms_not_established",
+      "data_license": null,
+      "identity_check": "not_compared",
+      "evidence_urls": [
+        "https://macro-db.dpbio.tech/about",
+        "https://macro-db.dpbio.tech/api-doc",
+        "https://doi.org/10.1093/nar/gkaf1107",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12807591/"
+      ],
+      "note": "Public export API documented, but historical four-file export identity and dataset redistribution terms are not established. Frontend dependency licenses do not license the database.",
+      "related_license": {
+        "license": "CC-BY-NC-4.0",
+        "scope": "Journal article",
+        "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12807591/",
+        "applies_to_exact_local_snapshot": "not_established"
+      },
+      "individual_permission_required": "not_determined"
+    },
+    "npmmpd": {
+      "upstream_page_url": "https://swemacrocycledb.com/download/",
+      "upstream_download_url": "https://ndownloader.figshare.com/files/49066525",
+      "upstream_archive_member": "SI_NPMMP_DB/Data/csv/Overall.csv",
+      "redistribution_status": "license_scope_pending_version_mismatch",
+      "data_license": null,
+      "archive_license": "CC-BY-4.0",
+      "license_evidence_url": "https://api.figshare.com/v2/articles/26964259",
+      "archive_doi": "10.6084/m9.figshare.26964259.v1",
+      "archive_md5": "a357a31c6289077c0441a6bc14bac7de",
+      "identity_check": "different_table",
+      "upstream_sha256": "569352d553370ad6333f5d9e437fdb52746cb42b6680a47a1e02f2ebff727a08",
+      "local_shape": [
+        6362,
+        41
+      ],
+      "archive_shape": [
+        5638,
+        41
+      ],
+      "evidence_urls": [
+        "https://api.figshare.com/v2/articles/26964259",
+        "https://swemacrocycledb.com/download/",
+        "https://swemacrocycledb.com/Contact/",
+        "https://api.figshare.com/v2/articles/26964259/versions",
+        "https://api.github.com/repos/Macrocycle-Cell-Permeability/NPMMP-DB/license"
+      ],
+      "note": "The archive license is established for version 1, not automatically for the different local snapshot. Column names also differ. Do not replace the benchmark input with this archive.",
+      "archive_versions_checked": [
+        1
+      ],
+      "related_repository_license": "No root license returned by the official NPMMP-DB GitHub license endpoint (HTTP 404); this does not establish a prohibition.",
+      "individual_permission_required": "not_determined"
+    },
+    "peplife2": {
+      "upstream_page_url": "https://webs.iiitd.edu.in/raghava/peplife2/",
+      "upstream_download_url": null,
+      "redistribution_status": "redistribution_terms_not_established",
+      "data_license": null,
+      "identity_check": "not_compared",
+      "evidence_urls": [
+        "https://webs.iiitd.edu.in/raghava/peplife2/down_seq.html",
+        "https://webs.iiitd.edu.in/raghava/peplife2/usr_guide.html",
+        "https://webs.iiitd.edu.in/raghava/peplife2/acknowledge.html",
+        "https://webs.iiitd.edu.in/raghava/peplife2/contact.html",
+        "https://api.crossref.org/works/10.3390/immuno6020026"
+      ],
+      "note": "Download page provides sequences; API allows queries. Exact CSV export query/version and explicit dataset redistribution license remain unresolved.",
+      "individual_permission_required": "not_determined",
+      "related_license": {
+        "license": "CC-BY-4.0",
+        "scope": "Published article (version of record), confirmed in publisher-deposited Crossref metadata",
+        "evidence_url": "https://api.crossref.org/works/10.3390/immuno6020026",
+        "applies_to_exact_local_snapshot": "not_established"
+      }
+    },
+    "pepmsnd": {
+      "upstream_page_url": "https://zenodo.org/records/15687572",
+      "upstream_download_url": "https://zenodo.org/api/records/15687572/files/PepMSND.zip/content",
+      "upstream_archive_member": "PepMSND/Dataset/Dataset.xlsx",
+      "redistribution_status": "CC-BY-4.0_equivalent_table_verified",
+      "data_license": "CC-BY-4.0",
+      "license_evidence_url": "https://zenodo.org/api/records/15687572",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "archive_doi": "10.5281/zenodo.15687572",
+      "archive_md5": "fbf96ddf4cc3a67f85a28b02a02b7f70",
+      "identity_check": "different_bytes_identical_table_and_curated_output",
+      "upstream_sha256": "787de5f5c5fd47a5e34a278fb7fced926825d7a5112428f5548ba8a8d69afd33",
+      "local_shape": [
+        635,
+        153
+      ],
+      "archive_shape": [
+        635,
+        153
+      ],
+      "curated_shape": [
+        99,
+        21
+      ],
+      "comparison": "All sheets, columns, row order and pandas-parsed cell values match with assert_frame_equal. Curator run from archived workbook matches released 99x21 table with rtol=atol=1e-8. Original files were preserved.",
+      "evidence_urls": [
+        "https://zenodo.org/api/records/15687572",
+        "https://doi.org/10.1039/D5DD00118H",
+        "https://github.com/hmenghu/PepMSND"
+      ],
+      "note": "Use dataset archive CC BY 4.0, not the GitHub README MIT claim. Retain attribution and describe curation; no claim to independently license underlying third-party material.",
+      "individual_permission_required": "not_required_for_uses_authorized_by_license"
+    },
+    "peptherdia": {
+      "upstream_page_url": "https://peptherdia.herokuapp.com/list",
+      "upstream_download_url": null,
+      "redistribution_status": "redistribution_terms_not_established",
+      "data_license": null,
+      "identity_check": "historical_scrape_not_reconstructed",
+      "acquisition_method": "Website scraping, confirmed by maintainer on 2026-09-28",
+      "original_acquisition_date": null,
+      "selection_recipe": null,
+      "raw_html_archive": null,
+      "local_shape": [
+        54,
+        26
+      ],
+      "evidence_urls": [
+        "https://peptherdia.herokuapp.com/list",
+        "https://doi.org/10.1016/j.drudis.2021.02.019",
+        "https://peptherdia.herokuapp.com/methods",
+        "https://peptherdia.herokuapp.com/drug/1",
+        "https://researchonline.ljmu.ac.uk/id/eprint/14585/"
+      ],
+      "note": "Direct requests returned HTTP 503, but indexed provider methods and drug pages are publicly readable through search. This is not evidence of private data. Original scraping implementation, date, selection predicate, row order and field enrichment have not been established.",
+      "related_license": {
+        "license": "CC-BY-NC-ND (version not recorded)",
+        "scope": "Accepted article deposited with LJMU, not the scraped database",
+        "evidence_url": "https://researchonline.ljmu.ac.uk/id/eprint/14585/",
+        "applies_to_exact_local_snapshot": "not_established"
+      },
+      "individual_permission_required": "not_determined"
+    }
+  },
+  "review_scope": "Published access and license statements, checked against the exact local inputs. An unresolved status is not evidence of a redistribution prohibition or a determination that individual permission is legally required."
+}

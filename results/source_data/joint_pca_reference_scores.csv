@@ -1,0 +1,3 @@
+profile,PC1,PC2,included_in_fit,placed_by
+Best,4.990847204905108,0.6919353244446466,True,PCA.transform on the 24-row fit
+Worst,-6.536561902618935,0.06761160736326582,True,PCA.transform on the 24-row fit

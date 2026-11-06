@@ -1,0 +1,18 @@
+{
+  "task": "peplife2_pepmsnd_peptherdia_reg",
+  "task_type": "regression",
+  "model_key": "xgb_mxfp",
+  "rep": "mxfp+physchem",
+  "seed": 1,
+  "split_method": "random",
+  "log_transform": true,
+  "timestamp": "2026-03-29T14:11:46",
+  "val_rmse": 0.7537825107574463,
+  "val_qf3": 0.17139363288879395,
+  "rmse": 0.7014314532279968,
+  "qf3": 0.28249216079711914,
+  "n_train": 156,
+  "n_val": 20,
+  "n_test": 20,
+  "n_valid_test": 20
+}

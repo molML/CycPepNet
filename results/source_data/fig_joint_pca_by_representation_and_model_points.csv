@@ -1,0 +1,45 @@
+model,rep,family,family_label,base_representation,representation,marker_family,physchem_augmented,configuration_label,PC1,PC2,view,fit_mode,encoding,point_color,point_marker
+chemberta2,smiles,ChemBERTa,ChemBERTa-2,SMILES,SMILES,SMILES,False,ChemBERTa-2 / SMILES,0.38346414779004323,0.6466325629771137,primary,with_references,representation,#7B5435,D
+gcn,graphs,GCN,GCN,Graph,Graph,Graph,False,GCN / Graph,-3.2608883182873956,3.30112002653224,primary,with_references,representation,#66408A,*
+lstm,smiles,LSTM,LSTM,SMILES,SMILES,SMILES,False,LSTM / SMILES,-4.327030593674375,0.9535130102015726,primary,with_references,representation,#7B5435,^
+lstm_fragsmiles,fragsmiles,LSTM,LSTM,fragSMILES,fragSMILES,fragSMILES,False,LSTM / fragSMILES,-4.720711176847175,-1.5611759037722754,primary,with_references,representation,#C48A61,^
+molclr,smiles,MolCLR,MolCLR,Graph,Graph,Graph,False,MolCLR / Graph,-2.035693608290076,2.2137855218545877,primary,with_references,representation,#66408A,X
+mpnn,graphs,MPNN,MPNN,Graph,Graph,Graph,False,MPNN / Graph,-2.2136009541810395,2.6795415360111225,primary,with_references,representation,#66408A,p
+peptide_clm2,smiles,PeptideCLM,PeptideCLM-2,SMILES,SMILES,SMILES,False,PeptideCLM-2 / SMILES,1.163173750145301,1.683699863585856,primary,with_references,representation,#7B5435,P
+pretrained_gin,smiles,GIN,GIN,Graph,Graph,Graph,False,GIN / Graph,-3.5045216454883312,0.183009386342159,primary,with_references,representation,#66408A,h
+rf_binary,morgan_binary+physchem,RF,RF,ECFP6b,ECFP6b + PhysChem,ECFP,True,RF / ECFP6b + PhysChem,1.9340628031295715,-0.85392982495419,primary,with_references,representation,#3F5A6A,o
+rf_binary_fp,morgan_binary,RF,RF,ECFP6b,ECFP6b,ECFP,False,RF / ECFP6b,1.9426760631609923,0.42543081592421667,primary,with_references,representation,#3F5A6A,o
+rf_binary_r2,morgan_binary_r2+physchem,RF,RF,ECFP4b,ECFP4b + PhysChem,ECFP,True,RF / ECFP4b + PhysChem,1.6499356064202435,-1.1227535867556844,primary,with_references,representation,#92AEED,o
+rf_binary_r2_fp,morgan_binary_r2,RF,RF,ECFP4b,ECFP4b,ECFP,False,RF / ECFP4b,1.470865701507529,1.029720427451683,primary,with_references,representation,#92AEED,o
+rf_count,morgan_count+physchem,RF,RF,ECFP6c,ECFP6c + PhysChem,ECFP,True,RF / ECFP6c + PhysChem,1.8649474674792212,-0.9249330407619056,primary,with_references,representation,#8DDDFF,o
+rf_count_fp,morgan_count,RF,RF,ECFP6c,ECFP6c,ECFP,False,RF / ECFP6c,1.8836931647579689,-0.2913001814645724,primary,with_references,representation,#8DDDFF,o
+rf_count_r2,morgan_count_r2+physchem,RF,RF,ECFP4c,ECFP4c + PhysChem,ECFP,True,RF / ECFP4c + PhysChem,1.5497678470739042,-0.7986403025258073,primary,with_references,representation,#5C7F94,o
+rf_count_r2_fp,morgan_count_r2,RF,RF,ECFP4c,ECFP4c,ECFP,False,RF / ECFP4c,1.6954467245471823,0.6326734909485229,primary,with_references,representation,#5C7F94,o
+rf_hdf,hdf+physchem,RF,RF,HDF,HDF + PhysChem,HDF,True,RF / HDF + PhysChem,1.0364518889176098,-1.343787581407393,primary,with_references,representation,#443B12,o
+rf_hdf_fp,hdf,RF,RF,HDF,HDF,HDF,False,RF / HDF,0.5970331050628261,-1.5813187602670635,primary,with_references,representation,#443B12,o
+rf_map4c,map4c+physchem,RF,RF,MAP4C,MAP4C + PhysChem,MAPC,True,RF / MAP4C + PhysChem,1.715841003973302,-0.3618997148588087,primary,with_references,representation,#867E01,o
+rf_map4c_fp,map4c,RF,RF,MAP4C,MAP4C,MAPC,False,RF / MAP4C,1.3379881929982171,0.44360084638900343,primary,with_references,representation,#867E01,o
+rf_map6c,map6c+physchem,RF,RF,MAP6C,MAP6C + PhysChem,MAPC,True,RF / MAP6C + PhysChem,0.7567566260688477,-0.20458585849498945,primary,with_references,representation,#B2A936,o
+rf_map6c_fp,map6c,RF,RF,MAP6C,MAP6C,MAPC,False,RF / MAP6C,0.3096334726822366,-0.006666526024028671,primary,with_references,representation,#B2A936,o
+rf_mxfp,mxfp+physchem,RF,RF,MXFP,MXFP + PhysChem,MXFP,True,RF / MXFP + PhysChem,0.49308387505402046,-1.167238957943171,primary,with_references,representation,#5EAE9F,o
+rf_mxfp_fp,mxfp,RF,RF,MXFP,MXFP,MXFP,False,RF / MXFP,0.055900184051988655,-1.3993162977799938,primary,with_references,representation,#5EAE9F,o
+rf_physchem,physchem,RF,RF,PhysChem,PhysChem,PhysChem,False,RF / PhysChem,-1.7214934860214528,-3.708727281921908,primary,with_references,representation,#EEC57C,o
+transformer,smiles,Transformer,Transformer,SMILES,SMILES,SMILES,False,Transformer / SMILES,-4.17094789850863,0.6385827378155361,primary,with_references,representation,#7B5435,v
+transformer_fragsmiles,fragsmiles,Transformer,Transformer,fragSMILES,fragSMILES,fragSMILES,False,Transformer / fragSMILES,-3.656749068816377,1.7624142835897474,primary,with_references,representation,#C48A61,v
+xgb_binary,morgan_binary+physchem,XGBoost,XGBoost,ECFP6b,ECFP6b + PhysChem,ECFP,True,XGBoost / ECFP6b + PhysChem,1.6879385416365533,-1.3586492643325434,primary,with_references,representation,#3F5A6A,s
+xgb_binary_fp,morgan_binary,XGBoost,XGBoost,ECFP6b,ECFP6b,ECFP,False,XGBoost / ECFP6b,1.2817673587685652,1.1322277720604694,primary,with_references,representation,#3F5A6A,s
+xgb_binary_r2,morgan_binary_r2+physchem,XGBoost,XGBoost,ECFP4b,ECFP4b + PhysChem,ECFP,True,XGBoost / ECFP4b + PhysChem,0.12227575334709763,-0.04173816546938058,primary,with_references,representation,#92AEED,s
+xgb_binary_r2_fp,morgan_binary_r2,XGBoost,XGBoost,ECFP4b,ECFP4b,ECFP,False,XGBoost / ECFP4b,1.206557299348652,1.3111676758603978,primary,with_references,representation,#92AEED,s
+xgb_count,morgan_count+physchem,XGBoost,XGBoost,ECFP6c,ECFP6c + PhysChem,ECFP,True,XGBoost / ECFP6c + PhysChem,2.256343415218721,-0.29828057317269324,primary,with_references,representation,#8DDDFF,s
+xgb_count_fp,morgan_count,XGBoost,XGBoost,ECFP6c,ECFP6c,ECFP,False,XGBoost / ECFP6c,1.7020564657623858,0.9733021039246001,primary,with_references,representation,#8DDDFF,s
+xgb_count_r2,morgan_count_r2+physchem,XGBoost,XGBoost,ECFP4c,ECFP4c + PhysChem,ECFP,True,XGBoost / ECFP4c + PhysChem,1.2735047315433354,0.043960882711962614,primary,with_references,representation,#5C7F94,s
+xgb_count_r2_fp,morgan_count_r2,XGBoost,XGBoost,ECFP4c,ECFP4c,ECFP,False,XGBoost / ECFP4c,1.2062217314183565,1.31537387342851,primary,with_references,representation,#5C7F94,s
+xgb_hdf,hdf+physchem,XGBoost,XGBoost,HDF,HDF + PhysChem,HDF,True,XGBoost / HDF + PhysChem,0.21282174299292,-1.4376275223182926,primary,with_references,representation,#443B12,s
+xgb_hdf_fp,hdf,XGBoost,XGBoost,HDF,HDF,HDF,False,XGBoost / HDF,0.10441919137293519,-0.2948927461306526,primary,with_references,representation,#443B12,s
+xgb_map4c,map4c+physchem,XGBoost,XGBoost,MAP4C,MAP4C + PhysChem,MAPC,True,XGBoost / MAP4C + PhysChem,1.861584573890933,0.38568359248187806,primary,with_references,representation,#867E01,s
+xgb_map4c_fp,map4c,XGBoost,XGBoost,MAP4C,MAP4C,MAPC,False,XGBoost / MAP4C,0.8740322905976614,1.0397194506636616,primary,with_references,representation,#867E01,s
+xgb_map6c,map6c+physchem,XGBoost,XGBoost,MAP6C,MAP6C + PhysChem,MAPC,True,XGBoost / MAP6C + PhysChem,0.7272763729408426,0.2273699429454158,primary,with_references,representation,#B2A936,s
+xgb_map6c_fp,map6c,XGBoost,XGBoost,MAP6C,MAP6C,MAPC,False,XGBoost / MAP6C,0.5419329640288703,0.28286016253675056,primary,with_references,representation,#B2A936,s
+xgb_mxfp,mxfp+physchem,XGBoost,XGBoost,MXFP,MXFP + PhysChem,MXFP,True,XGBoost / MXFP + PhysChem,0.4296855061042079,-1.2770958226640998,primary,with_references,representation,#5EAE9F,s
+xgb_mxfp_fp,mxfp,XGBoost,XGBoost,MXFP,MXFP,MXFP,False,XGBoost / MXFP,-1.0705916702304548,-1.101361952446007,primary,with_references,representation,#5EAE9F,s
+xgb_physchem,physchem,XGBoost,XGBoost,PhysChem,PhysChem,PhysChem,False,XGBoost / PhysChem,-3.214844019879257,-3.277502082481133,primary,with_references,representation,#EEC57C,s

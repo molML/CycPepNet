@@ -1,0 +1,18 @@
+{
+  "task": "cycpeptmpdb_reg",
+  "task_type": "regression",
+  "model_key": "xgb_map4c_fp",
+  "rep": "map4c",
+  "seed": 3,
+  "split_method": "random",
+  "log_transform": false,
+  "timestamp": "2026-04-11T01:40:48",
+  "val_rmse": 0.418590784072876,
+  "val_qf3": 0.7186609506607056,
+  "rmse": 0.43757230043411255,
+  "qf3": 0.692566990852356,
+  "n_train": 5564,
+  "n_val": 695,
+  "n_test": 695,
+  "n_valid_test": 695
+}

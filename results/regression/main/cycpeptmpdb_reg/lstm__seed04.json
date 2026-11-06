@@ -1,0 +1,17 @@
+{
+  "task": "cycpeptmpdb_reg",
+  "model_key": "lstm",
+  "rep": "smiles",
+  "seed": 4,
+  "split_method": "butina_morgan",
+  "log_transform": false,
+  "timestamp": "2026-03-23T19:00:48",
+  "val_rmse": 0.8866212368011475,
+  "val_qf3": -0.3926612138748169,
+  "rmse": 0.8128752112388611,
+  "qf3": -0.1706228256225586,
+  "n_train": 5563,
+  "n_val": 696,
+  "n_test": 695,
+  "n_valid_test": 695
+}

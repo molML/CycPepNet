@@ -1,0 +1,18 @@
+{
+  "task": "macrocycledb_sstr2_ic50_reg",
+  "task_type": "regression",
+  "model_key": "rf_physchem",
+  "rep": "physchem",
+  "seed": 1,
+  "split_method": "butina_morgan",
+  "log_transform": true,
+  "timestamp": "2026-05-22T21:58:34",
+  "val_rmse": 0.8218294626799689,
+  "val_qf3": 0.28025301985166795,
+  "rmse": 1.501581667511605,
+  "qf3": -1.402781905837998,
+  "n_train": 257,
+  "n_val": 32,
+  "n_test": 32,
+  "n_valid_test": 32
+}

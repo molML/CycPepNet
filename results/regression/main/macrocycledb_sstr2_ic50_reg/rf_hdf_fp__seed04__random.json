@@ -1,0 +1,18 @@
+{
+  "task": "macrocycledb_sstr2_ic50_reg",
+  "task_type": "regression",
+  "model_key": "rf_hdf_fp",
+  "rep": "hdf",
+  "seed": 4,
+  "split_method": "random",
+  "log_transform": true,
+  "timestamp": "2026-05-23T11:13:22",
+  "val_rmse": 1.0026867314668786,
+  "val_qf3": 0.0665676560242463,
+  "rmse": 0.7928704578058168,
+  "qf3": 0.4163442313663487,
+  "n_train": 257,
+  "n_val": 32,
+  "n_test": 32,
+  "n_valid_test": 32
+}

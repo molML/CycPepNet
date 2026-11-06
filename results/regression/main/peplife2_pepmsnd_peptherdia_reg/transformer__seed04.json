@@ -1,0 +1,17 @@
+{
+  "task": "peplife2_pepmsnd_peptherdia_reg",
+  "model_key": "transformer",
+  "rep": "smiles",
+  "seed": 4,
+  "split_method": "butina_morgan",
+  "log_transform": true,
+  "timestamp": "2026-03-22T21:35:18",
+  "val_rmse": 0.713151216506958,
+  "val_qf3": 0.25728148221969604,
+  "rmse": 1.025416374206543,
+  "qf3": -0.5355409383773804,
+  "n_train": 157,
+  "n_val": 20,
+  "n_test": 19,
+  "n_valid_test": 19
+}

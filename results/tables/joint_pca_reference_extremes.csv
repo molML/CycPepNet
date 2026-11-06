@@ -1,0 +1,13 @@
+task,task_label,n_reference,min_observed,max_observed,min_config,max_config,degenerate,block,metric
+cycpeptmpdb_reg,CycPeptMPDB,22,0.6462276837868003,0.8669024348258972,rf_physchem|physchem,transformer|smiles,False,rmse_score,
+macrocycledb_mc4r_ki_reg,MC4R,22,1.2257949951242952,2.050490571159207,rf_count_r2_fp|morgan_count_r2,gcn|graphs,False,rmse_score,
+macrocycledb_oprm1_ki_reg,OPRM1,22,0.9183426618576049,2.063092148135998,chemberta2|smiles,gcn|graphs,False,rmse_score,
+macrocycledb_sstr2_ic50_reg,SSTR2,22,1.0878902912139892,1.6929490327835084,xgb_map4c_fp|map4c,lstm_fragsmiles|fragsmiles,False,rmse_score,
+npmmpd_reg,NPMMPD,22,0.5157889027127809,0.7394586443901062,rf_binary_r2_fp|morgan_binary_r2,transformer|smiles,False,rmse_score,
+peplife2_pepmsnd_peptherdia_reg,Half-life,22,0.8806480884552002,1.1050073981285096,xgb_binary_r2_fp|morgan_binary_r2,lstm|smiles,False,rmse_score,
+cycpeptmpdb_cls,CycPeptMPDB,22,0.5079491752937499,0.7266158542191493,transformer_fragsmiles|fragsmiles,rf_hdf_fp|hdf,False,ba,balanced_acc
+macrocycledb_mc4r_ki_cls,MC4R,22,0.502927927927928,0.7405405405405405,rf_mxfp_fp|mxfp,peptide_clm2|smiles,False,ba,balanced_acc
+macrocycledb_oprm1_ki_cls,OPRM1,22,0.5133333333333334,0.8722222222222221,molclr|smiles,rf_binary_r2_fp|morgan_binary_r2,False,ba,balanced_acc
+macrocycledb_sstr2_ic50_cls,SSTR2,22,0.48274509803921567,0.7380392156862745,lstm_fragsmiles|fragsmiles,xgb_map4c_fp|map4c,False,ba,balanced_acc
+npmmpd_cls,NPMMPD,22,0.6986872586872587,0.8766409266409267,xgb_physchem|physchem,chemberta2|smiles,False,ba,balanced_acc
+peplife2_pepmsnd_peptherdia_cls,Half-life,22,0.42444444444444446,0.7411111111111112,xgb_physchem|physchem,xgb_binary_r2_fp|morgan_binary_r2,False,ba,balanced_acc

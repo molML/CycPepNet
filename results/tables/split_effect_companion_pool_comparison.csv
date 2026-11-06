@@ -1,0 +1,13 @@
+task_type,task,task_label,n_figure4,n_companion,n_lost,n_added,lost,added
+regression,macrocycledb_oprm1_ki_reg,OPRM1,110,110,0,0,,
+regression,macrocycledb_mc4r_ki_reg,MC4R,110,110,0,0,,
+regression,macrocycledb_sstr2_ic50_reg,SSTR2,110,110,0,0,,
+regression,npmmpd_reg,NPMMPD,110,110,0,0,,
+regression,cycpeptmpdb_reg,CycPeptMPDB,110,110,0,0,,
+regression,peplife2_pepmsnd_peptherdia_reg,Half-life,110,110,0,0,,
+classification,macrocycledb_oprm1_ki_cls,OPRM1,110,110,0,0,,
+classification,macrocycledb_mc4r_ki_cls,MC4R,110,110,0,0,,
+classification,macrocycledb_sstr2_ic50_cls,SSTR2,110,110,0,0,,
+classification,npmmpd_cls,NPMMPD,110,110,0,0,,
+classification,cycpeptmpdb_cls,CycPeptMPDB,110,110,0,0,,
+classification,peplife2_pepmsnd_peptherdia_cls,Half-life,110,110,0,0,,

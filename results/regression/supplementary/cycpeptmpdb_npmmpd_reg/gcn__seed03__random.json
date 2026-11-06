@@ -1,0 +1,18 @@
+{
+  "task": "cycpeptmpdb_npmmpd_reg",
+  "task_type": "regression",
+  "model_key": "gcn",
+  "rep": "graphs",
+  "seed": 3,
+  "split_method": "random",
+  "log_transform": false,
+  "timestamp": "2026-04-18T06:07:10",
+  "val_rmse": 0.5304912668831533,
+  "val_qf3": 0.6032596118636808,
+  "rmse": 0.5148324837217522,
+  "qf3": 0.6263355180372677,
+  "n_train": 6381,
+  "n_val": 798,
+  "n_test": 798,
+  "n_valid_test": 798
+}

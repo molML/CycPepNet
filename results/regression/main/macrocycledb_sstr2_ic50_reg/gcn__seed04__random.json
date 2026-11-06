@@ -1,0 +1,18 @@
+{
+  "task": "macrocycledb_sstr2_ic50_reg",
+  "task_type": "regression",
+  "model_key": "gcn",
+  "rep": "graphs",
+  "seed": 4,
+  "split_method": "random",
+  "log_transform": true,
+  "timestamp": "2026-05-23T02:21:24",
+  "val_rmse": 1.0322866716816028,
+  "val_qf3": 0.01064318553704624,
+  "rmse": 0.7504092166102189,
+  "qf3": 0.47718429096565884,
+  "n_train": 257,
+  "n_val": 32,
+  "n_test": 32,
+  "n_valid_test": 32
+}

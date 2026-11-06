@@ -1,0 +1,18 @@
+{
+  "task": "npmmpd_rzepiela_reg",
+  "task_type": "regression",
+  "model_key": "lstm",
+  "rep": "smiles",
+  "seed": 4,
+  "split_method": "random",
+  "log_transform": false,
+  "timestamp": "2026-05-18T14:28:36",
+  "val_rmse": 0.4564354121685028,
+  "val_qf3": 0.5704994797706604,
+  "rmse": 0.5267068147659302,
+  "qf3": 0.42806994915008545,
+  "n_train": 735,
+  "n_val": 92,
+  "n_test": 92,
+  "n_valid_test": 92
+}

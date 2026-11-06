@@ -1,0 +1,18 @@
+{
+  "task": "cycpeptmpdb_npmmpd_reg",
+  "task_type": "regression",
+  "model_key": "rf_mxfp_fp",
+  "rep": "mxfp",
+  "seed": 4,
+  "split_method": "random",
+  "log_transform": false,
+  "timestamp": "2026-03-29T14:01:03",
+  "val_rmse": 0.47265183108692255,
+  "val_qf3": 0.6850565172853589,
+  "rmse": 0.4709593991460663,
+  "qf3": 0.6873079255202584,
+  "n_train": 6381,
+  "n_val": 798,
+  "n_test": 798,
+  "n_valid_test": 798
+}

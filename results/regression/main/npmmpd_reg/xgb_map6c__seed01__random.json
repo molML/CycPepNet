@@ -1,0 +1,17 @@
+{
+  "task": "npmmpd_reg",
+  "model_key": "xgb_map6c",
+  "rep": "map6c+physchem",
+  "seed": 1,
+  "split_method": "random",
+  "log_transform": false,
+  "timestamp": "2026-03-20T15:28:34",
+  "val_rmse": 0.471931129693985,
+  "val_qf3": 0.6666240692138672,
+  "rmse": 0.4641164243221283,
+  "qf3": 0.6775734424591064,
+  "n_train": 876,
+  "n_val": 110,
+  "n_test": 110,
+  "n_valid_test": 110
+}

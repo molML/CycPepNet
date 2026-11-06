@@ -1,0 +1,17 @@
+{
+  "task": "npmmpd_reg",
+  "model_key": "gcn",
+  "rep": "graphs",
+  "seed": 2,
+  "split_method": "butina_morgan",
+  "log_transform": false,
+  "timestamp": "2026-03-22T18:49:25",
+  "val_rmse": 0.7553488316290805,
+  "val_qf3": 0.06867042493551767,
+  "rmse": 0.6235847584661511,
+  "qf3": 0.3652550380122831,
+  "n_train": 877,
+  "n_val": 110,
+  "n_test": 109,
+  "n_valid_test": 109
+}

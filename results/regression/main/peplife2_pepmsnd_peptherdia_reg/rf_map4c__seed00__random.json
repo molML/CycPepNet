@@ -1,0 +1,18 @@
+{
+  "task": "peplife2_pepmsnd_peptherdia_reg",
+  "task_type": "regression",
+  "model_key": "rf_map4c",
+  "rep": "map4c+physchem",
+  "seed": 0,
+  "split_method": "random",
+  "log_transform": true,
+  "timestamp": "2026-04-11T04:44:50",
+  "val_rmse": 0.8415229698862657,
+  "val_qf3": -0.03273317718844648,
+  "rmse": 0.6371732215337558,
+  "qf3": 0.40793251610608305,
+  "n_train": 156,
+  "n_val": 20,
+  "n_test": 20,
+  "n_valid_test": 20
+}

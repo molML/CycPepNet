@@ -1,0 +1,13 @@
+column,block,variance_real,variance_fit_matrix,min_44_real,max_44_real
+qf3_minmax::macrocycledb_oprm1_ki_reg,qf3_minmax,0.05947177044505328,0.07593860182739252,0.0,1.0
+qf3_minmax::macrocycledb_mc4r_ki_reg,qf3_minmax,0.05472770861943929,0.07501643320895018,0.0,1.0
+qf3_minmax::macrocycledb_sstr2_ic50_reg,qf3_minmax,0.05928783204549119,0.07630534832406259,0.0,1.0
+qf3_minmax::npmmpd_reg,qf3_minmax,0.0769390484980743,0.09161317161599725,0.0,1.0
+qf3_minmax::cycpeptmpdb_reg,qf3_minmax,0.12891533501377272,0.14098536578460621,0.0,1.0
+qf3_minmax::peplife2_pepmsnd_peptherdia_reg,qf3_minmax,0.05495753173626237,0.07125237951597722,0.0,1.0
+auroc_minmax::macrocycledb_oprm1_ki_cls,auroc_minmax,0.0695272953417284,0.08587607991718638,0.0,1.0
+auroc_minmax::macrocycledb_mc4r_ki_cls,auroc_minmax,0.08223943024198774,0.09623932743848536,0.0,1.0
+auroc_minmax::macrocycledb_sstr2_ic50_cls,auroc_minmax,0.05172620278672308,0.0717610816509794,0.0,1.0
+auroc_minmax::npmmpd_cls,auroc_minmax,0.07231705352144158,0.08774268993986895,0.0,1.0
+auroc_minmax::cycpeptmpdb_cls,auroc_minmax,0.10276439022373009,0.11703274636709343,0.0,1.0
+auroc_minmax::peplife2_pepmsnd_peptherdia_cls,auroc_minmax,0.08240761798141916,0.0963758523318104,0.0,1.0

@@ -1,0 +1,127 @@
+task_type,metric,comparison,comparison_label,delta_definition,property,n_tasks,n_observations,median_of_paired_differences,iqr_of_paired_differences,iqr_median_across_properties
+classification,balanced_acc,PhysChem,+ PhysChem,variant - baseline,Binding,3,240,0.0,0.09215686274509816,0.09215686274509816
+classification,balanced_acc,PhysChem,+ PhysChem,variant - baseline,Permeability,2,160,0.008447033080190514,0.05386752666647124,0.09215686274509816
+classification,balanced_acc,PhysChem,+ PhysChem,variant - baseline,Half-life,1,80,0.0,0.10555555555555562,0.09215686274509816
+classification,balanced_acc,PhysChem ECFP4 binary,+ PhysChem (ECFP4 binary),variant - baseline,Binding,3,30,-0.061936936936936915,0.12821608373078958,0.12821608373078958
+classification,balanced_acc,PhysChem ECFP4 binary,+ PhysChem (ECFP4 binary),variant - baseline,Permeability,2,20,0.023000244512022094,0.07908317061522102,0.12821608373078958
+classification,balanced_acc,PhysChem ECFP4 binary,+ PhysChem (ECFP4 binary),variant - baseline,Half-life,1,10,-0.02777777777777779,0.14027777777777783,0.12821608373078958
+classification,balanced_acc,PhysChem ECFP4 count,+ PhysChem (ECFP4 count),variant - baseline,Binding,3,30,-0.010294117647058842,0.08817567567567569,0.08817567567567569
+classification,balanced_acc,PhysChem ECFP4 count,+ PhysChem (ECFP4 count),variant - baseline,Permeability,2,20,0.010897247301546453,0.07691638160971415,0.08817567567567569
+classification,balanced_acc,PhysChem ECFP4 count,+ PhysChem (ECFP4 count),variant - baseline,Half-life,1,10,0.005555555555555536,0.09166666666666673,0.08817567567567569
+classification,balanced_acc,PhysChem ECFP6 binary,+ PhysChem (ECFP6 binary),variant - baseline,Binding,3,30,-0.04583333333333334,0.10520115703939242,0.06542762767180338
+classification,balanced_acc,PhysChem ECFP6 binary,+ PhysChem (ECFP6 binary),variant - baseline,Permeability,2,20,0.025403767870623373,0.06542762767180338,0.06542762767180338
+classification,balanced_acc,PhysChem ECFP6 binary,+ PhysChem (ECFP6 binary),variant - baseline,Half-life,1,10,-0.050000000000000044,0.005555555555555536,0.06542762767180338
+classification,balanced_acc,PhysChem ECFP6 count,+ PhysChem (ECFP6 count),variant - baseline,Binding,3,30,0.0,0.06587837837837845,0.04635942347842212
+classification,balanced_acc,PhysChem ECFP6 count,+ PhysChem (ECFP6 count),variant - baseline,Permeability,2,20,-0.011942051644716123,0.04635942347842212,0.04635942347842212
+classification,balanced_acc,PhysChem ECFP6 count,+ PhysChem (ECFP6 count),variant - baseline,Half-life,1,10,0.05555555555555558,0.004166666666666763,0.04635942347842212
+classification,balanced_acc,PhysChem MAP4C,+ PhysChem (MAP4C),variant - baseline,Binding,3,30,0.0,0.11722972972972984,0.061111111111111116
+classification,balanced_acc,PhysChem MAP4C,+ PhysChem (MAP4C),variant - baseline,Permeability,2,20,0.002992277992278025,0.04103388827291515,0.061111111111111116
+classification,balanced_acc,PhysChem MAP4C,+ PhysChem (MAP4C),variant - baseline,Half-life,1,10,0.0,0.061111111111111116,0.061111111111111116
+classification,balanced_acc,PhysChem MAP6C,+ PhysChem (MAP6C),variant - baseline,Binding,3,30,-0.008717541070482226,0.06097972972972984,0.06097972972972984
+classification,balanced_acc,PhysChem MAP6C,+ PhysChem (MAP6C),variant - baseline,Permeability,2,20,0.02120607542798303,0.017539811477255224,0.06097972972972984
+classification,balanced_acc,PhysChem MAP6C,+ PhysChem (MAP6C),variant - baseline,Half-life,1,10,0.05833333333333335,0.10000000000000009,0.06097972972972984
+classification,balanced_acc,PhysChem MXFP,+ PhysChem (MXFP),variant - baseline,Binding,3,30,0.02777777777777779,0.040563725490196045,0.046728719875199665
+classification,balanced_acc,PhysChem MXFP,+ PhysChem (MXFP),variant - baseline,Permeability,2,20,-0.003764478764478718,0.046728719875199665,0.046728719875199665
+classification,balanced_acc,PhysChem MXFP,+ PhysChem (MXFP),variant - baseline,Half-life,1,10,0.0,0.09166666666666665,0.046728719875199665
+classification,balanced_acc,PhysChem HDF,+ PhysChem (HDF),variant - baseline,Binding,3,30,-0.00669934640522879,0.10349099099099107,0.05555555555555558
+classification,balanced_acc,PhysChem HDF,+ PhysChem (HDF),variant - baseline,Permeability,2,20,0.0066082231579722706,0.03169093233129788,0.05555555555555558
+classification,balanced_acc,PhysChem HDF,+ PhysChem (HDF),variant - baseline,Half-life,1,10,0.01944444444444443,0.05555555555555558,0.05555555555555558
+classification,balanced_acc,ECFP4c - ECFP4b,ECFP4c - ECFP4b,variant - baseline,Binding,3,60,0.0005630630630630851,0.09352477477477472,0.09352477477477472
+classification,balanced_acc,ECFP4c - ECFP4b,ECFP4c - ECFP4b,variant - baseline,Permeability,2,40,-0.007528957528957603,0.0363301317333366,0.09352477477477472
+classification,balanced_acc,ECFP4c - ECFP4b,ECFP4c - ECFP4b,variant - baseline,Half-life,1,20,0.030555555555555558,0.10694444444444451,0.09352477477477472
+classification,balanced_acc,ECFP6 - ECFP4,ECFP6 - ECFP4,variant - baseline,Binding,3,120,0.0011261261261261146,0.06948529411764726,0.0625
+classification,balanced_acc,ECFP6 - ECFP4,ECFP6 - ECFP4,variant - baseline,Permeability,2,80,0.0057275077515777095,0.028209642719232125,0.0625
+classification,balanced_acc,ECFP6 - ECFP4,ECFP6 - ECFP4,variant - baseline,Half-life,1,40,0.002777777777777768,0.0625,0.0625
+classification,balanced_acc,MAP6C - MAP4C,MAP6C - MAP4C,variant - baseline,Binding,3,60,-0.028594771241830186,0.11764705882352947,0.07361111111111113
+classification,balanced_acc,MAP6C - MAP4C,MAP6C - MAP4C,variant - baseline,Permeability,2,40,-0.01752845558354632,0.03926096489811251,0.07361111111111113
+classification,balanced_acc,MAP6C - MAP4C,MAP6C - MAP4C,variant - baseline,Half-life,1,20,0.0,0.07361111111111113,0.07361111111111113
+classification,balanced_acc,fragSMILES - SMILES (LSTM),LSTM: fragSMILES - SMILES,variant - baseline,Binding,3,15,0.0,0.13793278572690332,0.13333333333333341
+classification,balanced_acc,fragSMILES - SMILES (LSTM),LSTM: fragSMILES - SMILES,variant - baseline,Permeability,2,10,-0.04179614953202282,0.06308037438170014,0.13333333333333341
+classification,balanced_acc,fragSMILES - SMILES (LSTM),LSTM: fragSMILES - SMILES,variant - baseline,Half-life,1,5,-0.016666666666666607,0.13333333333333341,0.13333333333333341
+classification,balanced_acc,fragSMILES - SMILES (Transformer),Transformer: fragSMILES - SMILES,variant - baseline,Binding,3,15,-0.07647058823529407,0.19547341459106163,0.1444444444444446
+classification,balanced_acc,fragSMILES - SMILES (Transformer),Transformer: fragSMILES - SMILES,variant - baseline,Permeability,2,10,-0.017240122733107655,0.055225829464792014,0.1444444444444446
+classification,balanced_acc,fragSMILES - SMILES (Transformer),Transformer: fragSMILES - SMILES,variant - baseline,Half-life,1,5,0.005555555555555536,0.1444444444444446,0.1444444444444446
+regression,qf3,PhysChem,+ PhysChem,variant - baseline,Binding,3,240,0.03653145221638876,0.21932783560629193,0.1702490095911314
+regression,qf3,PhysChem,+ PhysChem,variant - baseline,Permeability,2,160,0.053998457768060726,0.1702490095911314,0.1702490095911314
+regression,qf3,PhysChem,+ PhysChem,variant - baseline,Half-life,1,80,0.030163136205600183,0.16026739062870998,0.1702490095911314
+regression,qf3,PhysChem ECFP4 binary,+ PhysChem (ECFP4 binary),variant - baseline,Binding,3,30,0.07247973912763395,0.25881473290049317,0.25881473290049317
+regression,qf3,PhysChem ECFP4 binary,+ PhysChem (ECFP4 binary),variant - baseline,Permeability,2,20,0.0601654052734375,0.28577629617234157,0.25881473290049317
+regression,qf3,PhysChem ECFP4 binary,+ PhysChem (ECFP4 binary),variant - baseline,Half-life,1,10,0.11268287936144228,0.2534127066292785,0.25881473290049317
+regression,qf3,PhysChem ECFP4 count,+ PhysChem (ECFP4 count),variant - baseline,Binding,3,30,0.05282491198507194,0.31979491188666637,0.18052729566381415
+regression,qf3,PhysChem ECFP4 count,+ PhysChem (ECFP4 count),variant - baseline,Permeability,2,20,0.007795363664627075,0.18052729566381415,0.18052729566381415
+regression,qf3,PhysChem ECFP4 count,+ PhysChem (ECFP4 count),variant - baseline,Half-life,1,10,0.11639416156132953,0.0660187341349549,0.18052729566381415
+regression,qf3,PhysChem ECFP6 binary,+ PhysChem (ECFP6 binary),variant - baseline,Binding,3,30,0.10686768092213716,0.3543317191543493,0.2579678880595725
+regression,qf3,PhysChem ECFP6 binary,+ PhysChem (ECFP6 binary),variant - baseline,Permeability,2,20,0.04117619777088205,0.2579678880595725,0.2579678880595725
+regression,qf3,PhysChem ECFP6 binary,+ PhysChem (ECFP6 binary),variant - baseline,Half-life,1,10,0.10192712814478289,0.17514041392095364,0.2579678880595725
+regression,qf3,PhysChem ECFP6 count,+ PhysChem (ECFP6 count),variant - baseline,Binding,3,30,0.04974377147448461,0.1394060970965835,0.1394060970965835
+regression,qf3,PhysChem ECFP6 count,+ PhysChem (ECFP6 count),variant - baseline,Permeability,2,20,-0.03785735458716538,0.1730811163787229,0.1394060970965835
+regression,qf3,PhysChem ECFP6 count,+ PhysChem (ECFP6 count),variant - baseline,Half-life,1,10,0.11453837156295776,0.12226278843089072,0.1394060970965835
+regression,qf3,PhysChem MAP4C,+ PhysChem (MAP4C),variant - baseline,Binding,3,30,0.014843741337917882,0.19098922382836075,0.06642234459406776
+regression,qf3,PhysChem MAP4C,+ PhysChem (MAP4C),variant - baseline,Permeability,2,20,0.08758519404171972,0.060289778089851254,0.06642234459406776
+regression,qf3,PhysChem MAP4C,+ PhysChem (MAP4C),variant - baseline,Half-life,1,10,0.0028542411542301638,0.06642234459406776,0.06642234459406776
+regression,qf3,PhysChem MAP6C,+ PhysChem (MAP6C),variant - baseline,Binding,3,30,0.02109777592195461,0.08369840681552887,0.08369840681552887
+regression,qf3,PhysChem MAP6C,+ PhysChem (MAP6C),variant - baseline,Permeability,2,20,0.07441967895471563,0.1568317083972268,0.08369840681552887
+regression,qf3,PhysChem MAP6C,+ PhysChem (MAP6C),variant - baseline,Half-life,1,10,-0.013788416315738461,0.06650371108200431,0.08369840681552887
+regression,qf3,PhysChem MXFP,+ PhysChem (MXFP),variant - baseline,Binding,3,30,0.016101790944748673,0.20961609462070663,0.11185948735909146
+regression,qf3,PhysChem MXFP,+ PhysChem (MXFP),variant - baseline,Permeability,2,20,0.05539881142746994,0.05042836076500845,0.11185948735909146
+regression,qf3,PhysChem MXFP,+ PhysChem (MXFP),variant - baseline,Half-life,1,10,0.03403212516212961,0.11185948735909146,0.11185948735909146
+regression,qf3,PhysChem HDF,+ PhysChem (HDF),variant - baseline,Binding,3,30,-0.006003437984617721,0.1826911967601653,0.14795733180604115
+regression,qf3,PhysChem HDF,+ PhysChem (HDF),variant - baseline,Permeability,2,20,0.04515551195126116,0.03802185913458167,0.14795733180604115
+regression,qf3,PhysChem HDF,+ PhysChem (HDF),variant - baseline,Half-life,1,10,-0.012182593050498292,0.14795733180604115,0.14795733180604115
+regression,qf3,ECFP4c - ECFP4b,ECFP4c - ECFP4b,variant - baseline,Binding,3,60,0.07953937729843741,0.3657515242896407,0.1626697343513201
+regression,qf3,ECFP4c - ECFP4b,ECFP4c - ECFP4b,variant - baseline,Permeability,2,40,-0.02624056804519792,0.051170315960152535,0.1626697343513201
+regression,qf3,ECFP4c - ECFP4b,ECFP4c - ECFP4b,variant - baseline,Half-life,1,20,-0.025353196118098054,0.1626697343513201,0.1626697343513201
+regression,qf3,ECFP6 - ECFP4,ECFP6 - ECFP4,variant - baseline,Binding,3,120,0.09211541655660999,0.3584576968114461,0.11658131957564644
+regression,qf3,ECFP6 - ECFP4,ECFP6 - ECFP4,variant - baseline,Permeability,2,80,0.00508155346190603,0.04175931197947427,0.11658131957564644
+regression,qf3,ECFP6 - ECFP4,ECFP6 - ECFP4,variant - baseline,Half-life,1,40,-0.03685119939022263,0.11658131957564644,0.11658131957564644
+regression,qf3,MAP6C - MAP4C,MAP6C - MAP4C,variant - baseline,Binding,3,60,-0.0945759033032606,0.3317686132068004,0.09262895841099955
+regression,qf3,MAP6C - MAP4C,MAP6C - MAP4C,variant - baseline,Permeability,2,40,-0.0246746560025351,0.053200326125538155,0.09262895841099955
+regression,qf3,MAP6C - MAP4C,MAP6C - MAP4C,variant - baseline,Half-life,1,20,-0.0634588654610656,0.09262895841099955,0.09262895841099955
+regression,qf3,fragSMILES - SMILES (LSTM),LSTM: fragSMILES - SMILES,variant - baseline,Binding,3,15,-0.2688732147216797,0.6895121335983276,0.4550166130065918
+regression,qf3,fragSMILES - SMILES (LSTM),LSTM: fragSMILES - SMILES,variant - baseline,Permeability,2,10,0.003285706043243408,0.14026564359664917,0.4550166130065918
+regression,qf3,fragSMILES - SMILES (LSTM),LSTM: fragSMILES - SMILES,variant - baseline,Half-life,1,5,0.03941082954406738,0.4550166130065918,0.4550166130065918
+regression,qf3,fragSMILES - SMILES (Transformer),Transformer: fragSMILES - SMILES,variant - baseline,Binding,3,15,0.09662818908691406,0.7367504835128784,0.31580567359924316
+regression,qf3,fragSMILES - SMILES (Transformer),Transformer: fragSMILES - SMILES,variant - baseline,Permeability,2,10,0.13575619459152222,0.1259659081697464,0.31580567359924316
+regression,qf3,fragSMILES - SMILES (Transformer),Transformer: fragSMILES - SMILES,variant - baseline,Half-life,1,5,0.2336820363998413,0.31580567359924316,0.31580567359924316
+classification,auroc,PhysChem,+ PhysChem,variant - baseline,Binding,3,240,-0.005756491785903595,0.051208929517752994,0.051208929517752994
+classification,auroc,PhysChem,+ PhysChem,variant - baseline,Permeability,2,160,0.01643666219222928,0.03630804737768306,0.051208929517752994
+classification,auroc,PhysChem,+ PhysChem,variant - baseline,Half-life,1,80,-0.011111111111111127,0.10277777777777786,0.051208929517752994
+classification,auroc,PhysChem ECFP4 binary,+ PhysChem (ECFP4 binary),variant - baseline,Binding,3,30,-0.022875816993464027,0.051745495495495536,0.05457723275009935
+classification,auroc,PhysChem ECFP4 binary,+ PhysChem (ECFP4 binary),variant - baseline,Permeability,2,20,0.023924184375979984,0.05457723275009935,0.05457723275009935
+classification,auroc,PhysChem ECFP4 binary,+ PhysChem (ECFP4 binary),variant - baseline,Half-life,1,10,-0.08333333333333337,0.12916666666666668,0.05457723275009935
+classification,auroc,PhysChem ECFP4 count,+ PhysChem (ECFP4 count),variant - baseline,Binding,3,30,-0.00833333333333336,0.049374006359300476,0.049374006359300476
+classification,auroc,PhysChem ECFP4 count,+ PhysChem (ECFP4 count),variant - baseline,Permeability,2,20,0.019996250318685516,0.042383500209475206,0.049374006359300476
+classification,auroc,PhysChem ECFP4 count,+ PhysChem (ECFP4 count),variant - baseline,Half-life,1,10,-0.02499999999999991,0.06250000000000006,0.049374006359300476
+classification,auroc,PhysChem ECFP6 binary,+ PhysChem (ECFP6 binary),variant - baseline,Binding,3,30,-0.006193693693693769,0.05594969969969951,0.05594969969969951
+classification,auroc,PhysChem ECFP6 binary,+ PhysChem (ECFP6 binary),variant - baseline,Permeability,2,20,0.022517743273310353,0.046182661662453134,0.05594969969969951
+classification,auroc,PhysChem ECFP6 binary,+ PhysChem (ECFP6 binary),variant - baseline,Half-life,1,10,-0.07777777777777772,0.1333333333333333,0.05594969969969951
+classification,auroc,PhysChem ECFP6 count,+ PhysChem (ECFP6 count),variant - baseline,Binding,3,30,-0.005030030030029997,0.03796811517399759,0.03796811517399759
+classification,auroc,PhysChem ECFP6 count,+ PhysChem (ECFP6 count),variant - baseline,Permeability,2,20,0.012963100551593332,0.030733216759410514,0.03796811517399759
+classification,auroc,PhysChem ECFP6 count,+ PhysChem (ECFP6 count),variant - baseline,Half-life,1,10,5.551115123125783e-17,0.055555555555555525,0.03796811517399759
+classification,auroc,PhysChem MAP4C,+ PhysChem (MAP4C),variant - baseline,Binding,3,30,0.009477124183006558,0.04226947535771072,0.04226947535771072
+classification,auroc,PhysChem MAP4C,+ PhysChem (MAP4C),variant - baseline,Permeability,2,20,0.020847507493150397,0.02305656427808561,0.04226947535771072
+classification,auroc,PhysChem MAP4C,+ PhysChem (MAP4C),variant - baseline,Half-life,1,10,0.06944444444444448,0.07083333333333347,0.04226947535771072
+classification,auroc,PhysChem MAP6C,+ PhysChem (MAP6C),variant - baseline,Binding,3,30,-0.01764705882352935,0.03647544603426964,0.03647544603426964
+classification,auroc,PhysChem MAP6C,+ PhysChem (MAP6C),variant - baseline,Permeability,2,20,0.012837837837837873,0.031326313717869925,0.03647544603426964
+classification,auroc,PhysChem MAP6C,+ PhysChem (MAP6C),variant - baseline,Half-life,1,10,0.03333333333333327,0.09444444444444444,0.03647544603426964
+classification,auroc,PhysChem MXFP,+ PhysChem (MXFP),variant - baseline,Binding,3,30,0.0,0.05416666666666661,0.05416666666666661
+classification,auroc,PhysChem MXFP,+ PhysChem (MXFP),variant - baseline,Permeability,2,20,0.024610172296489652,0.03795332876778362,0.05416666666666661
+classification,auroc,PhysChem MXFP,+ PhysChem (MXFP),variant - baseline,Half-life,1,10,-0.013888888888888923,0.07638888888888885,0.05416666666666661
+classification,auroc,PhysChem HDF,+ PhysChem (HDF),variant - baseline,Binding,3,30,-0.011111111111111072,0.0394144144144144,0.0394144144144144
+classification,auroc,PhysChem HDF,+ PhysChem (HDF),variant - baseline,Permeability,2,20,0.006563706563706584,0.012167349345557688,0.0394144144144144
+classification,auroc,PhysChem HDF,+ PhysChem (HDF),variant - baseline,Half-life,1,10,0.011111111111111072,0.1138888888888889,0.0394144144144144
+classification,auroc,ECFP4c - ECFP4b,ECFP4c - ECFP4b,variant - baseline,Binding,3,60,-0.005555555555555591,0.06643040098922456,0.06643040098922456
+classification,auroc,ECFP4c - ECFP4b,ECFP4c - ECFP4b,variant - baseline,Permeability,2,40,0.0009906588455952936,0.013478700368905222,0.06643040098922456
+classification,auroc,ECFP4c - ECFP4b,ECFP4c - ECFP4b,variant - baseline,Half-life,1,20,-0.033333333333333326,0.101388888888889,0.06643040098922456
+classification,auroc,ECFP6 - ECFP4,ECFP6 - ECFP4,variant - baseline,Binding,3,120,-0.0013888888888889395,0.06596780604133543,0.06596780604133543
+classification,auroc,ECFP6 - ECFP4,ECFP6 - ECFP4,variant - baseline,Permeability,2,80,-0.001261808762774097,0.019063706563706567,0.06596780604133543
+classification,auroc,ECFP6 - ECFP4,ECFP6 - ECFP4,variant - baseline,Half-life,1,40,1.1102230246251565e-16,0.09166666666666676,0.06596780604133543
+classification,auroc,MAP6C - MAP4C,MAP6C - MAP4C,variant - baseline,Binding,3,60,-0.012499999999999956,0.10122549019607854,0.10122549019607854
+classification,auroc,MAP6C - MAP4C,MAP6C - MAP4C,variant - baseline,Permeability,2,40,-0.004343629343629307,0.02160352549559652,0.10122549019607854
+classification,auroc,MAP6C - MAP4C,MAP6C - MAP4C,variant - baseline,Half-life,1,20,-0.04444444444444451,0.12916666666666654,0.10122549019607854
+classification,auroc,fragSMILES - SMILES (LSTM),LSTM: fragSMILES - SMILES,variant - baseline,Binding,3,15,-0.03153153153153154,0.2225755166931637,0.0888888888888888
+classification,auroc,fragSMILES - SMILES (LSTM),LSTM: fragSMILES - SMILES,variant - baseline,Permeability,2,10,-0.030611588180129767,0.02393167007177832,0.0888888888888888
+classification,auroc,fragSMILES - SMILES (LSTM),LSTM: fragSMILES - SMILES,variant - baseline,Half-life,1,5,-0.11111111111111116,0.0888888888888888,0.0888888888888888
+classification,auroc,fragSMILES - SMILES (Transformer),Transformer: fragSMILES - SMILES,variant - baseline,Binding,3,15,-0.04504504504504514,0.14757551669316377,0.12222222222222223
+classification,auroc,fragSMILES - SMILES (Transformer),Transformer: fragSMILES - SMILES,variant - baseline,Permeability,2,10,0.015117825473083657,0.06198256758496176,0.12222222222222223
+classification,auroc,fragSMILES - SMILES (Transformer),Transformer: fragSMILES - SMILES,variant - baseline,Half-life,1,5,-0.033333333333333326,0.12222222222222223,0.12222222222222223

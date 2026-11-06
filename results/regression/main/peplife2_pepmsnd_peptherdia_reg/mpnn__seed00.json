@@ -1,0 +1,17 @@
+{
+  "task": "peplife2_pepmsnd_peptherdia_reg",
+  "model_key": "mpnn",
+  "rep": "graphs",
+  "seed": 0,
+  "split_method": "butina_morgan",
+  "log_transform": true,
+  "timestamp": "2026-03-22T22:39:46",
+  "val_rmse": 0.7255711342945164,
+  "val_qf3": 0.23118658629801847,
+  "rmse": 0.9807109193107106,
+  "qf3": -0.404568655542473,
+  "n_train": 157,
+  "n_val": 20,
+  "n_test": 19,
+  "n_valid_test": 19
+}

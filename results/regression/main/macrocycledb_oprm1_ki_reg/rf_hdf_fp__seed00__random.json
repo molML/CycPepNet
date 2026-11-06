@@ -1,0 +1,18 @@
+{
+  "task": "macrocycledb_oprm1_ki_reg",
+  "task_type": "regression",
+  "model_key": "rf_hdf_fp",
+  "rep": "hdf",
+  "seed": 0,
+  "split_method": "random",
+  "log_transform": true,
+  "timestamp": "2026-05-08T05:29:31",
+  "val_rmse": 0.8960669130335023,
+  "val_qf3": 0.5997651779888868,
+  "rmse": 0.8680381192673425,
+  "qf3": 0.6244121081967742,
+  "n_train": 227,
+  "n_val": 28,
+  "n_test": 28,
+  "n_valid_test": 28
+}

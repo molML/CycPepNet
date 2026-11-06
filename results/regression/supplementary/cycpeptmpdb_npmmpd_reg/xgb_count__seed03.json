@@ -1,0 +1,17 @@
+{
+  "task": "cycpeptmpdb_npmmpd_reg",
+  "model_key": "xgb_count",
+  "rep": "morgan_count+physchem",
+  "seed": 3,
+  "split_method": "butina_morgan",
+  "log_transform": false,
+  "timestamp": "2026-03-14T11:13:46",
+  "val_rmse": 0.5279995799064636,
+  "val_qf3": 0.558204174041748,
+  "rmse": 0.7422283887863159,
+  "qf3": 0.12696921825408936,
+  "n_train": 6381,
+  "n_val": 798,
+  "n_test": 798,
+  "n_valid_test": 798
+}
