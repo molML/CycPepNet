@@ -216,8 +216,27 @@ This establishes file identity, not redistribution rights. Keep the framework sn
 
 `data/processed/<dataset>/` holds the curated CSVs and the released split indices under `splits/`. Fingerprint, graph and fragSMILES caches are not tracked; `python -m cycpepnet.prepare --stage representations` regenerates them, and their manifests refuse caches whose ordered SMILES or implementation hash do not match.
 
-## Citation and license
+## How to cite
 
-Cite this software as Benito, M.; Grisoni, F. *Assessing the predictive limits of machine learning on cyclic peptides*, https://github.com/molML/CycPepNet. The accompanying manuscript's DOI/URL is pending. Please also cite the original data providers listed above. Code is distributed under the [MIT License](LICENSE); it does not cover the third-party data. For questions, open an issue or pull request.
+If you use CycPepNet, cite the preprint:
+
+> Benito, M.; Grisoni, F. *Assessing the predictive limits of machine learning on cyclic peptides*. ChemRxiv, 2026. [10.26434/chemrxiv.15011871/v1](https://doi.org/10.26434/chemrxiv.15011871/v1)
+
+```bibtex
+@misc{benito2026cycpepnet,
+  title     = {Assessing the predictive limits of machine learning on cyclic peptides},
+  author    = {Benito, Markel and Grisoni, Francesca},
+  year      = {2026},
+  publisher = {ChemRxiv},
+  doi       = {10.26434/chemrxiv.15011871/v1},
+  url       = {https://doi.org/10.26434/chemrxiv.15011871/v1}
+}
+```
+
+Please also cite the original data providers listed above.
+
+## License
+
+Code is distributed under the [MIT License](LICENSE); it does not cover the third-party data. For questions, open an issue or pull request.
 
 The curated tables are **modified** derivatives, not provider archives. Only the PepMSND Zenodo deposit has a verified data license, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/): keep its attribution to Hu and the PepMSND authors, [DOI 10.5281/zenodo.15687572](https://doi.org/10.5281/zenodo.15687572), the license link and this modification notice when redistributing. [`data/sources.csv`](data/sources.csv) holds the review status of the other five.
